@@ -1,0 +1,42 @@
+# Deploy static site to Hostinger via FTPS.
+# Secrets (repo → Settings → Secrets): FTP_SERVER, FTP_USERNAME, FTP_PASSWORD
+# Typical FTP_SERVER for Wang: 88.222.240.117 (confirm in hPanel). Server dir is FTP account root (often public_html).
+
+name: Deploy Hostinger FTPS
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: hostinger-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload site files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./
+          server-dir: ./
+          state-name: .ftp-deploy-sync-state.json
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/node_modules/**
+            **/wordpress-content-export.json
+            **/AGENT-TASKS.md
+            **/WANG-MASTER-STRATEGY.md
