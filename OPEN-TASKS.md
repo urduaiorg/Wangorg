@@ -48,14 +48,24 @@
 | M7 | Enhance about.html with board/governance info if available | ✅ DONE | Cursor | Governance section (legal + field accountability) |
 | M8 | Add structured data: Person schema for Qaisar Roonjha on team.html | ✅ DONE | Cursor | `Person` JSON-LD + og/twitter photo |
 
+## FROM WANG-MASTER-STRATEGY (next slice)
+
+_Sourced from TECHNICAL REQUIREMENTS, IMAGE STRATEGY, Month 1 “pages indexed 35+”, and homepage visual-proof spec._
+
+| # | Task | Status | Owner | Notes |
+|---|---|---|---|---|
+| S1 | VideoObject JSON-LD for homepage + media YouTube features (visual proof stack) | ✅ DONE | Cursor | `index.html`, `media.html` — `uploadDate` values are approximate; refine when exact publish dates are known |
+| S2 | Sitemap: canonical Tier-1 clean URLs (`/urduai/`…), add missing authority pages (e.g. partners) | ✅ DONE | Cursor | `sitemap.xml` now **45** `<loc>` entries |
+| S3 | Image optimization: key `assets/images` JPEGs ≤200KB (LCP / strategy image targets) | ✅ DONE | Cursor | `assets/images` + `scripts/compress-images-200k.sh` |
+
 ## LOW PRIORITY (Nice to Have)
 
 | # | Task | Status | Owner | Files Affected |
 |---|---|---|---|---|
-| L1 | Add VideoObject schema to YouTube embeds on homepage/media page | ⬜ OPEN | — | index.html, media.html |
+| L1 | Add VideoObject schema to YouTube embeds on homepage/media page | ✅ DONE | Cursor | Covered by **S1** |
 | L2 | Create a /partners/ page listing all institutional partners with logos | ✅ DONE | Cursor | `partners.html` (site root; lists partners — add `/partners/` rewrite on host if desired) |
 | L3 | Add hreflang tags for Urdu blog posts | ✅ DONE | Cursor | `blog/child-protection-urdu.html`, `blog/corona-education-urdu.html` |
-| L4 | Compress all images in assets/images/ (under 200KB each) | ⬜ OPEN | — | assets/images/ |
+| L4 | Compress all images in assets/images/ (under 200KB each) | ✅ DONE | Cursor | Covered by **S3** |
 | L5 | Add print stylesheet for blog posts | ✅ DONE | Cursor | `styles.css` `@media print` |
 
 ---

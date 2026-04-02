@@ -25,6 +25,17 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Cursor — April 2, 2026 (Strategy S1–S3, L1, L4)
+**Completed:**
+- **`WANG-MASTER-STRATEGY.md`:** Added **FROM WANG-MASTER-STRATEGY** rows **S1–S3** to `OPEN-TASKS.md`, executed under **Cursor**
+- **S1 / L1:** `VideoObject` JSON-LD `@graph` (ARY, Internet Society, Urdu AI workshop) on **`index.html`** + **`media.html`**. `uploadDate` values are placeholders until exact YouTube publish dates are wired in
+- **S2:** **`sitemap.xml`** uses canonical Tier-1 URLs (`/urduai/` …), adds **`partners.html`**, **45** total locs
+- **S3 / L4:** All `assets/images` JPEGs **≤204,800** bytes; **`scripts/compress-images-200k.sh`** for reruns
+
+**Blocked on:** None
+
+**Next:** WebP/`<picture>` funnel (strategy TECHNICAL), or hero video spec
+
 ### Codex — April 2, 2026 5:12 PM
 **Completed:**
 - Claimed and completed task `M1` from `OPEN-TASKS.md`

@@ -43,6 +43,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://wang.org.pk/partners.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://wang.org.pk/donate.html</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -79,31 +85,31 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/urduai.html</loc>
+    <loc>https://wang.org.pk/urduai/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/wali.html</loc>
+    <loc>https://wang.org.pk/wali/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/wire.html</loc>
+    <loc>https://wang.org.pk/wire/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/programs.html</loc>
+    <loc>https://wang.org.pk/programs/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/digital-literacy.html</loc>
+    <loc>https://wang.org.pk/digital-literacy/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
