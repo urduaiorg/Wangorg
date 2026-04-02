@@ -25,6 +25,18 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Cursor — April 2, 2026 (C2–C4)
+**Completed:**
+- **C2:** Added `scripts/fix-wp-media-urls.mjs` and replaced all `wang.org.pk/wp-content/...` references in `blog/` and `legacy/` (13 files) with stable `https://wang.org.pk/assets/images/wali-building-front.jpg`
+- **C3:** Verified every `*.html` under `wang-site/` includes GA4 `G-DJ2TGEPJ49` and Google Ads `AW-17337315510` (51/51)
+- **C4:** Fixed Ad Grant landings that linked to old WordPress `privacy_policy`: `wire.html`, `wali.html`, `wali/index.html`, `programs.html`, `programs/index.html`, `digital-literacy.html` now point to `privacy-policy.html` (relative)
+
+**Blocked on:**
+- None
+
+**Next:**
+- H-priority SEO/QA items per `OPEN-TASKS.md`
+
 ### Codex — April 2, 2026 4:46 PM
 **Completed:**
 - Claimed and completed task `C5` from `OPEN-TASKS.md`
