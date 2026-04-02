@@ -25,6 +25,23 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Cursor — April 2, 2026 (M2–M8, M1 still Codex)
+**Completed:**
+- **M2:** Page-relevant `og:image` / `twitter:image` for team, impact, about, faq, contact, privacy, initiatives, media (ARY thumb), Urdu AI landings, journal hub, legacy hub; fixed featured-insightonconflict meta + schema image to `wang.org.pk` asset
+- **M3:** Verified Urdu archive posts already `lang="ur"` `dir="rtl"` with `article-body-urdu`
+- **M4:** Homepage + `media.html` — “As seen on” outlet strip (ARY / Express / ABN) with `.media-outlet-link` styles
+- **M5:** `curl` HEAD follow — 200 for urduai.org, walipak.com, pakspeed.com, pakeducate.com, wirepk.com, doorcalling.com
+- **M6:** Confirmed Ad Grant HTML still includes `G-DJ2TGEPJ49` + `AW-17337315510`
+- **M7:** `about.html` — short governance section (registered non-profit + field accountability)
+- **M8:** `team.html` — `Person` JSON-LD for Qaisar; social preview image → `qaisar-roonjha.jpg`
+
+**Blocked on:** **M1** (🔒 Codex)
+
+**Next:** L1 / L4 or M1 handoff when Codex completes
+
+### Cursor — April 2, 2026 (L2, L3, L5)
+**Completed:** Confirmed `partners.html` satisfies institutional partners page; `hreflang` on two full Urdu journal posts; print CSS block for blog/long reads.
+
 ### Cursor — April 2, 2026 (H2–H8 + H1 supplements)
 **Completed:**
 - **H1 (with Codex hero):** `index.html` — `@type` `["NGO","Organization"]`; title/OG/Twitter already ≤60; Urdu AI stripe section + hero CTAs per board

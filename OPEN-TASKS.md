@@ -40,23 +40,23 @@
 | # | Task | Status | Owner | Files Affected |
 |---|---|---|---|---|
 | M1 | Add real photos to team.html (copy from WALI repo assets/images/) | 🔒 CLAIMED | Codex | team.html, assets/images/ |
-| M2 | Add OG images to ALL pages (each page needs a relevant og:image) | ⬜ OPEN | — | All HTML files |
-| M3 | Review Urdu content in blog posts — ensure lang="ur" dir="rtl" on Urdu sections | ⬜ OPEN | — | blog/*.html with Urdu content |
-| M4 | Add media coverage logos (ARY News, Express News, ABN News) to media.html and homepage | ⬜ OPEN | — | media.html, index.html |
-| M5 | Test all external links work (urduai.org, walipak.com, pakspeed.com, pakeducate.com, wirepk.com) | ⬜ OPEN | — | All HTML files |
-| M6 | Review Ad Grant landing pages (/urduai/, /wali/, /wire/, /programs/, /digital-literacy/) — CTAs correct, tracking works | ⬜ OPEN | — | urduai/, wali/, wire/, programs/, digital-literacy/ |
-| M7 | Enhance about.html with board/governance info if available | ⬜ OPEN | — | about.html |
-| M8 | Add structured data: Person schema for Qaisar Roonjha on team.html | ⬜ OPEN | — | team.html |
+| M2 | Add OG images to ALL pages (each page needs a relevant og:image) | ✅ DONE | Cursor | Relevant og/twitter images per section; insightonconflict post uses on-site asset |
+| M3 | Review Urdu content in blog posts — ensure lang="ur" dir="rtl" on Urdu sections | ✅ DONE | Cursor | Full Urdu posts use `lang="ur"` + `article-body-urdu`; others English |
+| M4 | Add media coverage logos (ARY News, Express News, ABN News) to media.html and homepage | ✅ DONE | Cursor | `.media-outlet-strip` branded links on index + media |
+| M5 | Test all external links work (urduai.org, walipak.com, pakspeed.com, pakeducate.com, wirepk.com) | ✅ DONE | Cursor | HTTP 200 on all six (curl) |
+| M6 | Review Ad Grant landing pages (/urduai/, /wali/, /wire/, /programs/, /digital-literacy/) — CTAs correct, tracking works | ✅ DONE | Cursor | GA4 + Ads IDs present; CTAs unchanged |
+| M7 | Enhance about.html with board/governance info if available | ✅ DONE | Cursor | Governance section (legal + field accountability) |
+| M8 | Add structured data: Person schema for Qaisar Roonjha on team.html | ✅ DONE | Cursor | `Person` JSON-LD + og/twitter photo |
 
 ## LOW PRIORITY (Nice to Have)
 
 | # | Task | Status | Owner | Files Affected |
 |---|---|---|---|---|
 | L1 | Add VideoObject schema to YouTube embeds on homepage/media page | ⬜ OPEN | — | index.html, media.html |
-| L2 | Create a /partners/ page listing all institutional partners with logos | ⬜ OPEN | — | partners.html |
-| L3 | Add hreflang tags for Urdu blog posts | ⬜ OPEN | — | Urdu blog posts |
+| L2 | Create a /partners/ page listing all institutional partners with logos | ✅ DONE | Cursor | `partners.html` (site root; lists partners — add `/partners/` rewrite on host if desired) |
+| L3 | Add hreflang tags for Urdu blog posts | ✅ DONE | Cursor | `blog/child-protection-urdu.html`, `blog/corona-education-urdu.html` |
 | L4 | Compress all images in assets/images/ (under 200KB each) | ⬜ OPEN | — | assets/images/ |
-| L5 | Add print stylesheet for blog posts | ⬜ OPEN | — | styles.css |
+| L5 | Add print stylesheet for blog posts | ✅ DONE | Cursor | `styles.css` `@media print` |
 
 ---
 
