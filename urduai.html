@@ -13,10 +13,12 @@
     <meta property="og:description" content="800K+ learners, 50K+ downloads. Pakistan's largest free AI education in Urdu. Supported by Google.org.">
     <meta property="og:url" content="https://wang.org.pk/urduai/">
     <meta property="og:site_name" content="WANG">
+    <meta property="og:image" content="https://wang.org.pk/assets/images/community-urduai-group.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Urdu AI by WANG | Free AI Education in Urdu">
     <meta name="twitter:description" content="800K+ learners. Pakistan's largest free AI literacy platform in simple Urdu.">
-    <link rel="alternate" href="https://wang.org.pk/urduai/" hreflang="en-PK">
+        <meta name="twitter:image" content="https://wang.org.pk/assets/images/community-urduai-group.jpg">
+<link rel="alternate" href="https://wang.org.pk/urduai/" hreflang="en-PK">
     <link rel="alternate" href="https://wang.org.pk/urduai/" hreflang="ur-PK">
 
     <!-- Google Analytics GA4 -->
@@ -116,6 +118,28 @@
     }
     </script>
 
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://wang.org.pk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Urdu AI",
+      "item": "https://wang.org.pk/urduai/"
+    }
+  ]
+}
+    </script>
+
     <style>
         :root {
             --primary-dark: #0a1428;
@@ -142,6 +166,26 @@
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        .skip-link {
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            transform: translateY(-220%);
+            background: var(--white);
+            color: var(--primary-dark);
+            padding: 0.75rem 1rem;
+            border-radius: 999px;
+            font-weight: 700;
+            text-decoration: none;
+            z-index: 10001;
+            transition: transform 0.2s ease;
+        }
+        .skip-link:focus {
+            transform: translateY(0);
+            outline: 3px solid var(--accent-amber);
+            outline-offset: 2px;
+        }
 
         body {
             font-family: var(--font-primary);
@@ -340,6 +384,8 @@
     </style>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<main id="main">
 
 <section class="hero" id="top">
     <div class="logo-section">
@@ -513,6 +559,8 @@
         </div>
     </div>
 </section>
+
+</main>
 
 <footer class="site-footer">
     <div class="container">

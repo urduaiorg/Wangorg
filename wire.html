@@ -13,10 +13,12 @@
     <meta property="og:description" content="WANG empowers rural women through WIRE in Balochistan with digital skills and enterprise development through a mother-daughter innovation model.">
     <meta property="og:url" content="https://wang.org.pk/wire/">
     <meta property="og:site_name" content="WANG">
+    <meta property="og:image" content="https://wang.org.pk/assets/images/women-collaboration.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="WIRE by WANG | Women's Innovation & Rural Enterprise in Pakistan">
     <meta name="twitter:description" content="WANG empowers rural women through WIRE's mother-daughter innovation model with digital skills and enterprise development in Balochistan.">
-    <link rel="alternate" href="https://wang.org.pk/wire/" hreflang="en-PK">
+        <meta name="twitter:image" content="https://wang.org.pk/assets/images/women-collaboration.jpg">
+<link rel="alternate" href="https://wang.org.pk/wire/" hreflang="en-PK">
     <link rel="alternate" href="https://wang.org.pk/wire/" hreflang="ur-PK">
 
     <!-- Google Analytics GA4 -->
@@ -115,6 +117,28 @@
     }
     </script>
 
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://wang.org.pk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "WIRE",
+      "item": "https://wang.org.pk/wire/"
+    }
+  ]
+}
+    </script>
+
     <style>
         :root {
             --primary-dark: #0a1428;
@@ -143,6 +167,26 @@
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        .skip-link {
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            transform: translateY(-220%);
+            background: var(--white);
+            color: var(--primary-dark);
+            padding: 0.75rem 1rem;
+            border-radius: 999px;
+            font-weight: 700;
+            text-decoration: none;
+            z-index: 10001;
+            transition: transform 0.2s ease;
+        }
+        .skip-link:focus {
+            transform: translateY(0);
+            outline: 3px solid var(--accent-amber);
+            outline-offset: 2px;
+        }
 
         body {
             font-family: var(--font-primary);
@@ -355,6 +399,8 @@
     </style>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<main id="main">
 
 <!-- Hero -->
 <section class="hero" id="top">
@@ -602,6 +648,8 @@
 </section>
 
 <!-- Footer -->
+</main>
+
 <footer class="site-footer">
     <div class="container">
         <p><strong>WANG</strong> (Welfare Association for New Generation) is a registered non-profit organization in Pakistan.</p>

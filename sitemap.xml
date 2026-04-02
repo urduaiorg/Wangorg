@@ -19,16 +19,34 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://wang.org.pk/programs-overview.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://wang.org.pk/impact.html</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://wang.org.pk/team.html</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/media.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/donate.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wang.org.pk/contact.html</loc>
@@ -49,32 +67,200 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/urduai/</loc>
+    <loc>https://wang.org.pk/blog/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/wali/</loc>
+    <loc>https://wang.org.pk/legacy/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/urduai.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/wali.html</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/wire/</loc>
+    <loc>https://wang.org.pk/wire.html</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/programs/</loc>
+    <loc>https://wang.org.pk/programs.html</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wang.org.pk/digital-literacy/</loc>
+    <loc>https://wang.org.pk/digital-literacy.html</loc>
     <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/ai-education-pakistan.html</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/16-days-of-activism-2025-how-rural-girls-in-balochistan-rose-against-gender-based-violence.html</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/tech-surge-10-batches.html</loc>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/aid-and-resilience.html</loc>
+    <lastmod>2025-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/scottish-scholarship-wang.html</loc>
+    <lastmod>2025-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/wali-lab-empowers-youth.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/tragedy-to-triumph.html</loc>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/edu-pathway-progress.html</loc>
+    <lastmod>2025-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/lasbela-rising-climate.html</loc>
+    <lastmod>2023-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/flood-relief-impact.html</loc>
+    <lastmod>2022-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/six-ways-to-help-balochistan-flood-affected-communities.html</loc>
+    <lastmod>2022-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/empowering-women-of-lasbela-through-skill-enhancement.html</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/mobiles-children-hope.html</loc>
+    <lastmod>2021-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/girl-rising-lasbela.html</loc>
+    <lastmod>2021-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/pakistan-scottish-scholarship-scheme-for-school-children-2019-2020.html</loc>
+    <lastmod>2020-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/child-protection-urdu.html</loc>
+    <lastmod>2020-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/anti-drug-abuse-event.html</loc>
+    <lastmod>2020-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/heroes-of-lasbela-fighting-covid-19.html</loc>
+    <lastmod>2020-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/corona-education-urdu.html</loc>
+    <lastmod>2020-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/featured-insightonconflict.html</loc>
+    <lastmod>2014-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/blog/the-welcome-blog.html</loc>
+    <lastmod>2014-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/legacy/balochistan-creative-challenge.html</loc>
+    <lastmod>2022-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/legacy/princess-of-hope-awards.html</loc>
+    <lastmod>2022-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/legacy/kakas-garden.html</loc>
+    <lastmod>2025-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/legacy/parhega-balochistan.html</loc>
+    <lastmod>2025-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wang.org.pk/legacy/pakistan-scottish-scholarship.html</loc>
+    <lastmod>2023-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
