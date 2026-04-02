@@ -25,6 +25,18 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 4:46 PM
+**Completed:**
+- Claimed and completed task `C5` from `OPEN-TASKS.md`
+- Audited all current HTML pages in the repo tree, including the clean-URL landing page copies under `urduai/`, `wali/`, `wire/`, `programs/`, and `digital-literacy/`
+- Verified every page has a canonical URL pointing to `https://wang.org.pk/...` and confirmed there are no lingering `github.io` canonical references anywhere in the site
+
+**Blocked on:**
+- None for `C5`
+
+**Next:**
+- Pick the next open critical QA task from `OPEN-TASKS.md` and follow the same claim → commit → work → log flow
+
 ### Cursor — April 2, 2026
 **Completed:**
 - Read `OPEN-TASKS.md`; **claimed C1** (commit: chore claim); **completed C1** — WANG public roots **2014**, WALI lab **2021** across `index.html` (NGO `foundingDate`, hero ledger, stats ribbon, closing list), `about.html` (meta, intro, proof panel, FAQPage + new “When did WALI open?”), `faq.html`, `team.html`, `impact.html` (timeline: 2014 / 2021 WALI / 2022 floods), `wali.html` + `wali/index.html` (FAQ copy, stat label “WALI lab”, footer blurbs), `programs.html` + `programs/index.html`
