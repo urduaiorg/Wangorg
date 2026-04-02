@@ -25,6 +25,16 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Cursor — April 2, 2026 (Strategy S7–S9)
+**Completed:**
+- **S7:** **`impact.html`** impact timeline aligned to master strategy **2014–2026** arc: **2020** COVID continuity, **2024** 100K+ learner milestone, **2025** AVPN / 16 Days / Dost / Google.org, **2026** 800K+ capstone
+- **S8:** Homepage hero eyebrow → **Ahmed Abad Wang · Balochistan · Pakistan**; **`hero-impact-hint`** contextual partnership line (WALI camp cohorts)
+- **S9:** **`hero-stats`** row with scroll-triggered count-up, **`hero-home-bg`** image parallax on scroll, both respect **`prefers-reduced-motion`**
+
+**Blocked on:** None
+
+**Next:** Optional about-page narrative vs strategy; remaining `<picture>` passes on content images
+
 ### Codex — April 2, 2026 5:25 PM
 **Completed:**
 - Claimed and completed audit findings `A1`, `A2`, and `A3` from `AUDIT-FINDINGS.md`

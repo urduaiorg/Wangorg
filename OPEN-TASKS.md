@@ -60,6 +60,9 @@ _Sourced from TECHNICAL REQUIREMENTS, IMAGE STRATEGY, Month 1 “pages indexed 3
 | S4 | WebP generation + `<picture>` JPEG fallback (`build-webp.sh`) | ✅ DONE | Cursor | `scripts/build-webp.sh`, `assets/images/*.webp`, `team.html`, homepage hero |
 | S5 | Homepage hero: WALI photo background + ARY YouTube embed (strategy visual proof) | ✅ DONE | Cursor | `index.html`, `styles.css` |
 | S6 | Impact timeline: add **2017** milestone (strategy scroll-timeline) | ✅ DONE | Cursor | `impact.html` |
+| S7 | Impact timeline: full **12-year arc** (2020 COVID, 2024 100K, 2025 AVPN/Dost, **2026** capstone) | ✅ DONE | Cursor | `impact.html` — aligns with `WANG-MASTER-STRATEGY.md` homepage timeline spec |
+| S8 | Homepage hero: location eyebrow + **contextual partnership** hint (strategy principles 1 &amp; 2) | ✅ DONE | Cursor | `index.html`, `styles.css` |
+| S9 | Homepage hero: **stat row** + scroll count-up; subtle **photo parallax** (`prefers-reduced-motion` safe) | ✅ DONE | Cursor | `index.html`, `styles.css`, `script.js` |
 
 ## LOW PRIORITY (Nice to Have)
 
