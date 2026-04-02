@@ -17,7 +17,7 @@
 | # | Task | Status | Owner | Files Affected |
 |---|---|---|---|---|
 | C1 | Fix founding date: WANG = 2014, WALI lab = 2021. Check ALL pages, schemas, timeline | ✅ DONE | Cursor | index, about, faq, team, impact, wali/*, programs/* |
-| C2 | Fix broken WordPress image URLs in blog posts (`grep -r "wp-content" blog/ legacy/`) | 🔒 CLAIMED | Antigravity | blog/*.html, legacy/*.html |
+| C2 | Fix broken WordPress image URLs in blog posts (`grep -r "wp-content" blog/ legacy/`) | ⬜ OPEN | — | blog/*.html, legacy/*.html |
 | C3 | Verify GA4 (G-DJ2TGEPJ49) + Google Ads (AW-17337315510) tracking on EVERY page | ⬜ OPEN | — | All HTML files |
 | C4 | Verify privacy-policy.html is linked from EVERY page footer | ⬜ OPEN | — | All HTML files |
 | C5 | Verify canonical URLs point to wang.org.pk (NOT github.io) on EVERY page | ✅ DONE | Codex | All HTML files |
