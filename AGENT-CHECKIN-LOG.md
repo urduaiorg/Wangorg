@@ -25,6 +25,19 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 5:04 PM
+**Completed:**
+- Claimed and completed task `H1` from `OPEN-TASKS.md`
+- Tightened the homepage title to 50 characters while preserving the WANG brand
+- Updated `index.html` so the hero H1 now leads with the impact-first framing: `800,000+ learners. 6 initiatives. 1 village in Balochistan.`
+- Put a direct `Learn on Urdu AI` CTA in the homepage hero and retained the homepage NGO schema block
+
+**Blocked on:**
+- None for `H1`
+
+**Next:**
+- Move to the next open high-priority QA task in `OPEN-TASKS.md`
+
 ### Cursor — April 2, 2026 (C2–C4)
 **Completed:**
 - **C2:** Added `scripts/fix-wp-media-urls.mjs` and replaced all `wang.org.pk/wp-content/...` references in `blog/` and `legacy/` (13 files) with stable `https://wang.org.pk/assets/images/wali-building-front.jpg`
