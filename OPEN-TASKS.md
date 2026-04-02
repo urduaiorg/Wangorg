@@ -20,7 +20,7 @@
 | C2 | Fix broken WordPress image URLs in blog posts (`grep -r "wp-content" blog/ legacy/`) | 🔒 CLAIMED | Antigravity | blog/*.html, legacy/*.html |
 | C3 | Verify GA4 (G-DJ2TGEPJ49) + Google Ads (AW-17337315510) tracking on EVERY page | ⬜ OPEN | — | All HTML files |
 | C4 | Verify privacy-policy.html is linked from EVERY page footer | ⬜ OPEN | — | All HTML files |
-| C5 | Verify canonical URLs point to wang.org.pk (NOT github.io) on EVERY page | ⬜ OPEN | — | All HTML files |
+| C5 | Verify canonical URLs point to wang.org.pk (NOT github.io) on EVERY page | 🔒 CLAIMED | Codex | All HTML files |
 
 ## HIGH PRIORITY (SEO/AEO Impact)
 
