@@ -25,6 +25,19 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 5:25 PM
+**Completed:**
+- Claimed and completed audit findings `A1`, `A2`, and `A3` from `AUDIT-FINDINGS.md`
+- Verified with a footer-level HTML audit that every current page footer includes a privacy policy link
+- Verified `blog/ai-education-pakistan.html` no longer contains broken `wp-content` image references and that its metadata/schema image fields already point to on-site assets
+- Fixed `blog/mobiles-children-hope.html` by replacing the remaining broken inline `blob:` image reference with a stable on-site image URL while keeping `og:image`, `twitter:image`, and Article schema image on HTTPS
+
+**Blocked on:**
+- None for `A1` through `A3`
+
+**Next:**
+- Move to `A4` and `A5` in `AUDIT-FINDINGS.md`
+
 ### Cursor — April 2, 2026 (Strategy S4–S6)
 **Completed:**
 - **S4:** **`scripts/build-webp.sh`** (cwebp q82) generated **`.webp`** for every JPEG in **`assets/images/`**; **`team.html`** photos use **`<picture>`** WebP + JPEG; homepage hero uses **`<picture>`** for **wali-building-front**; **`index.html`** **`preload`** for hero WebP

@@ -16,9 +16,9 @@ These are issues found during the live audit. Pick one, fix it, mark it ✅ DONE
 
 | # | Issue | Status | Owner | Details |
 |---|---|---|---|---|
-| A1 | **Privacy policy link missing from 15+ page footers** | 🔒 CLAIMED | Codex | C4 was marked done but my audit found these pages STILL missing a privacy-policy link in their footer: `wire.html`, `wali.html`, `team.html`, `programs-overview.html`, `index.html`, `about.html`, `privacy-policy.html`, `contact.html`, `programs.html`, `impact.html`, `urduai/index.html`, `404.html`, `media.html`, `wire/index.html`, `legacy/parhega-balochistan.html`. **This is a Google Ad Grant compliance requirement.** Run: `find . -name "*.html" -exec grep -L "privacy" {} \;` to find all. Add `<a href="/privacy-policy.html">Privacy Policy</a>` to every footer. |
-| A2 | **blog/ai-education-pakistan.html — 5+ broken wp-content images** | ⬜ OPEN | — | This is the MOST IMPORTANT blog post (11,886 chars, about Urdu AI movement). It has 5 inline `<img>` tags pointing to `wang.org.pk/wp-content/uploads/2026/02/`. Also og:image and Article schema image reference wp-content. Either: (a) download these images from the live WordPress site and save to assets/images/, or (b) replace with WALI repo images, or (c) remove broken img tags. |
-| A3 | **blog/mobiles-children-hope.html — HTTP og:image** | ⬜ OPEN | — | og:image and twitter:image use `http://` (not https). Even if the image exists, HTTP og:images get flagged. Fix to https or replace with local asset. |
+| A1 | **Privacy policy link missing from 15+ page footers** | ✅ DONE | Codex | Verified the current tracked repo state with an HTML-parser footer audit. Every HTML footer now includes a privacy policy link, including the pages explicitly listed in the finding. |
+| A2 | **blog/ai-education-pakistan.html — 5+ broken wp-content images** | ✅ DONE | Codex | Verified the current tracked file state: `blog/ai-education-pakistan.html` no longer contains `wp-content` image references. Inline images, `og:image`, `twitter:image`, and the Article schema `image` all point to on-site assets under `https://wang.org.pk/assets/images/`. |
+| A3 | **blog/mobiles-children-hope.html — HTTP og:image** | ✅ DONE | Codex | Verified metadata is already on HTTPS in the tracked file, then replaced the remaining broken inline `blob:` image in the article body with a stable on-site asset under `https://wang.org.pk/assets/images/`. |
 
 ## 🟡 SHOULD FIX (SEO/Revenue impact)
 
