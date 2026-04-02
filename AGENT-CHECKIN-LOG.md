@@ -25,6 +25,16 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Cursor — April 2, 2026 (Strategy S4–S6)
+**Completed:**
+- **S4:** **`scripts/build-webp.sh`** (cwebp q82) generated **`.webp`** for every JPEG in **`assets/images/`**; **`team.html`** photos use **`<picture>`** WebP + JPEG; homepage hero uses **`<picture>`** for **wali-building-front**; **`index.html`** **`preload`** for hero WebP
+- **S5:** Homepage **`hero-home`** WALI building photo (layered under readable gradients), third hero column / stacked row with **ARY News** **`youtube-nocookie`** embed (`nXLk4M5mLyI`); print stylesheet hides embed only
+- **S6:** **`impact.html`** impact timeline adds **2017** — community programs scale (between 2014 and 2021 per **`WANG-MASTER-STRATEGY.md`**)
+
+**Blocked on:** None
+
+**Next:** Optional sitewide `<picture>` for other content images; exact YouTube `uploadDate` refinements for VideoObject JSON-LD
+
 ### Cursor — April 2, 2026 (Strategy S1–S3, L1, L4)
 **Completed:**
 - **`WANG-MASTER-STRATEGY.md`:** Added **FROM WANG-MASTER-STRATEGY** rows **S1–S3** to `OPEN-TASKS.md`, executed under **Cursor**

@@ -143,6 +143,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" as="image" href="assets/images/wali-building-front.webp" type="image/webp" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body data-page="home">
@@ -172,6 +173,19 @@
 
     <main id="main">
       <section class="hero hero-home reveal">
+        <div class="hero-home-bg" aria-hidden="true">
+          <picture>
+            <source srcset="assets/images/wali-building-front.webp" type="image/webp" />
+            <img
+              src="assets/images/wali-building-front.jpg"
+              alt=""
+              width="1800"
+              height="1350"
+              decoding="async"
+              fetchpriority="high"
+            />
+          </picture>
+        </div>
         <div class="hero-shell">
           <div class="hero-copy">
             <p class="eyebrow">Registered Non-Profit in Pakistan</p>
@@ -192,6 +206,20 @@
             <span>Public roots since 2014; WALI rural innovation lab established in 2021</span>
             <span>6 initiatives spanning AI literacy, internet research, women's enterprise, and school systems</span>
             <span>800K+ learners reached through Urdu AI, Pakistan's largest Urdu-language AI education platform</span>
+          </div>
+
+          <div class="hero-media-proof">
+            <p class="hero-media-caption"><strong>ARY News</strong> — WANG field feature</p>
+            <div class="hero-video-frame">
+              <iframe
+                title="WANG featured on ARY News"
+                src="https://www.youtube-nocookie.com/embed/nXLk4M5mLyI"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>

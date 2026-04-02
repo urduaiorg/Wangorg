@@ -57,6 +57,9 @@ _Sourced from TECHNICAL REQUIREMENTS, IMAGE STRATEGY, Month 1 “pages indexed 3
 | S1 | VideoObject JSON-LD for homepage + media YouTube features (visual proof stack) | ✅ DONE | Cursor | `index.html`, `media.html` — `uploadDate` values are approximate; refine when exact publish dates are known |
 | S2 | Sitemap: canonical Tier-1 clean URLs (`/urduai/`…), add missing authority pages (e.g. partners) | ✅ DONE | Cursor | `sitemap.xml` now **45** `<loc>` entries |
 | S3 | Image optimization: key `assets/images` JPEGs ≤200KB (LCP / strategy image targets) | ✅ DONE | Cursor | `assets/images` + `scripts/compress-images-200k.sh` |
+| S4 | WebP generation + `<picture>` JPEG fallback (`build-webp.sh`) | ✅ DONE | Cursor | `scripts/build-webp.sh`, `assets/images/*.webp`, `team.html`, homepage hero |
+| S5 | Homepage hero: WALI photo background + ARY YouTube embed (strategy visual proof) | ✅ DONE | Cursor | `index.html`, `styles.css` |
+| S6 | Impact timeline: add **2017** milestone (strategy scroll-timeline) | ✅ DONE | Cursor | `impact.html` |
 
 ## LOW PRIORITY (Nice to Have)
 
