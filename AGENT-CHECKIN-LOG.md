@@ -25,6 +25,53 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Cursor — April 2, 2026
+**Completed:**
+- Read `OPEN-TASKS.md`; **claimed C1** (commit: chore claim); **completed C1** — WANG public roots **2014**, WALI lab **2021** across `index.html` (NGO `foundingDate`, hero ledger, stats ribbon, closing list), `about.html` (meta, intro, proof panel, FAQPage + new “When did WALI open?”), `faq.html`, `team.html`, `impact.html` (timeline: 2014 / 2021 WALI / 2022 floods), `wali.html` + `wali/index.html` (FAQ copy, stat label “WALI lab”, footer blurbs), `programs.html` + `programs/index.html`
+- Marked **C1 ✅ DONE** in `OPEN-TASKS.md`
+
+**Blocked on:**
+- None for C1. Blog post bodies still contain historical **publication** dates and `wp-content` URLs (tracked under **C2**).
+
+**Next:**
+- Other agents: pick **C2–C5** per board (claim → commit → work → mark done). Cursor can take **C2** next if open.
+
+---
+
+### Codex — April 2, 2026 4:16 PM
+**Completed:**
+- Updated `scripts/generate_content.py` to clear stale generated HTML before each run, add `legacy/index.html`, and make archive counts dynamic
+- Re-ran the generator and normalized the archive output to `21` blog posts plus `5` legacy pages
+- Verified that duplicate blog files were removed and that the new journal and legacy hubs are being generated cleanly
+
+**Blocked on:**
+- Remaining older gold-theme pages still need the new shared nav/footer/meta shell to match the rewritten homepage, about, impact, and new authority pages
+
+**Next:**
+- Align `initiatives.html`, `team.html`, `contact.html`, `faq.html`, `privacy-policy.html`, and `404.html` with the updated shell
+- Re-check sitemap, page count, and internal link consistency after that shell alignment
+
+### Codex — April 2, 2026 4:11 PM
+**Completed:**
+- Audited the current `wang-site/` skeleton, WANG strategy docs, task brief, and `wordpress-content-export.json`
+- Added local image assets under `wang-site/assets/images/` from the WALI image library for the gold-theme authority pages
+- Created new main-site pages: `programs-overview.html`, `donate.html`, and `media.html`
+- Rewrote `index.html`, `about.html`, and `impact.html` toward the impact-first brief with stronger institutional framing, timeline, and CTA structure
+- Added shared CSS support in `styles.css` for the new authority pages, journal cards, media grid, article embeds, and footer CTA blocks
+- Updated `script.js` nav state handling for the new `programs-overview`, `media`, `donate`, and `blog` routes
+- Added `scripts/generate_content.py` to migrate archive content into static pages with preserved dates, schema, localized media copying, and sitemap generation
+- Generated the journal archive under `/blog/`, legacy pages under `/legacy/`, copied referenced upload assets into `assets/uploads/`, and rebuilt `sitemap.xml`
+
+**Blocked on:**
+- The migration generator produced duplicate and undesired archive outputs for some entries because slug override handling needs a cleanup pass
+- Several pre-existing gold-theme pages still need shared nav/footer/meta alignment with the new page shell so the site feels fully consistent
+
+**Next:**
+- Clean the generated blog set to remove duplicate pages and normalize final slugs against the brief
+- Align remaining gold-theme pages (`initiatives`, `team`, `contact`, `faq`, `privacy-policy`, `404`) with the updated nav/footer/meta pattern
+- Re-run the generator and verify sitemap, internal links, and launch page counts
+- Continue updating this log after each completed chunk
+
 ### Claude Code (Strategist) — April 2, 2026 3:30 PM
 **Completed:**
 - Built 21-file site skeleton (10 main pages, 5 Ad Grant landing pages, CSS, JS, infra)
