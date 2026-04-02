@@ -39,7 +39,7 @@
 
 | # | Task | Status | Owner | Files Affected |
 |---|---|---|---|---|
-| M1 | Add real photos to team.html (copy from WALI repo assets/images/) | 🔒 CLAIMED | Codex | team.html, assets/images/ |
+| M1 | Add real photos to team.html (copy from WALI repo assets/images/) | ✅ DONE | Codex | team.html, assets/images/ |
 | M2 | Add OG images to ALL pages (each page needs a relevant og:image) | ✅ DONE | Cursor | Relevant og/twitter images per section; insightonconflict post uses on-site asset |
 | M3 | Review Urdu content in blog posts — ensure lang="ur" dir="rtl" on Urdu sections | ✅ DONE | Cursor | Full Urdu posts use `lang="ur"` + `article-body-urdu`; others English |
 | M4 | Add media coverage logos (ARY News, Express News, ABN News) to media.html and homepage | ✅ DONE | Cursor | `.media-outlet-strip` branded links on index + media |

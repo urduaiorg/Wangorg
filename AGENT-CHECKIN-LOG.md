@@ -25,6 +25,19 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 5:12 PM
+**Completed:**
+- Claimed and completed task `M1` from `OPEN-TASKS.md`
+- Added a real founder portrait to `team.html` using `assets/images/qaisar-roonjha.jpg`
+- Added a real field-team image to the WALI staff section using `assets/images/women-collaboration.jpg`
+- Ensured both images use explicit dimensions, descriptive alt text, and `loading="lazy"`
+
+**Blocked on:**
+- None for `M1`
+
+**Next:**
+- Sync with the remaining low-priority board items or any new QA gaps
+
 ### Cursor — April 2, 2026 (M2–M8, M1 still Codex)
 **Completed:**
 - **M2:** Page-relevant `og:image` / `twitter:image` for team, impact, about, faq, contact, privacy, initiatives, media (ARY thumb), Urdu AI landings, journal hub, legacy hub; fixed featured-insightonconflict meta + schema image to `wang.org.pk` asset
