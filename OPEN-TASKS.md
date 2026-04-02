@@ -26,7 +26,7 @@
 
 | # | Task | Status | Owner | Files Affected |
 |---|---|---|---|---|
-| H1 | Audit homepage: title under 60 chars, impact-first H1, Organization schema validates, urduai.org CTA present | ⬜ OPEN | — | index.html |
+| H1 | Audit homepage: title under 60 chars, impact-first H1, Organization schema validates, urduai.org CTA present | 🔒 CLAIMED | Codex | index.html |
 | H2 | Audit about page: origin story from 2014, FAQPage schema validates, timeline accurate | ⬜ OPEN | — | about.html |
 | H3 | Audit initiatives page: all 6 initiatives listed with metrics, links to external sites correct | ⬜ OPEN | — | initiatives.html |
 | H4 | Audit impact page: numbers accurate (800K learners, 50K downloads, 196 graduates, 32K PakSpeed users) | ⬜ OPEN | — | impact.html |
