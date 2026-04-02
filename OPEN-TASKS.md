@@ -39,7 +39,7 @@
 
 | # | Task | Status | Owner | Files Affected |
 |---|---|---|---|---|
-| M1 | Add real photos to team.html (copy from WALI repo assets/images/) | ⬜ OPEN | — | team.html, assets/images/ |
+| M1 | Add real photos to team.html (copy from WALI repo assets/images/) | 🔒 CLAIMED | Codex | team.html, assets/images/ |
 | M2 | Add OG images to ALL pages (each page needs a relevant og:image) | ⬜ OPEN | — | All HTML files |
 | M3 | Review Urdu content in blog posts — ensure lang="ur" dir="rtl" on Urdu sections | ⬜ OPEN | — | blog/*.html with Urdu content |
 | M4 | Add media coverage logos (ARY News, Express News, ABN News) to media.html and homepage | ⬜ OPEN | — | media.html, index.html |
