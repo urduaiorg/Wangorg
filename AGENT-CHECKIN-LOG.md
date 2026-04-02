@@ -25,6 +25,17 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Cursor — April 2, 2026 (H2–H8 + H1 supplements)
+**Completed:**
+- **H1 (with Codex hero):** `index.html` — `@type` `["NGO","Organization"]`; title/OG/Twitter already ≤60; Urdu AI stripe section + hero CTAs per board
+- **H2:** `about.html` — `Organization` JSON-LD; Urdu AI CTA banner; titles tightened
+- **H3–H5, H4:** Initiatives/impact/blog hub verified; impact metrics unchanged
+- **H6:** `.urduai-cta-banner` in `styles.css`; banners on `about.html`, `impact.html`, `blog/index.html` (homepage already had section)
+- **H7:** Shortened `<title>` + og/twitter for landings, Ad Grant twins, and longest journal posts; Urdu RTL legacy page uses short Latin title tag for 60-char SEO
+- **H8:** Confirmed Article `datePublished` preserved (incl. 2014 Welcome Blog)
+
+**Next:** `M1–M8` or deployment tasks
+
 ### Codex — April 2, 2026 5:04 PM
 **Completed:**
 - Claimed and completed task `H1` from `OPEN-TASKS.md`

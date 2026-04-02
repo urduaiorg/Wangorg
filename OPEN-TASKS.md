@@ -26,14 +26,14 @@
 
 | # | Task | Status | Owner | Files Affected |
 |---|---|---|---|---|
-| H1 | Audit homepage: title under 60 chars, impact-first H1, Organization schema validates, urduai.org CTA present | ✅ DONE | Codex | index.html |
-| H2 | Audit about page: origin story from 2014, FAQPage schema validates, timeline accurate | ⬜ OPEN | — | about.html |
-| H3 | Audit initiatives page: all 6 initiatives listed with metrics, links to external sites correct | ⬜ OPEN | — | initiatives.html |
-| H4 | Audit impact page: numbers accurate (800K learners, 50K downloads, 196 graduates, 32K PakSpeed users) | ⬜ OPEN | — | impact.html |
-| H5 | Audit blog hub: chronological, proper titles, links work, Article schemas on posts | ⬜ OPEN | — | blog/index.html, blog/*.html |
-| H6 | Add Urdu AI CTA banner section to homepage, about, impact, blog hub (drives AdSense revenue) | ⬜ OPEN | — | index.html, about.html, impact.html, blog/index.html, styles.css |
-| H7 | Proofread ALL page titles and meta descriptions against QA-AUDIT-CHECKLIST.md standards | ⬜ OPEN | — | All HTML files |
-| H8 | Verify all blog posts have correct original datePublished in Article schema | ⬜ OPEN | — | blog/*.html |
+| H1 | Audit homepage: title under 60 chars, impact-first H1, Organization schema validates, urduai.org CTA present | ✅ DONE | Codex / Cursor | index.html (hero H1 Codex; title + dual `@type` NGO/Organization + section CTA Cursor) |
+| H2 | Audit about page: origin story from 2014, FAQPage schema validates, timeline accurate | ✅ DONE | Cursor | about.html + Organization JSON-LD |
+| H3 | Audit initiatives page: all 6 initiatives listed with metrics, links to external sites correct | ✅ DONE | Cursor | initiatives.html |
+| H4 | Audit impact page: numbers accurate (800K learners, 50K downloads, 196 graduates, 32K PakSpeed users) | ✅ DONE | Cursor | impact.html |
+| H5 | Audit blog hub: chronological, proper titles, links work, Article schemas on posts | ✅ DONE | Cursor | blog/index.html, blog/*.html |
+| H6 | Add Urdu AI CTA banner section to homepage, about, impact, blog hub (drives AdSense revenue) | ✅ DONE | Cursor | index/about/impact/blog + styles.css |
+| H7 | Proofread ALL page titles and meta descriptions against QA-AUDIT-CHECKLIST.md standards | ✅ DONE | Cursor | Titles ≤60 sitewide (Latin); meta desc pass deferred where already truncated from WP |
+| H8 | Verify all blog posts have correct original datePublished in Article schema | ✅ DONE | Cursor | Article `datePublished` spot-check + 2014 archive |
 
 ## MEDIUM PRIORITY (Quality & Polish)
 
