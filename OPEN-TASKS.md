@@ -48,38 +48,100 @@
 | M7 | Enhance about.html with board/governance info if available | ✅ DONE | Cursor | Governance section (legal + field accountability) |
 | M8 | Add structured data: Person schema for Qaisar Roonjha on team.html | ✅ DONE | Cursor | `Person` JSON-LD + og/twitter photo |
 
-## FROM WANG-MASTER-STRATEGY (next slice)
+## WAVE 1 — COMPLETED (reference only)
 
-_Sourced from TECHNICAL REQUIREMENTS, IMAGE STRATEGY, Month 1 “pages indexed 35+”, and homepage visual-proof spec._
+<details>
+<summary>Click to expand completed Wave 1 tasks (S1–S14, L1–L5)</summary>
 
-| # | Task | Status | Owner | Notes |
+| # | Task | Status | Owner |
+|---|---|---|---|
+| S1 | VideoObject JSON-LD for homepage + media YouTube features | ✅ DONE | Cursor |
+| S2 | Sitemap: canonical Tier-1 clean URLs, 45 entries | ✅ DONE | Cursor |
+| S3 | Image optimization: JPEGs ≤200KB | ✅ DONE | Cursor |
+| S4 | WebP generation + `<picture>` fallback | ✅ DONE | Cursor |
+| S5 | Homepage hero: WALI photo + ARY embed | ✅ DONE | Cursor |
+| S6 | Impact timeline: 2017 milestone | ✅ DONE | Cursor |
+| S7 | Impact timeline: full 14-year arc (2012–2026) | ✅ DONE | Cursor |
+| S8 | Homepage hero: location eyebrow + partnership hint | ✅ DONE | Cursor |
+| S9 | Homepage hero: stat row + count-up + parallax | ✅ DONE | Cursor |
+| S10 | Verified impact statistics across index/impact | ✅ DONE | Antigravity |
+| S11 | K-Electric trust signal on homepage + media | ✅ DONE | Antigravity |
+| S12 | NTN + registration details in all footers | ✅ DONE | Antigravity |
+| S14 | Awards page, CAREC post, media third-party links, trust badges | ✅ DONE | Cursor |
+| L1–L5 | VideoObject, partners page, hreflang, compression, print CSS | ✅ DONE | Cursor |
+
+</details>
+
+---
+
+## ============================================================
+## WAVE 2 — AUTHORITY, CONTENT & REVENUE ENGINE
+## ============================================================
+
+**Context for all agents:** Read `MASTER-ADVICE.md` before starting. It contains the competitive landscape, WANG's actual web presence audit, confirmed external citations, backlink opportunities, and content cluster plans. Every task below comes from that research.
+
+**Key facts (lock these in your work):**
+- WANG community work began: **2012** (not 2014)
+- WALI lab opened: **2021**
+- Base: Ahmed Abad Wang, Bela, District Lasbela, Balochistan, Pakistan
+- Full legal name: Welfare Association for New Generation (use only where formal ID needed)
+- Public brand: **WANG** · tagline: **We Are New Generation**
+
+---
+
+### 🔴 CRITICAL — Fix before anything else
+
+| # | Task | Status | Owner | Details |
 |---|---|---|---|---|
-| S1 | VideoObject JSON-LD for homepage + media YouTube features (visual proof stack) | ✅ DONE | Cursor | `index.html`, `media.html` — `uploadDate` values are approximate; refine when exact publish dates are known |
-| S2 | Sitemap: canonical Tier-1 clean URLs (`/urduai/`…), add missing authority pages (e.g. partners) | ✅ DONE | Cursor | `sitemap.xml` now **45** `<loc>` entries |
-| S3 | Image optimization: key `assets/images` JPEGs ≤200KB (LCP / strategy image targets) | ✅ DONE | Cursor | `assets/images` + `scripts/compress-images-200k.sh` |
-| S4 | WebP generation + `<picture>` JPEG fallback (`build-webp.sh`) | ✅ DONE | Cursor | `scripts/build-webp.sh`, `assets/images/*.webp`, `team.html`, homepage hero |
-| S5 | Homepage hero: WALI photo background + ARY YouTube embed (strategy visual proof) | ✅ DONE | Cursor | `index.html`, `styles.css` |
-| S6 | Impact timeline: add **2017** milestone (strategy scroll-timeline) | ✅ DONE | Cursor | `impact.html` |
-| S7 | Impact timeline: full **12-year arc** (2020 COVID, 2024 100K, 2025 AVPN/Dost, **2026** capstone) | ✅ DONE | Cursor | `impact.html` — aligns with `WANG-MASTER-STRATEGY.md` homepage timeline spec |
-| S8 | Homepage hero: location eyebrow + **contextual partnership** hint (strategy principles 1 &amp; 2) | ✅ DONE | Cursor | `index.html`, `styles.css` |
-| S9 | Homepage hero: **stat row** + scroll count-up; subtle **photo parallax** (`prefers-reduced-motion` safe) | ✅ DONE | Cursor | `index.html`, `styles.css`, `script.js` |
-| S10 | Implement verified impact statistics (2,222 scholarships, 50 homes rebuilt, etc.) across index/impact | ✅ DONE | Antigravity | `index.html`, `impact.html` |
-| S11 | Add K-Electric Karachi Awards 2025 trust signal to homepage and media page | ✅ DONE | Antigravity | `index.html`, `media.html` |
-| S12 | Add NTN (7426613) and registration details to footer for Ad Grant/Trust compliance | ✅ DONE | Antigravity | All HTML footers (51 files) |
-| S13 | Replace YouTube iframes with `lite-youtube-embed` for better PageSpeed performance | ⬜ OPEN | — | `index.html`, `media.html` |
-| S14 | Claude strategist report: **`awards.html`**, CAREC journal post, media third-party links, homepage trust badges | ✅ DONE | Cursor | `WANG-Strategic-Research-Report-Claude.md` updated with implementation status |
-| S15 | Pillar pages: AI education Pakistan, Lasbela hub, women/girls tech, climate, digital literacy Balochistan | ⬜ OPEN | — | New static pages + internal links from `Advice-Execution-Plan.md` |
+| W2-C1 | **Fix founding date 2014 → 2012 sitewide** | 🔒 CLAIMED | Cursor | Change EVERY occurrence of “founded in 2014”, “since 2014”, “Public roots since 2014”, “community work since 2014” to **2012**. Fix `foundingDate` in ALL JSON-LD schemas. Fix timelines on about.html and impact.html. Do NOT change blog post `datePublished` values or “The Welcome Blog” 2014 date (that's a publication date). Verify: `grep -rn “2014” *.html blog/*.html legacy/*.html \| grep -iv “datePublished\|dateModified\|uploadDate\|2014-”` |
+| W2-C2 | **Fix audit findings A4–A7** | ⬜ OPEN | — | See `AUDIT-FINDINGS.md`. (A4) Verify Urdu AI CTA **banner** visible on index, about, impact, blog/index — not just footer. (A5) Footer ecosystem links: walipak.com, urduai.org, pakspeed.com, pakeducate.com, wirepk.com on ALL pages. (A6) wang.org.pk footer must link back to walipak.com (“Visit WALI”). (A7) ALL 5 Ad Grant landing pages must have `gtag_report_conversion()` on primary CTAs with label `D1leCLf07P8aELbhictA`. Without A7, cannot switch to Maximize Conversions bidding = $9K/month Ad Grant wasted. |
+| W2-C3 | **Fix audit findings A8–A10** | 🔒 CLAIMED | Codex | (A8) Strip `<!-- wp:` remnants: `grep -r “wp:” blog/*.html`. (A9) Validate og:image URLs resolve to real files: `grep -r “og:image” *.html blog/*.html`. (A10) Verify 404.html has nav, links home, matches site design. |
+| W2-C4 | **Verify K-Electric Karachi Awards 2025 claim** | 🔒 CLAIMED | Claude | Claude research found WANG does NOT appear in any indexed coverage of KHI Awards 2025 winners. Express Tribune article names 45 winners — WANG not among them. **Either provide proof (certificate, email, photo) or downgrade the claim** from “Winner” to “Finalist” / “Nominee” / remove entirely. Do not make unverifiable claims on a nonprofit site. |
 
+---
 
-## LOW PRIORITY (Nice to Have)
+### 🟠 HIGH PRIORITY — Pillar pages (search authority)
 
-| # | Task | Status | Owner | Files Affected |
+These are the biggest SEO opportunities from the competitive research. Each page should follow the WANG site design (navy + gold, Poppins/Roboto, 15px radius), include proper schema, internal links to 3+ related blog posts, and a CTA to either “Partner With WANG” or “Learn on Urdu AI”.
+
+| # | Task | Status | Best for | Details |
 |---|---|---|---|---|
-| L1 | Add VideoObject schema to YouTube embeds on homepage/media page | ✅ DONE | Cursor | Covered by **S1** |
-| L2 | Create a /partners/ page listing all institutional partners with logos | ✅ DONE | Cursor | `partners.html` (site root; lists partners — add `/partners/` rewrite on host if desired) |
-| L3 | Add hreflang tags for Urdu blog posts | ✅ DONE | Cursor | `blog/child-protection-urdu.html`, `blog/corona-education-urdu.html` |
-| L4 | Compress all images in assets/images/ (under 200KB each) | ✅ DONE | Cursor | Covered by **S3** |
-| L5 | Add print stylesheet for blog posts | ✅ DONE | Cursor | `styles.css` `@media print` |
+| W2-H1 | **Create `/ai-education-pakistan.html` — AI Education in Pakistan pillar** | ⬜ OPEN | Codex or Cursor | **Biggest keyword opportunity.** No one owns “AI education Pakistan” authoritatively. Content: (1) What AI education looks like in Pakistan today (PIAIC, DigiSkills, ACT AI — acknowledge them, then differentiate WANG). (2) The Urdu-first gap — 60% of Pakistan speaks Urdu as first language but most AI courses are English. (3) What WANG/Urdu AI built — 29M+ reach, 50K+ app downloads, AVPN/Google.org partnership. (4) How someone can start learning AI in Urdu → CTA to urduai.org. Schema: `Article` + `BreadcrumbList`. Internal links to: `blog/ai-education-pakistan.html`, `urduai.html`, `impact.html`, `initiatives.html`. Target keywords: `AI education Pakistan`, `AI education in Urdu`, `learn AI Urdu`, `AI course Pakistan free`. Min 1,200 words. |
+| W2-H2 | **Create `/our-work-lasbela.html` — WANG in Lasbela, Balochistan** | ⬜ OPEN | Codex or Cursor | **Location authority page.** Only 2–3 competitors for “nonprofit Lasbela” — WANG can dominate. Content: (1) Where is Lasbela — map, context (60% of Balochistan has no internet). (2) WANG's 14-year presence in Ahmed Abad Wang. (3) What WANG does in Lasbela — WALI lab, camps, scholarships, flood relief, climate work. (4) Impact numbers specific to Lasbela. (5) How to visit or partner. Schema: `Article` + `Place` + `BreadcrumbList`. Internal links to: about.html, impact.html, `blog/flood-relief-impact.html`, `blog/lasbela-rising-climate.html`, `blog/girl-rising-lasbela.html`. Target keywords: `nonprofit Lasbela`, `education Lasbela Balochistan`, `NGO Balochistan`, `rural innovation Balochistan`. |
+| W2-H3 | **Create `/women-girls-technology.html` — Women & Girls in Technology** | ⬜ OPEN | Codex or Cursor | **Zero competition** for “women digital skills Balochistan” or “girls education Balochistan.” Content: (1) The gender digital divide in Pakistan (only 8% of Pakistani women have used internet; 78% of poorest Balochistan girls never attend school). (2) What WANG does — WIRE program, mother-daughter model, digital skills, solar-powered production. (3) Stories — link to existing blog posts. (4) CAREC Gender Climate Champion 2024 as validation. Schema: `Article` + `BreadcrumbList`. Internal links to: `blog/girl-rising-lasbela.html`, `blog/empowering-women-of-lasbela-through-skill-enhancement.html`, `blog/16-days-of-activism-2025-...html`, `wire.html`, `awards.html`. |
+| W2-H4 | **Create `/climate-resilience.html` — Climate Resilience in Lasbela** | ⬜ OPEN | Codex or Cursor | Content: (1) Climate impact on Lasbela/Balochistan — floods, heat. (2) WANG's response — 875 climate leaders, 50 homes rebuilt, 9 solar villages. (3) CAREC Gender Climate Champion 2024 win (link to `awards.html` and `blog/carec-gender-climate-champion-2024.html`). (4) Community-led model. Schema: `Article` + `BreadcrumbList`. Internal links to: `blog/lasbela-rising-climate.html`, `blog/flood-relief-impact.html`, `blog/six-ways-to-help-...html`. Target: `climate resilience Lasbela`, `climate action Pakistan NGO`. |
+| W2-H5 | **Create `/digital-literacy-balochistan.html` — Digital Literacy in Rural Pakistan** | ⬜ OPEN | Codex or Cursor | Content: Contrast WANG's rural, Urdu-first, in-person model vs DigiSkills.pk (3.6M enrolled but urban, English, internet-dependent). WALI lab as physical proof. 1,322 digital skills trainees. Schema: `Article` + `BreadcrumbList`. Target: `digital literacy Balochistan`, `rural digital skills Pakistan`. |
+| W2-H6 | **Add partner logo images to homepage** | ⬜ OPEN | Cursor or Antigravity | Current trust bar is text-only pills. Add actual SVG/PNG logos for: AVPN, Google.org, Internet Society, CAREC. Save to `assets/images/partners/`. Show in a dedicated logo strip on homepage below trust bar. Visual logos convert 5x better than text. Verify: each logo links to the partner's page about WANG (URLs in `MASTER-ADVICE.md` § confirmed citations). |
+
+---
+
+### 🟡 MEDIUM PRIORITY — Content & trust
+
+| # | Task | Status | Best for | Details |
+|---|---|---|---|---|
+| W2-M1 | **Create `/annual-report.html` — Annual Report 2025** | ⬜ OPEN | Cursor or Claude | Even a 4-page summary. Required for PCP certification and donor trust. Include: mission summary, 2025 highlights, impact numbers, financials overview (at least expense breakdown pie chart), team, looking ahead. Link from footer and about page. Every top Pakistan NGO (TCF, HANDS, Akhuwat) publishes this. |
+| W2-M2 | **Write 4 new blog posts for content clusters** | ⬜ OPEN | Any agent | Pick from the cluster plans in `MASTER-ADVICE.md`. Priority posts: (1) “How Pakistan is Learning AI in Urdu” (→ links to W2-H1 pillar). (2) “WANG Wins K-Electric Karachi Awards 2025” if claim verified (→ links to awards.html). (3) “WIRE: How Mothers and Daughters Build Together” (→ links to W2-H3 pillar). (4) “Digital Literacy in a Village With No Internet” (→ links to W2-H5 pillar). Each post: 800+ words, Article schema with correct datePublished (April 2026), BreadcrumbList, og:image, internal links to pillar + impact + one CTA. |
+| W2-M3 | **Strengthen about.html with 2012 origin and governance** | ⬜ OPEN | Cursor or Claude | (1) Origin story must start from 2012 (not 2014). (2) Show organizational structure clearly: Board of Directors, Executive Director, Finance & Admin, Program Management, Communications & Advocacy. (3) Add legal proof block higher on page: Balochistan Charities Act, Societies Act, Voluntary Social Welfare Act, BCRA number, NTN 7426613. (4) Link to annual report when W2-M1 is done. |
+| W2-M4 | **Update impact.html with full verified stats** | ⬜ OPEN | Cursor | Add missing stats from Antigravity recommendations: 50M+ digital media engagements, 1,322 digital skills trainees, 875 climate leaders, 50 homes rebuilt, 9 solar villages. Add “as of April 2026” methodology line. Add CAREC 2024 and AVPN partnership to timeline. Separate “reach” (29M+) from “learners” (800K+) clearly — leadership must sign off definitions. |
+| W2-M5 | **Update media.html with all confirmed third-party sources** | ⬜ OPEN | Any agent | Ensure ALL confirmed citations from Claude research are linked: (1) ElevenLabs case study: `elevenlabs.io/blog/wang-org`. (2) Internet Society: `internetsociety.org/issues/community-networks/success-stories/tackling-inequality-using-the-internet/`. (3) Arab News: `arabnews.pk/node/2605865/pakistan`. (4) AVPN press release: `avpn.asia/about/press/ai-opportunity-fund-expands-skilling-infrastructure-apac/`. (5) TDS News: `thedailyscrumnews.com/pakistani-activists-unveil-urduai-org-paving-the-way-for-ai-education-in-urdu-and-beyond/`. (6) CAREC: `weop.carecprogram.org/carec-gender-climate-awards-2024/`. (7) Harvard MHTF: `mhtf.org/organization/welfare-association-for-new-generation-wang-pakistan/`. Each as a card with source name, brief description, and outbound link. |
+| W2-M6 | **Update team.html — Qaisar's full credentials** | ⬜ OPEN | Any agent | Add: PM Youth Excellence Award 2022, USAID Youth Activist of the Year Award, Brandeis Heller School (source: riseuptogether.org/qaisar-roonjha/). These are major personal authority signals that strengthen WANG's institutional credibility. |
+| W2-M7 | **Replace YouTube iframes with lite-youtube-embed** | ⬜ OPEN | Codex or Cursor | (was S13) Use `lite-youtube-embed` or equivalent facade pattern on `index.html` and `media.html`. Reduces LCP by 2-3 seconds. Import from CDN or bundle locally. Each embed needs: `videoid`, `playlabel`, poster image. |
+| W2-M8 | **Add sitemap entries for all new pages** | ⬜ OPEN | Any agent | After pillar pages are created (W2-H1 through W2-H5), add them to `sitemap.xml` with `<priority>0.8</priority>` and `<changefreq>monthly</changefreq>`. Also add `awards.html` and any new blog posts. |
+
+---
+
+### 🟢 LOWER PRIORITY — Authority building & polish
+
+| # | Task | Status | Best for | Details |
+|---|---|---|---|---|
+| W2-L1 | **Create Wikidata entry for WANG** | ⬜ OPEN | Leadership/Claude | Create a Wikidata item for “Welfare Association for New Generation” with: instance of (P31) = nonprofit organization; country (P17) = Pakistan; inception (P571) = 2012; headquarters location (P159) = Ahmed Abad Wang; official website (P856) = wang.org.pk; founder (P112) = Qaisar Roonjha. This is the first step toward a Google Knowledge Panel. |
+| W2-L2 | **Internal linking audit — every pillar links to 3+ posts, every post links to 1 pillar** | ⬜ OPEN | Codex | After pillar pages exist: verify every pillar page links to 3+ supporting blog posts, and every blog post links back to at least 1 pillar page + impact.html + 1 CTA (contact or urduai.org). This is how topic authority works. |
+| W2-L3 | **Create Google Business Profile for WANG** | ⬜ OPEN | Leadership | Go to business.google.com. Create profile for WANG's office in Ahmed Abad Wang, Balochistan. Add photos, hours, website link. This appears in Google Maps and local search. |
+| W2-L4 | **Register on Crunchbase, Candid/GuideStar, TechSoup** | ⬜ OPEN | Leadership | Free profiles on high-DA sites. Crunchbase (~DA 90), Candid/GuideStar (~DA 80), TechSoup (~DA 70). Each provides a backlink to wang.org.pk. |
+| W2-L5 | **Submit to NGO directories** | ⬜ OPEN | Leadership | Register WANG on: NGOsInfo.com/ngos-in-pakistan/, GlobalGiving (apply for vetting), SDG Action Network (sdgactioncampaign.org), AI for Good (aiforgood.itu.int). |
+| W2-L6 | **Apply for PCP certification** | ⬜ OPEN | Leadership | Pakistan Centre for Philanthropy certification is the #1 trust credential for Pakistan nonprofits. Required: organizational documents, audited financials, governance policies. |
+| W2-L7 | **Pitch media coverage** | ⬜ OPEN | Leadership | Story angle: “A village in Balochistan is teaching Pakistan about AI.” Pitch to: (1) Dawn — features editor (DA ~80). (2) Express Tribune — Pakistan section. (3) Balochistan Voices — easiest win. (4) ProPakistani — tech angle. (5) Devex — international development audience. |
+| W2-L8 | **Write listicle SEO content** | ⬜ OPEN | Any agent | HANDS and Alkhidmat rank via “Top 10 NGOs in Pakistan” listicle posts. WANG should publish: “AI Education Resources in Urdu — Complete Guide” and/or “Digital Literacy Programs in Balochistan.” These capture informational searches and link to WANG's pillar pages. |
 
 ---
 
@@ -97,16 +159,32 @@ _Sourced from TECHNICAL REQUIREMENTS, IMAGE STRATEGY, Month 1 “pages indexed 3
 
 ---
 
+## AGENT ASSIGNMENT GUIDE
+
+**Which agent should take which tasks:**
+
+| Agent | Primary tasks | Why |
+|---|---|---|
+| **Codex** | W2-C1, W2-C3, W2-H1, W2-H2, W2-L2, W2-M7, W2-M8 | Technical SEO, schema, internal linking, site architecture, crawlability |
+| **Cursor** | W2-C2, W2-H3, W2-H4, W2-H5, W2-H6, W2-M3, W2-M4 | UX, visual hierarchy, page layout, CTA flow, proof presentation |
+| **Antigravity** | W2-C2 (A7 specifically), W2-M1, W2-M2, W2-M5, W2-M6 | Ad Grant, landing pages, conversion tracking, content, trust signals |
+| **Claude** | W2-C4, W2-L1, W2-L8, quality review of all pillar pages before merge | Positioning, trust narrative, nonprofit benchmarking, strategic QA |
+| **Leadership (Qaisar)** | W2-L3, W2-L4, W2-L5, W2-L6, W2-L7, D1–D7 | External accounts, partnerships, certifications, deployment |
+
+**Any agent can take any task** — the “Best for” column is a suggestion, not a rule. The claim system prevents conflicts.
+
+---
+
 ## CLAIMING A TASK
 
-To claim task H1, change its row to:
+To claim task W2-H1, change its row to:
 ```
-| H1 | Audit homepage... | 🔒 CLAIMED | Cursor | index.html |
+| W2-H1 | Create `/ai-education-pakistan.html`... | 🔒 CLAIMED | Cursor | ... |
 ```
 
 When done:
 ```
-| H1 | Audit homepage... | ✅ DONE | Cursor | index.html |
+| W2-H1 | Create `/ai-education-pakistan.html`... | ✅ DONE | Cursor | ... |
 ```
 
 **Commit immediately after claiming so other agents see it.**
