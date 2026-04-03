@@ -28,7 +28,8 @@ document.querySelectorAll(".site-nav a").forEach((link) => {
     (currentPage === "team" && href === "team.html") ||
     (currentPage === "contact" && href === "contact.html") ||
     (currentPage === "faq" && href === "faq.html") ||
-    (currentPage === "awards" && href === "awards.html")
+    (currentPage === "awards" && href === "awards.html") ||
+    (currentPage === "women-girls" && href === "women-girls-technology.html")
   ) {
     link.classList.add("is-active");
   }
