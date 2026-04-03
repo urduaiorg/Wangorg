@@ -2,165 +2,234 @@
 
 **Purpose:** Map real WANG photos to the right pages. Every page should have at least one authentic field photo. Stock-looking pages kill nonprofit credibility.
 
-**Source:** WordPress backup (`public_html-2/wp-content/uploads/2020/`), Qaisar's uploads (`raw-photos/`), + existing `assets/images/`.
+**Last updated:** 2026-04-03
 
 ---
 
-## NEW — Qaisar's Uploaded Photos (April 2026)
+## Current Status
 
-These are recent, high-quality photos from Qaisar. All renamed with SEO filenames and ready to place.
-
-| SEO Filename | Description | Quality | Best page placement |
-|---|---|---|---|
-| `wang-team-urdu-ai-banners-wali-lab-entrance.jpg` | 4 WANG team members standing at WALI lab entrance with Urdu AI pull-up banners. Modern white building. | Hero-grade | **team.html** hero, about.html, wali.html |
-| `women-urdu-ai-training-group-photo-pakistan.jpg` | 30+ women group photo outdoors (park setting) with Urdu AI banner. Colorful dress, mixed ages. | Hero-grade | **women-girls-technology.html** hero, urduai.html, impact.html |
-| `boys-outdoor-education-session-wang-lasbela.jpg` | 40+ boys in blue uniforms sitting outdoors at rural school, WANG presenter with banner. Trees, rural setting. | Section | **our-work-lasbela.html**, about.html origin story, digital-literacy-balochistan.html |
-| `youth-computer-training-wali-lab-innovation.jpg` | Young men at desktop computers in WALI lab, WALI banner visible. Clean modern lab interior. | Section | **wali.html**, digital-literacy-balochistan.html, initiatives.html |
-| `international-visitor-wali-lab-internet-society-partner.jpg` | International woman visitor at WALI lab, Internet Society + Southern Gas Company logos visible on wall. Partnership proof. | Trust signal | **awards.html** partners section, media.html, about.html partnerships |
-| `wali-lab-graduation-ceremony-certificates-group.jpg` | Graduates holding certificates, group photo outdoors with WALI banner. Mixed gender. | Section | **impact.html**, wali.html, our-work-lasbela.html |
-| `women-urdu-ai-laptop-training-session-balochistan.jpg` | Women in headscarves working on laptops at Urdu AI training, Urdu AI banner prominent. Active learning shot. | **Hero-grade** | **urduai.html** hero, ai-education-pakistan.html, women-girls-technology.html, blog/ai-education posts |
-| `girls-digital-literacy-computers-wali-lab-closeup.jpg` | Close-up of girls (10-14yo) at computers in WALI lab, colorful headscarves, deeply engaged. Emotional impact. | **Hero-grade** | **homepage hero** (replace wali-building-front), digital-literacy-balochistan.html, initiatives.html |
-| `qaisar-presenting-wali-international-conference-crowd.jpg` | Qaisar at international conference (likely AVPN) presenting WALI poster to diverse crowd. Conference hall setting. | Trust signal | **about.html** partnerships, awards.html, team.html, media.html |
-| `woman-facilitator-urdu-ai-workshop-presentation.jpg` | Woman facilitator presenting at whiteboard during Urdu AI workshop, WANG + Urdu AI banners on both sides. Women audience. | **Hero-grade** | **urduai.html**, women-girls-technology.html, ai-education-pakistan.html, blog posts |
-| `qaisar-roonjha-presenting-wali-poster-conference.jpg` | Close-up of Qaisar presenting WALI poster to engaged international audience. | Trust signal | **team.html**, about.html, awards.html |
-
-### Top 5 placement priorities (maximum visual impact):
-
-1. **Homepage hero** — swap `wali-building-front.jpg` with `girls-digital-literacy-computers-wali-lab-closeup.jpg` (faces > buildings)
-2. **urduai.html** — add `women-urdu-ai-laptop-training-session-balochistan.jpg` as hero
-3. **women-girls-technology.html** — add `women-urdu-ai-training-group-photo-pakistan.jpg` as hero
-4. **team.html** — add `qaisar-presenting-wali-international-conference-crowd.jpg` showing global reach
-5. **about.html** — add `boys-outdoor-education-session-wang-lasbela.jpg` in origin story section
-
-### Photos needing compression before use:
-
-| File | Current size | Target |
-|---|---|---|
-| `girls-digital-literacy-computers-wali-lab-closeup.jpg` | 2.6MB | <200KB |
-| `women-urdu-ai-training-group-photo-pakistan.jpg` | 2.6MB | <200KB |
-| `qaisar-presenting-wali-international-conference-crowd.jpg` | 2.0MB | <200KB |
-| `qaisar-roonjha-presenting-wali-poster-conference.jpg` | 1.5MB | <200KB |
-| `woman-facilitator-urdu-ai-workshop-presentation.jpg` | 1.0MB | <200KB |
-| `women-urdu-ai-laptop-training-session-balochistan.jpg` | 935KB | <200KB |
+- **197 images** in `assets/images/` (all SEO-named)
+- **223 images** in `assets/images/raw-photos/incoming-from-site-root/` (being cataloged)
+- **14 main pages** with hero photos
+- **27 blog posts** with inline article images
+- **41 total pages** with real photos (up from ~4)
+- All images compressed to max 1280px wide
 
 ---
 
-## Available Photos (in `assets/images/`)
+## Photos Placed on Pages
 
-### Hero-grade (editorial quality, wide format)
+### Main Site Pages (hero photos)
 
-| Filename | What it shows | Best for |
+| Page | Photo | Alt text |
 |---|---|---|
-| `drone-women-gathering-courtyard.jpg` | Aerial drone shot — women in colorful dress gathered in school courtyard with WANG banners | **homepage hero**, about.html, women-girls-technology.html |
-| `drone-women-heart-formation.jpg` | Aerial — women forming heart shape in courtyard, WANG banner visible | women-girls-technology.html hero, impact.html |
-| `drone-community-circle-overhead.jpg` | Aerial — community members in colorful dress forming circle, Urdu chalk writing visible | our-work-lasbela.html hero, community section |
-| `girls-walking-rural-road-balochistan.jpg` | Girls with school bags walking on a dusty rural road, mountains behind — incredibly powerful | **homepage**, about.html "why we exist", digital-literacy-balochistan.html, blog posts |
-| `girls-heart-formation-school.jpg` | Girls in white uniforms forming heart shape in school courtyard, WANG banner | impact.html, our-work-lasbela.html, girls education section |
-| `women-group-distribution-event.jpg` | Wide panoramic — 30+ women at distribution event with masks, WANG banners | climate-resilience.html, impact.html, flood relief posts |
+| `index.html` | `girls-digital-literacy-computers-wali-lab-closeup.jpg` | Girls learning digital skills at WALI lab |
+| `about.html` | `girls-walking-rural-road-balochistan.jpg` + `wali-lab-community-network-session-presentation.jpg` | Girls walking to school / Community session |
+| `awards.html` | `scottish-scholarship-distribution-british-council-wang.jpg` | Scottish scholarship ceremony |
+| `climate-resilience.html` | `climate-resilience-graduates-certificates-lasbela-wang.jpg` + `climate-action-outdoor-community-gathering-wang-lasbela.jpg` | Climate graduates / Community gathering |
+| `digital-literacy-balochistan.html` | `girls-classroom-rural-school-balochistan.jpg` + `youth-computer-training-session-wali-lab-interior.jpg` | Girls in classroom / Youth training |
+| `digital-literacy.html` | `girls-digital-literacy-computers-wali-lab-closeup.jpg` | Girls at computers |
+| `donate.html` | `girls-walking-rural-road-balochistan.jpg` | Girls walking to school |
+| `impact.html` | `drone-women-gathering-courtyard.jpg` | Drone shot of women gathering |
+| `initiatives.html` | `women-urdu-ai-training-wali-lab-session.jpg` | Urdu AI training session |
+| `partners.html` | `international-visitor-wali-lab-internet-society-partner.jpg` | International visitor at WALI lab |
+| `programs-overview.html` | `community-event-overhead.jpg` | Community event overhead |
+| `team.html` | `wang-team-urdu-ai-banners-wali-lab-entrance.jpg` | WANG team at WALI entrance |
+| `wali.html` | `youth-computer-training-wali-lab-innovation.jpg` | Youth at computers |
+| `wire.html` | `women-girls-outdoor-circle-session-balochistan-thumb.jpg` | Women outdoor circle session |
+| `women-girls-technology.html` | `women-urdu-ai-training-group-photo-pakistan.jpg` + `women-urdu-ai-laptop-training-session-balochistan.jpg` | Women group / Laptop training |
+| `urduai.html` | `women-urdu-ai-laptop-training-session-balochistan.jpg` | Women laptop training |
+
+### Blog Posts with Photos
+
+| Blog post | Photo |
+|---|---|
+| `blog/16-days-of-activism-*` | `girls-walking-rural-road-balochistan.jpg` |
+| `blog/ai-education-pakistan.html` | `women-urdu-ai-training-wali-lab-session.jpg` |
+| `blog/ai-education-resources-urdu-*` | `women-urdu-ai-laptop-training-session-balochistan.jpg` |
+| `blog/aid-and-resilience.html` | `women-group-distribution-event.jpg` |
+| `blog/anti-drug-abuse-event.html` | `youth-speech-competition-anti-drug-certificates-wang-2020.jpg` |
+| `blog/carec-gender-climate-*` | `climate-resilience-graduates-certificates-lasbela-wang.jpg` |
+| `blog/child-protection-urdu.html` | `child-protection-stock.jpg` |
+| `blog/corona-education-urdu.html` | `covid19-children-home-learning-urdu-wang.jpg` |
+| `blog/digital-literacy-in-a-village-*` | `girls-classroom-rural-school-balochistan.jpg` |
+| `blog/edu-pathway-progress.html` | `girls-digital-literacy-computers-wali-lab-closeup.jpg` |
+| `blog/empowering-women-*` | `women-facilitator-girls-school-assembly-wali-thumb.jpg` |
+| `blog/featured-insightonconflict.html` | `qaisar-presenting-wali-international-conference-crowd.jpg` |
+| `blog/flood-relief-impact.html` | `women-group-distribution-event.jpg` |
+| `blog/girl-rising-lasbela.html` | `girls-walking-rural-road-balochistan.jpg` |
+| `blog/heroes-of-lasbela-*` | `covid19-balochistan-desk-doctors-awareness-wang.jpg` |
+| `blog/how-pakistan-is-learning-ai-*` | `women-urdu-ai-training-group-photo-pakistan.jpg` |
+| `blog/lasbela-rising-climate.html` | `climate-resilience-graduates-certificates-lasbela-wang.jpg` |
+| `blog/mobiles-children-hope.html` | `girls-digital-literacy-computers-wali-lab-closeup.jpg` |
+| `blog/scottish-scholarship-wang.html` | `scottish-scholarship-distribution-british-council-wang.jpg` |
+| `blog/six-ways-to-help-*` | `women-group-distribution-event.jpg` |
+| `blog/tech-surge-10-batches.html` | `youth-computer-training-session-wali-lab-interior.jpg` |
+| `blog/the-welcome-blog.html` | `early-community-work-2020.jpg` |
+| `blog/tragedy-to-triumph.html` | `community-event-overhead.jpg` |
+| `blog/wali-lab-empowers-youth.html` | `youth-computer-training-wali-lab-innovation.jpg` |
+| `blog/wang-wins-k-electric-*` | `wang-team-urdu-ai-banners-wali-lab-entrance.jpg` |
+| `blog/wire-how-mothers-*` | `women-girls-outdoor-circle-session-balochistan-thumb.jpg` |
+
+---
+
+## All SEO-Named Photos in `assets/images/`
+
+### Hero-Grade (wide format, high resolution)
+
+| Filename | Description |
+|---|---|
+| `drone-women-gathering-courtyard.jpg` | Aerial drone — women in colorful dress in school courtyard |
+| `drone-women-heart-formation.jpg` | Aerial — women forming heart shape |
+| `drone-community-circle-overhead.jpg` | Aerial — community circle with chalk writing |
+| `girls-walking-rural-road-balochistan.jpg` | Girls with bags on dusty rural road, mountains |
+| `girls-digital-literacy-computers-wali-lab-closeup.jpg` | Close-up girls at computers, colorful headscarves |
+| `girls-heart-formation-school.jpg` | Girls in uniforms forming heart in courtyard |
+| `women-group-distribution-event.jpg` | 30+ women at distribution event |
+| `women-urdu-ai-training-group-photo-pakistan.jpg` | 30+ women group photo with Urdu AI banner |
+| `women-urdu-ai-laptop-training-session-balochistan.jpg` | Women on laptops at Urdu AI training |
+| `women-urdu-ai-training-wali-lab-session.jpg` | Urdu AI training session at WALI lab |
+| `climate-resilience-graduates-certificates-lasbela-wang.jpg` | Climate graduates with certificates |
+| `climate-action-outdoor-community-gathering-wang-lasbela.jpg` | Large outdoor community gathering |
+| `community-event-overhead.jpg` | Overhead shot of community event |
 
 ### People & Programs
 
-| Filename | What it shows | Best for |
-|---|---|---|
-| `scottish-scholarship-winners.jpg` | 3 girls holding "WINNER Pakistan-Scottish Scholarship Scheme" frame (British Council + WANG logos) | awards.html, blog/scottish-scholarship posts, about.html |
-| `scottish-scholarship-winners-edited.jpg` | Same photo, edited/cropped version | Alternative for above |
-| `scottish-scholarship-poster.jpg` | Official scholarship scheme document/poster | blog/scottish-scholarship posts |
-| `math-science-challenge-winners.jpg` | Winners poster with photos of top students — Math & Science Challenge 2020 | initiatives.html, blog posts, impact.html |
-| `community-gathering-outdoor.jpg` | Large outdoor community gathering/event | about.html, our-work-lasbela.html |
-| `early-community-work-2020.jpg` | Early WANG community work photo from 2020 | about.html origin story, timeline |
-| `early-community-work-2020b.jpg` | Second early community photo | about.html, blog archive posts |
-| `community-event-overhead.jpg` | Overhead shot of community event | programs pages |
-| `community-space-colorful.jpg` | Colorful thatched community space with decorations | our-work-lasbela.html, about WALI |
-| `tariq-bahi-hero.jpg` | From "Tariq Bahi the Hero" documentary/story | blog/heroes-of-lasbela post |
-| `child-protection-stock.jpg` | Child with hand up (stock-style, for child protection context) | blog/child-protection content only |
-| `program-results-graphic.jpg` | Program results infographic | impact.html |
-
-### Already on site (existing)
-
-| Filename | What it shows | Currently used on |
-|---|---|---|
-| `wali-building-front.jpg` | WALI lab building exterior | Multiple pages (hero, og:image) |
-| `qaisar-roonjha.jpg` | Qaisar portrait | team.html |
-| `women-collaboration.jpg` | Women working together at WALI | team.html |
-| `boys-computer-lab.jpg` | Boys at computers in WALI lab | Scattered |
-| `girls-computer-lab.jpg` | Girls at computers in WALI lab | Scattered |
-| `facilitated-urduai-session.jpg` | Urdu AI session in progress | Urdu AI pages |
-| `community-urduai-group.jpg` | Group community Urdu AI session | Urdu AI pages |
-| `dialouge.jpg` | Dialogue/discussion event | Blog posts |
-
-### Policy/Document covers
-
-| Filename | What it shows |
+| Filename | Description |
 |---|---|
-| `child-protection-policy-cover.jpg` | WANG Child Protection Policy cover page |
-| `sports-development-program-cover.jpg` | WANG Sports for Development Programme cover |
+| `wang-team-urdu-ai-banners-wali-lab-entrance.jpg` | 4 team members at WALI entrance with banners |
+| `youth-computer-training-wali-lab-innovation.jpg` | Young men at desktops in WALI lab |
+| `youth-computer-training-session-wali-lab-interior.jpg` | Youth training session interior |
+| `girls-classroom-rural-school-balochistan.jpg` | Girls in rural school classroom |
+| `boys-outdoor-education-session-wang-lasbela.jpg` | Boys in blue uniforms, outdoor session |
+| `scottish-scholarship-distribution-british-council-wang.jpg` | Scholarship ceremony |
+| `scottish-scholarship-winners.jpg` | Winners holding scholarship frame |
+| `scottish-scholarship-winners-edited.jpg` | Edited version of winners |
+| `scottish-scholarship-poster.jpg` | Official scholarship poster |
+| `international-visitor-wali-lab-internet-society-partner.jpg` | International visitor at WALI lab |
+| `wali-lab-graduation-ceremony-certificates-group.jpg` | Graduation ceremony group |
+| `wali-lab-community-network-session-presentation.jpg` | Community network presentation |
+| `wali-lab-certificate-distribution-community-network.jpg` | Certificate distribution |
+| `woman-facilitator-urdu-ai-workshop-presentation.jpg` | Woman facilitator at whiteboard |
+| `qaisar-presenting-wali-international-conference-crowd.jpg` | Qaisar at international conference |
+| `qaisar-roonjha-presenting-wali-poster-conference.jpg` | Qaisar presenting poster |
+| `qaisar-roonjha-wali-poster-avpn-conference.jpg` | Qaisar at AVPN conference |
+| `qaisar-roonjha.jpg` | Qaisar portrait |
+| `wang-youth-health-innovation-bootcamp-islamabad-2023.jpg` | Health innovation bootcamp |
+| `ai-music-workshop-youth-presenter-wali-urdu-ai.jpg` | AI music workshop presenter |
+| `women-digital-skills-training-wali-lab-2.jpg` | Women digital skills training |
+| `math-science-challenge-winners.jpg` | Math & Science Challenge winners poster |
 
----
+### COVID-19 Campaign Graphics
 
-## Page-by-Page Photo Needs
-
-### Priority 1 — Pages with NO real photos or just `wali-building-front.jpg`
-
-| Page | Current state | Recommended photos |
-|---|---|---|
-| `index.html` (homepage hero) | Uses `wali-building-front.jpg` | **Swap to `drone-women-gathering-courtyard.jpg`** or `girls-walking-rural-road-balochistan.jpg` — emotional impact is 10x stronger |
-| `about.html` | No inline photos | Add `girls-walking-rural-road-balochistan.jpg` in origin story, `early-community-work-2020.jpg` in timeline, `scottish-scholarship-winners.jpg` in achievements |
-| `our-work-lasbela.html` | No photos (new pillar page) | Hero: `drone-community-circle-overhead.jpg`. Body: `community-gathering-outdoor.jpg`, `girls-heart-formation-school.jpg`, `community-space-colorful.jpg` |
-| `awards.html` | No photos | `scottish-scholarship-winners.jpg` in scholarship section, K-Electric ceremony photo if available |
-| `annual-report.html` | No photos (new page) | `drone-women-gathering-courtyard.jpg`, `girls-computer-lab.jpg`, impact stats graphic |
-| `climate-resilience.html` | No photos (new pillar) | `women-group-distribution-event.jpg`, `drone-women-heart-formation.jpg` |
-| `women-girls-technology.html` | No photos (new pillar) | Hero: `drone-women-heart-formation.jpg`. Body: `girls-walking-rural-road-balochistan.jpg`, `scottish-scholarship-winners.jpg` |
-| `digital-literacy-balochistan.html` | No photos (new pillar) | `boys-computer-lab.jpg`, `girls-computer-lab.jpg`, `girls-walking-rural-road-balochistan.jpg` |
-| `ai-education-pakistan.html` | No photos (new pillar) | `facilitated-urduai-session.jpg`, `community-urduai-group.jpg` |
-
-### Priority 2 — Blog posts using generic og:image
-
-Most blog posts use `wali-building-front.jpg` as og:image. Each should get a unique, relevant photo.
-
-| Blog post | Recommended photo |
+| Filename | Description |
 |---|---|
-| `blog/scottish-scholarship-wang.html` | `scottish-scholarship-winners.jpg` |
-| `blog/girl-rising-lasbela.html` | `girls-walking-rural-road-balochistan.jpg` |
-| `blog/flood-relief-impact.html` | `women-group-distribution-event.jpg` |
-| `blog/heroes-of-lasbela-fighting-covid-19.html` | `tariq-bahi-hero.jpg` |
-| `blog/empowering-women-of-lasbela-*.html` | `drone-women-heart-formation.jpg` |
-| `blog/wang-wins-k-electric-*.html` | Needs K-Electric ceremony photo (from Qaisar) |
-| `blog/lasbela-rising-climate.html` | `women-group-distribution-event.jpg` |
+| `covid19-lockdown-awareness-urdu-wang-campaign.jpg` | Urdu lockdown awareness message |
+| `covid19-family-safety-message-urdu-wang.jpg` | Family safety message in Urdu |
+| `covid19-medical-staff-tribute-urdu-wang.jpg` | Medical staff tribute in Urdu |
+| `covid19-stay-home-prevention-urdu-wang.jpg` | Stay home prevention message |
+| `covid19-balochistan-desk-doctors-awareness-wang.jpg` | Balochistan Desk doctors awareness |
+| `covid19-children-home-learning-urdu-wang.jpg` | Children home learning campaign |
+
+### Anti-Drug Campaign
+
+| Filename | Description |
+|---|---|
+| `youth-speech-competition-anti-drug-certificates-wang-2020.jpg` | Youth with anti-drug certificates |
+| `speech-competition-prize-distribution-anti-drug-wang-2020.jpg` | Prize distribution ceremony |
+
+### Community & Event
+
+| Filename | Description |
+|---|---|
+| `community-gathering-outdoor.jpg` | Large outdoor community gathering |
+| `community-space-colorful.jpg` | Colorful thatched community space |
+| `early-community-work-2020.jpg` | Early WANG community work 2020 |
+| `early-community-work-2020b.jpg` | Second early community photo |
+| `climate-action-garden-session-solar-wang.jpg` | Garden session with solar |
+| `women-collaboration.jpg` | Women working together |
+| `youth-community-photo.jpg` | Youth community photo |
+
+### Thumbnails (used in cards/grids)
+
+| Filename | Description |
+|---|---|
+| `girl-speaking-podium-international-womens-day-wang-thumb.jpg` | Girl at podium, Women's Day |
+| `women-community-session-tree-rural-balochistan-thumb.jpg` | Women session under tree |
+| `women-facilitator-girls-school-assembly-wali-thumb.jpg` | Facilitator at school assembly |
+| `women-girls-outdoor-circle-session-balochistan-thumb.jpg` | Outdoor circle session |
+| `women-outreach-displaced-shelter-balochistan-thumb.jpg` | Outreach at displaced shelter |
+
+### Documents & Covers
+
+| Filename | Description |
+|---|---|
+| `child-protection-policy-cover.jpg` | Child Protection Policy cover |
+| `sports-development-program-cover.jpg` | Sports Programme cover |
+| `child-protection-stock.jpg` | Child protection awareness |
+| `program-results-graphic.jpg` | Program results infographic |
+| `results.jpg` | Results graphic |
+| `wang-certificate-document.jpeg` | WANG certificate |
+| `tariq-bahi-hero.jpg` | Tariq Bahi hero story |
+| `Tariq-Bahi-the-Hero-mov-image.jpg` | Tariq Bahi movie image |
+| `dialouge.jpg` | Dialogue event |
+
+### Existing/In-Use
+
+| Filename | Description |
+|---|---|
+| `wali-building-front.jpg` | WALI lab building exterior (legacy — being phased out) |
+| `boys-computer-lab.jpg` | Boys at computers |
+| `girls-computer-lab.jpg` | Girls at computers |
+| `facilitated-urduai-session.jpg` | Urdu AI session |
+| `community-urduai-group.jpg` | Community Urdu AI group |
+| `Main-logos-.jpg` | WANG logos composite |
+
+### Team Photos (`assets/images/team/`)
+
+19 individual team member portraits — all properly named.
+
+### Partner Logos (`assets/images/partners/`)
+
+5 SVG partner logos: AVPN, CAREC, ElevenLabs, Google.org, Internet Society.
 
 ---
 
-## YouTube Library (not yet cataloged)
+## Uncataloged Photos (in raw-photos/)
 
-WANG has a significant YouTube presence that should be embedded across the site. Agents should:
-1. Search YouTube for "WANG Balochistan" and "Urdu AI" channels
-2. Match videos to relevant pages
-3. Use `lite-youtube-embed` (already installed on media.html and index.html)
+### `raw-photos/` (13 UUID-named files)
+Being cataloged by agent — includes various WANG event and community photos.
 
----
+### `raw-photos/incoming-from-site-root/` (223 files)
+Being cataloged by 7 parallel agents. Includes:
+- Facebook-shared event photos (numeric IDs)
+- DSC camera photos (high-res events, community work, sewing/vocational)
+- IMG camera photos (lab sessions, climate events, community networks)
+- WhatsApp/PHOTO timestamped shares
+- 4 HEIC files (need conversion)
 
-## Google Drive Photos (pending download)
-
-Qaisar has 10+ folders on Google Drive (WANG 2-9, Lasbela Floods, Wang Lab 2026). These likely contain:
-- Recent WALI lab photos (2024-2026)
-- Flood relief documentation
-- K-Electric ceremony photos
-- Urdu AI Dost network photos from 29+ districts
-
-**Action needed from Qaisar:** Download these folders to a local directory (e.g., `wang-site/assets/images/drive-photos/`) so agents can catalog and place them.
-
----
-
-## Technical Notes for Agents
-
-1. **All new photos need WebP versions** — run: `cwebp -q 80 input.jpg -o output.webp`
-2. **Use `<picture>` with WebP + JPG fallback** (pattern already established on team.html)
-3. **Max width 1280px, compress to <200KB** for web
-4. **Every `<img>` needs:** `alt` (descriptive), `loading="lazy"`, `width`, `height`
-5. **og:image** should be absolute URL: `https://wang.org.pk/assets/images/filename.jpg`
+Once cataloged, best photos will be:
+1. Renamed with SEO filenames
+2. Compressed to 1280px / <200KB
+3. Promoted to `assets/images/`
+4. Placed on relevant pages
 
 ---
 
-## Repository layout (images)
+## Still Needed
 
-- **`assets/images/`** (repo root): only **curated** assets — SEO-style filenames, logos, WebP pairs used by the site.
-- **`assets/images/raw-photos/`**: **gitignored** — camera dumps, WhatsApp/Facebook downloads, HEIC, duplicates. New unsorted uploads go here (e.g. `incoming-from-site-root/`). Rename and compress before promoting a file to the root.
+- **YouTube library integration** — WANG has extensive YouTube content not yet embedded
+- **Google Drive photos** — 10+ folders (WANG 2-9, Lasbela Floods, Wang Lab 2026) need downloading
+- **K-Electric Karachi Awards ceremony photos** — need from Qaisar
+- **WebP generation** — requires cwebp tool (not currently available on system)
+
+---
+
+## Technical Notes
+
+1. **Compression:** `sips --resampleWidth 1280 input.jpg` (macOS built-in)
+2. **Every `<img>` needs:** `alt` (descriptive), `loading="lazy"`, `width`, `height`
+3. **Hero photo pattern:** `<figure class="page-hero-photo reveal"><img src="..." /></figure>`
+4. **Blog photo pattern:** `<figure class="article-figure"><img src="..." /></figure>`
+5. **og:image** should match the hero photo for each page
+6. **SEO naming:** `[subject]-[activity]-[location]-[program].jpg`
