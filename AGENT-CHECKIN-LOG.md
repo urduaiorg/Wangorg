@@ -25,6 +25,95 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Cursor — April 2, 2026 (Claude strategist report integrated)
+**Completed:**
+- Added **`WANG-Strategic-Research-Report-Claude.md`** (positioning vs Pakistan/global benchmarks, Home/About/Impact narrative, donor proof ordering, credibility “remove” list, handoff to Cursor/Codex/Antigravity)
+- Updated **`MASTER-ADVICE.md`**: Claude in source table, scores raised, **Appendix** summary; removed “Claude gap” placeholder
+- Noted **`Advice.md`** still uses **2014** in places while **`MASTER-ADVICE.md`** uses **2012** — needs org-wide normalization
+
+**Blocked on:** Leadership sign-off on final founding-year wording (2012 vs legal registration vs first public digital record)
+
+**Next:** Propagate chosen dates into `Advice.md`, `WANG-MASTER-STRATEGY.md`, and static HTML + JSON-LD
+
+### Codex — April 2, 2026 6:02 PM
+**Completed:**
+- Updated `MASTER-ADVICE.md` to use the confirmed date logic: WANG community work began in `2012`; WALI lab opened in `2021`
+- Replaced old `2014/2021` references in the strategic north star, unified priorities, FAQ carryover guidance, and leadership risk note
+- Tightened the date rule so public origin, legal registration, and WALI launch are no longer treated as the same event
+
+**Blocked on:**
+- `Advice.md`, `Advice-Execution-Plan.md`, and `WANG-MASTER-STRATEGY.md` still contain older 2014 references and should be normalized next
+
+**Next:**
+- Propagate the `2012 / 2021` source-of-truth date logic across the rest of the strategy docs
+
+### Codex — April 2, 2026 5:52 PM
+**Completed:**
+- Conducted the Codex-specific research pass against live search patterns and Pakistan nonprofit competitors
+- Created `Codex-First-Page-Research.md` with technical SEO, authority-page, schema, internal-linking, and site-architecture recommendations
+- Identified the main near-term ranking opportunities around Urdu AI, Balochistan, rural innovation, and digital literacy rather than overly broad national NGO head terms
+
+**Blocked on:**
+- None for this task
+
+**Next:**
+- Convert the authority-page recommendations into implementation tasks and templates inside the site
+
+### Antigravity — April 2, 2026 8:55 PM
+**Completed:**
+- **Master Prompt Execution:** Read `Advice.md`, `Advice-Execution-Plan.md`, `Agent-Prompts.md`, `WANG-MASTER-STRATEGY.md`, and `AUDIT-FINDINGS.md`.
+- **Competitor Research:** Searched the live web to benchmark WANG against Pakistan's top NGOs and tech platforms.
+- **Recommendations File:** Produced the required 10-point plan in `Reccomondations from Antigtavity.md`, structured according to the Antigravity prompt (Ad Grant growth, funnels, tracking).
+- **Execution Strategy:** Identified $10K arbitrage opportunities from Ad Grant mapping directly to Urdu AI AdSense revenue.
+
+**Blocked on:**
+- Waiting for subsequent steps in the execution plan or direction to proceed with Ad Grant campaign setup / tracking verification.
+
+**Next:**
+- Address tracking pixel implementation from the AUDIT-FINDINGS (A7).
+
+
+### Codex — April 2, 2026 5:42 PM
+**Completed:**
+- Created `Advice-Execution-Plan.md` with a 30 / 90 / 180 day roadmap for making WANG a stronger first-page website
+- Created `Agent-Prompts.md` with a master sequence for all agents plus role-specific prompts for Codex, Claude, Cursor, and Antigravity
+- Kept the prompts aligned to WANG’s positioning as a nonprofit parent, rural innovation lab ecosystem, and AI education engine
+
+**Blocked on:**
+- None for this task
+
+**Next:**
+- Turn the roadmap into an actionable board of site, content, authority, and backlink tasks if needed
+
+### Codex — April 2, 2026 5:35 PM
+**Completed:**
+- Researched the live `wang.org.pk` site and current search landscape to ground a strategic recommendation memo
+- Created `Advice.md` with first-page ranking advice for WANG across nonprofit, youth, AI education, climate, and rural innovation topics
+- Added a master multi-agent prompt assigning separate research roles to Codex, Claude, Cursor, and Antigravity
+
+**Blocked on:**
+- None for this task
+
+**Next:**
+- Use the master prompt with each agent or turn the advice into a prioritized 30/90/180-day execution roadmap
+
+### Antigravity — April 2, 2026 8:45 PM
+**Completed:**
+- **Audit**: Conducted a live audit of `wang.org.pk`, identifying 12+ key impact metrics and 2025-specific trust signals.
+- **Reporting**: Created `Recommendations from Antigtavity.md` with strategic advice for content and tracking.
+- **Impact Integration**: Updated `index.html` and `impact.html` with verified stats (29M reach, 2,222 scholarships, 5,335 re-enrollments).
+- **Compliance**: Used a Python script to inject NTN (**7426613**) and Registration details (BCRA/VSWA) into 51 HTML file footers.
+- **Authority**: Created a new journal post for **K-Electric Karachi Awards 2025** and integrated it into the media grid and blog index.
+- **Design**: Added `highlight-card` and `card-badge` CSS for trust-signal prominence.
+
+**Blocked on:**
+- FTP secrets from Qaisar for final deployment.
+
+**Next:**
+- Implement `lite-youtube-embed` (S13) for PageSpeed optimization.
+- Final QA pass on the 5 dark-theme Ad Grant landing pages.
+
+
 ### Cursor — April 2, 2026 (Strategy S7–S9)
 **Completed:**
 - **S7:** **`impact.html`** impact timeline aligned to master strategy **2014–2026** arc: **2020** COVID continuity, **2024** 100K+ learner milestone, **2025** AVPN / 16 Days / Dost / Google.org, **2026** 800K+ capstone

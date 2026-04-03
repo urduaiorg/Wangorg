@@ -12,7 +12,7 @@
 | Cursor | `CURSOR-STRATEGY-BRIEF.md`, `CURSOR-NEXT-TASKS.md` (task themes) |
 | Antigravity | `Reccomondations from Antigtavity.md` (full strategy: Ad Grant, clusters, priorities); `Recommendations from Antigtavity.md` (short trust/metrics/feature list) |
 | Strategist / board | `Advice.md`, `Advice-Execution-Plan.md`, `QA-AUDIT-CHECKLIST.md`, `AUDIT-FINDINGS.md` |
-| **Not yet merged** | **Claude** — institutional positioning, donor narrative, world-class nonprofit benchmarking *(run `Agent-Prompts.md` Claude section and append here when ready)* |
+| **Claude** | **`WANG-Strategic-Research-Report-Claude.md`** — positioning vs Pakistan/global patterns, About/Home/Impact narrative, donor proof ordering, remove list, tone |
 
 ---
 
@@ -30,10 +30,10 @@ These scores judge **how ready this Master Advice is** as a decision and executi
 
 | Audience | Score (/10) | Why |
 |----------|-------------|-----|
-| **WANG leadership** | **8.5** | Clear wedge (Urdu AI scale + village + WALI ecosystem), revenue/Ad Grant logic, trust/legal carryovers, phased timelines. Gap: **no Claude layer** yet for donor-grade narrative, removal list, and institutional tone. Some duplicate agent files create minor confusion. |
-| **Lead developer** | **8.0** | Actionable items (A4–A7, S13, conversion tags, footers, lite YouTube, 404). Gap: reconcile **duplicate Antigravity filenames**, confirm **single metric set** for impact (avoid mixing outreach “29M+” with learner “800K+” without definitions). Claude pass won’t block dev but may change **copy/layout emphasis**. |
+| **WANG leadership** | **9.0** | Wedge + revenue logic + **Claude** narrative architecture (proof order, remove list, About/Impact framing). Remaining gap: **dedupe Antigravity** files; **sign metric dictionary**; normalize **2012 vs 2014** across `Advice.md` and all HTML. |
+| **Lead developer** | **8.5** | Same technical backlog as before, now with **explicit copy/section order** from Claude report for homepage/about/impact. Remaining gap: **one metric dictionary**, Antigravity file consolidation, schema `foundingDate` sync to leadership’s final year rule. |
 
-**To reach 9–10:** Add **Claude** output; dedupe Antigravity docs into one file; add **one owner-signed metric dictionary** (definition + date + source per headline number).
+**To reach 9.5–10:** Owner-signed **metric dictionary**; single Antigravity source file; sitewide **2012/2021** (or final chosen dates) in Advice + schemas + pages.
 
 ---
 
@@ -41,7 +41,7 @@ These scores judge **how ready this Master Advice is** as a decision and executi
 
 **Public brand:** **WANG** · **We Are New Generation** · full legal name **Welfare Association for New Generation** only where formal ID is required.
 
-**Entity story (project standard):** WANG public journey **2014**; **WALI** lab **2021**; base **Ahmed Abad Wang, Bela, District Lasbela, Balochistan, Pakistan**.
+**Entity story (project standard):** WANG community work began in **2012**; **WALI** lab opened in **2021**; base **Ahmed Abad Wang, Bela, District Lasbela, Balochistan, Pakistan**.
 
 WANG should win the clearest answers to:
 
@@ -59,7 +59,7 @@ WANG should win the clearest answers to:
 
 | # | Action | Owner lens |
 |---|--------|------------|
-| 1 | **Entity & crawl hygiene:** consistent 2014/2021, NTN/legal in footer, privacy everywhere | Codex / board |
+| 1 | **Entity & crawl hygiene:** consistent 2012/2021, NTN/legal in footer, privacy everywhere | Codex / board |
 | 2 | **Ad Grant & conversions:** `gtag_report_conversion` on **primary** CTAs for all five landing pages; verify GA4 + Ads IDs | Antigravity / dev |
 | 3 | **Bidding:** Move toward **Maximize Conversions** (not Maximize Clicks) once conversions fire | Antigravity |
 | 4 | **Funnel:** **Visible** Urdu AI CTA banners on `index`, `about`, `impact`, `blog/index` (verify `AUDIT-FINDINGS` **A4**) | Cursor / dev |
@@ -88,7 +88,7 @@ WANG should win the clearest answers to:
 
 - Legal & registration block (Acts, BCRA, NTN), address, standardized **info@wang.org.pk** + phone/WhatsApp (+ hub office if still valid).  
 - **Governance structure** (board, exec, finance, programs, comms) — rewrite to match real ops.  
-- **FAQ intents** (what/where/mission/programs/get involved) — rewrite with 2014/2021/800K+/6 initiatives/Lasbela.  
+- **FAQ intents** (what/where/mission/programs/get involved) — rewrite with 2012/2021/800K+/6 initiatives/Lasbela.  
 - **Success-story video titles** (3–6 strongest on home; full library on media).  
 - **Award posts** (K-Electric 2025, CAREC Gender Climate Champion 2024, annual report highlights) — surface on Impact/Media, not only blog.  
 - **WALI problem framing** (digital divide, post-COVID, youth hub) — merge into current WALI narrative, don’t copy-paste.  
@@ -132,21 +132,23 @@ WANG should win the clearest answers to:
 ## Risks & leadership decisions
 
 1. **Metric definitions:** Align Antigravity “29M+ / 50M+” style metrics with H4 audited figures (800K learners, etc.) before public claims spread.  
-2. **2012 vs 2014:** If legal registration date ≠ public story date, publish **one** clarified sentence (legal vs first public community record).  
+2. **Date rule:** Public origin = **2012**. WALI lab launch = **2021**. If legal registration date is different, publish **one** clarified sentence separating legal registration from the start of community work.  
 3. **File hygiene:** Consolidate duplicate Antigravity markdown filenames to avoid teams implementing different versions.  
-4. **Claude gap:** Expect updates to **About / Impact / Support** tone and **what to cut** for institutional credibility — schedule Claude pass before major donor push.
+4. **Narrative execution:** Implement **`WANG-Strategic-Research-Report-Claude.md`** on Home/About/Impact/Support and align component order with Cursor brief.
 
 ---
 
-## Next step: close the Claude gap
+## Appendix: Claude strategist output (summary)
 
-Run the **Claude** section in `Agent-Prompts.md` and add a short appendix here:
+Full detail: **`WANG-Strategic-Research-Report-Claude.md`**.
 
-- Positioning vs Pakistan + global nonprofits  
-- Homepage / About / Impact **narrative** edits  
-- **Remove** list (what weakens credibility)  
-- Donor-ready proof ordering  
+- **Positioning:** WANG = nonprofit parent + WALI lab + **Urdu AI** national engine; do not mimic generic charity brands; avoid **project-list** feel.  
+- **Homepage arc:** Location → scale → model strip → proof band → initiatives → **dominant Urdu AI** → partner CTA.  
+- **About:** Legal block early; origin **2012** → WALI **2021**; governance; theory of change; link FAQ.  
+- **Impact:** Due-diligence page; dated headline metrics; awards as first-class; separate reach vs learners.  
+- **Remove:** Placeholder counters, competing heroes, undated mega-stats, inconsistent founding year, vague CTAs.  
+- **Proof order:** Legal → headline impact → third-party → field → leadership → ask.
 
 ---
 
-*This file is the merged “Master Advice.” Update it when Claude delivers and when leadership signs the metric dictionary.*
+*Merged Master Advice: all agent research including Claude. Next: metric dictionary + date normalization across `Advice.md` and site HTML.*
