@@ -140,6 +140,8 @@
 }
     </script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.css" />
+
     <style>
         :root {
             --primary-dark: #0a1428;
@@ -294,6 +296,40 @@
         .light-bg .section-header .urdu-sub { color: var(--medium-gray); }
         .section-header p { font-size: 1.1rem; color: rgba(255,255,255,0.7); max-width: 700px; margin: 0.5rem auto 0; }
         .light-bg .section-header p { color: var(--medium-gray); }
+        .light-bg .section-header a { color: var(--accent-blue); }
+
+        .urduai-video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .urduai-video-card {
+            display: grid;
+            gap: 0.65rem;
+        }
+        .urduai-video-thumb {
+            overflow: hidden;
+            border-radius: 16px;
+            box-shadow: var(--shadow-md);
+            aspect-ratio: 16 / 9;
+            background: #0f172a;
+        }
+        .urduai-video-thumb lite-youtube {
+            display: block;
+            width: 100%;
+            max-width: none;
+        }
+        .light-bg .urduai-video-source {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-blue);
+            font-weight: 700;
+            margin: 0;
+        }
+        .light-bg .urduai-video-caption { color: var(--dark-gray); font-size: 1rem; font-weight: 600; margin: 0; }
+        .light-bg .urduai-video-meta { color: var(--medium-gray); font-size: 0.9rem; line-height: 1.5; margin: 0; }
 
         .stats-grid {
             display: grid;
@@ -452,6 +488,70 @@
     </div>
 </section>
 
+<section class="content-section light-bg" id="urduai-media-coverage" aria-labelledby="urduai-media-heading">
+    <div class="container">
+        <div class="section-header">
+            <h2 id="urduai-media-heading">Urdu AI on national TV</h2>
+            <p class="urdu-sub">قومی ٹی وی پر اردو اے آئی</p>
+            <p>
+                News segments from the
+                <a href="https://impact.urduai.org/" target="_blank" rel="noopener noreferrer">Urdu AI Impact Program</a>
+                spotlight — the same embedded coverage used on the impact dashboard, plus the Dost movement overview on the Urdu AI channel.
+            </p>
+        </div>
+        <div class="urduai-video-grid">
+            <article class="urduai-video-card">
+                <div class="urduai-video-thumb">
+                    <lite-youtube
+                        videoid="gFJuULR9hvM"
+                        playlabel="Play: Urdu AI Dost program overview"
+                        params="modestbranding=1&amp;rel=0"
+                    ></lite-youtube>
+                </div>
+                <p class="urduai-video-source">Urdu AI · movement overview</p>
+                <p class="urduai-video-caption">Urdu AI Dost and national AI literacy in Urdu</p>
+                <p class="urduai-video-meta"><a href="https://www.youtube.com/watch?v=gFJuULR9hvM" target="_blank" rel="noopener noreferrer">Open on YouTube</a></p>
+            </article>
+            <article class="urduai-video-card">
+                <div class="urduai-video-thumb">
+                    <lite-youtube
+                        videoid="cKt0_lrMKeg"
+                        playlabel="Play: Urdu AI on ARY News"
+                        params="modestbranding=1&amp;rel=0"
+                    ></lite-youtube>
+                </div>
+                <p class="urduai-video-source">ARY News</p>
+                <p class="urduai-video-caption">Urdu AI coverage</p>
+                <p class="urduai-video-meta"><a href="https://www.youtube.com/watch?v=cKt0_lrMKeg" target="_blank" rel="noopener noreferrer">Open on YouTube</a></p>
+            </article>
+            <article class="urduai-video-card">
+                <div class="urduai-video-thumb">
+                    <lite-youtube
+                        videoid="zsC-WQQQSTs"
+                        playlabel="Play: Urdu AI on ABN News"
+                        params="modestbranding=1&amp;rel=0"
+                    ></lite-youtube>
+                </div>
+                <p class="urduai-video-source">ABN News</p>
+                <p class="urduai-video-caption">Urdu AI coverage</p>
+                <p class="urduai-video-meta"><a href="https://www.youtube.com/watch?v=zsC-WQQQSTs" target="_blank" rel="noopener noreferrer">Open on YouTube</a></p>
+            </article>
+            <article class="urduai-video-card">
+                <div class="urduai-video-thumb">
+                    <lite-youtube
+                        videoid="nMJAcafTpmY"
+                        playlabel="Play: Urdu AI on Express News"
+                        params="modestbranding=1&amp;rel=0"
+                    ></lite-youtube>
+                </div>
+                <p class="urduai-video-source">Express News</p>
+                <p class="urduai-video-caption">Urdu AI coverage</p>
+                <p class="urduai-video-meta"><a href="https://www.youtube.com/watch?v=nMJAcafTpmY" target="_blank" rel="noopener noreferrer">Open on YouTube</a></p>
+            </article>
+        </div>
+    </div>
+</section>
+
 <section class="content-section light-bg" id="impact">
     <div class="container">
         <div class="section-header">
@@ -599,6 +699,7 @@
     </div>
 </div>
 
+<script defer src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.js"></script>
 <script>
     let maxScroll = 0;
     window.addEventListener('scroll', function() {
