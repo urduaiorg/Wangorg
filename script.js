@@ -31,7 +31,8 @@ document.querySelectorAll(".site-nav a").forEach((link) => {
     (currentPage === "awards" && href === "awards.html") ||
     (currentPage === "women-girls" && href === "women-girls-technology.html") ||
     (currentPage === "climate" && href === "climate-resilience.html") ||
-    (currentPage === "digilit-bk" && href === "digital-literacy-balochistan.html")
+    (currentPage === "digilit-bk" && href === "digital-literacy-balochistan.html") ||
+    (currentPage === "lasbela" && href === "our-work-lasbela.html")
   ) {
     link.classList.add("is-active");
   }
