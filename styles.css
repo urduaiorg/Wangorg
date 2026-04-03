@@ -1369,6 +1369,53 @@ h1 {
   color: var(--ink);
 }
 
+/* Partner logo strip (homepage) — swap SVGs for brand-approved assets when available */
+.partner-logo-strip {
+  width: var(--content);
+  margin: 0 auto;
+  padding: 0.5rem 0 1.75rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.partner-logo-strip-label {
+  display: block;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.partner-logo-strip-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem 2.75rem;
+}
+
+.partner-logo-strip-inner a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.partner-logo-strip-inner a:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.partner-logo-strip-inner img {
+  height: 34px;
+  width: auto;
+  max-width: min(200px, 28vw);
+  object-fit: contain;
+}
+
 /* Media outlet badges (text “logos” linking to public coverage) */
 .media-outlet-strip {
   width: var(--content);
