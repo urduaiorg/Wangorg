@@ -30,7 +30,8 @@ document.querySelectorAll(".site-nav a").forEach((link) => {
     (currentPage === "faq" && href === "faq.html") ||
     (currentPage === "awards" && href === "awards.html") ||
     (currentPage === "women-girls" && href === "women-girls-technology.html") ||
-    (currentPage === "climate" && href === "climate-resilience.html")
+    (currentPage === "climate" && href === "climate-resilience.html") ||
+    (currentPage === "digilit-bk" && href === "digital-literacy-balochistan.html")
   ) {
     link.classList.add("is-active");
   }
