@@ -1,4 +1,4 @@
-# Reccomondations
+# Recommendations from Antigtavity
 
 Based on the **Codex** (Content Enhancement) audit of the live `wang.org.pk` WordPress site, here is the strategic advice for the static revamp.
 
