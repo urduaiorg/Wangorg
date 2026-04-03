@@ -25,6 +25,17 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 9:06 PM
+**Completed:**
+- Ran a sitewide sweep of public HTML pages and normalized the remaining Urdu AI and WALI figures so the same approved numbers now appear across homepage, authority pages, landing pages, annual report, initiatives, team/about references, and affected journal pages
+- Replaced stale public claims such as `50K+ app downloads`, `196+ camp graduates`, `1,322+ trainees`, and `29+ districts` with the current shared metric set: `800K+ learners`, `1M+ online community`, `7,968+ participants`, `248 trainings`, `31 active Dosts`, `29 districts`, and `207 WALI students in 2025`
+- Updated homepage stat blocks and initiative copy so WANG’s lead public proof now reflects current Urdu AI scale and current WALI 2025 counters instead of older mixed-era numbers
+
+**Blocked on:**
+- Internal markdown planning and QA files still contain legacy metric references, but the public-facing site pages are now normalized
+
+**Next:**
+- Commit and push the sitewide metric normalization pass, then leave any remaining legacy-number cleanup to internal docs if leadership wants a full source-of-truth sweep
 ### Codex — April 2, 2026 8:38 PM
 **Completed:**
 - Verified current public Urdu AI metrics against `impact.urduai.org` and WALI metrics against `wali.edu.pk`, using `walipak.com` as an older comparison source
