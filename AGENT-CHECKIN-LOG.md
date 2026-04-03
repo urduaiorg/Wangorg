@@ -25,6 +25,21 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 8:06 PM
+**Completed:**
+- Read `WANG_Organizational_Profile_2026.docx` and used it as the hierarchy source of truth
+- Reframed `index.html` so WANG reads as the nonprofit institution first, with WALI, Urdu AI, and WIRE as flagship brands and the homepage initiative list no longer giving PakEducate and Darwaza equal weight
+- Rebuilt `initiatives.html` into three layers: flagship platforms, core WANG programs, and supporting ecosystem initiatives
+- Reframed `programs-overview.html` around nonprofit delivery pathways instead of sounding like a product catalog
+- Updated `faq.html` so the FAQ reflects WANG as institution, WALI / Urdu AI / WIRE / ADI as core brands and programs, and supporting tools as secondary
+- Added `SITE-HIERARCHY-RECOMMENDATION.md` as the source-of-truth architecture memo for the team
+
+**Blocked on:**
+- The old ecosystem-footer pattern still exists on many secondary pages and blog pages, so the hierarchy is improved on the main authority pages but not yet normalized sitewide
+
+**Next:**
+- Apply the same hierarchy cleanup across remaining authority pages, partner pages, and blog footers if leadership wants a full sitewide normalization pass
+
 ### Codex — April 2, 2026 7:01 PM
 **Completed:**
 - Refined the `W2-M7` YouTube facade implementation after concurrent upstream completion
