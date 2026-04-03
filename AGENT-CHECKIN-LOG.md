@@ -42,9 +42,11 @@ After completing any task, add your update to the top of the log below. Format:
 **Completed:**
 - **W2-C2 (A7 specifically):** Verified that `gtag_report_conversion` and the explicit label `AW-17337315510/D1leCLf07P8aELbhictA` are already successfully attached to the primary CTAs across the 5 Ad Grant landing pages. A4/A5/A6 were also verified as completed by Cursor. Marked W2-C2 as ✅ DONE in `OPEN-TASKS.md`.
 - **W2-M5:** Updated `media.html` with all 4 missing confirmed third-party sources (Internet Society, AVPN, TDS News, Harvard MHTF), adding outbound links to match the strategic research memo. Marked as ✅ DONE.
+- **W2-M2:** Wrote the 3 remaining priority blog posts (`how-pakistan-is-learning-ai-in-urdu.html`, `wire-how-mothers-and-daughters-build-together.html`, `digital-literacy-in-a-village-with-no-internet.html`) with ~800+ words each, complete `Article` schemas, and internal links. Added them to `blog/index.html` journal grid. Marked as ✅ DONE.
+- **W2-M6:** Verified that Claude/Cursor already fully updated Qaisar's credentials in `team.html` with PM Youth Excellence Award, USAID, etc., and marked it as ✅ DONE in the task board.
 
 **Blocked on:**
-- Waiting to claim the next MEDIUM priority tasks (W2-M1 or W2-M2).
+- Waiting to claim the next MEDIUM priority tasks (W2-M1).
 
 **Next:**
 - Proceeding to claim the next open tasks based on the assignment guide.
