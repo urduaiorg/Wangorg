@@ -908,6 +908,14 @@ h1 {
   gap: 1.4rem;
 }
 
+/* Media page — mixed cards (highlight + lite-youtube) */
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
 .video-card {
   display: grid;
   gap: 1rem;
