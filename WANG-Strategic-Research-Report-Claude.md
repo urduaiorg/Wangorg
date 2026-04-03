@@ -1,149 +1,195 @@
 # WANG Strategic Research Report — Claude (Strategist)
 
-**Role:** Institutional positioning, donor trust, authority narrative, world-class nonprofit benchmarking  
-**Audience:** WANG leadership, comms, lead developer (for copy/layout implications)  
-**Reads synthesized:** `Advice.md`, `Advice-Execution-Plan.md`, `Agent-Prompts.md`, `WANG-MASTER-STRATEGY.md`, `MASTER-ADVICE.md`, `AUDIT-FINDINGS.md`, `OPEN-TASKS.md`, `QA-AUDIT-CHECKLIST.md`, agent outputs from Codex / Cursor / Antigravity  
+**Date:** April 2, 2026  
+**Role:** Nonprofit positioning, institutional trust, donor narrative, benchmarking  
+**Based on:** Live web research, competitive analysis, current site audit  
 
-**Date logic note:** `MASTER-ADVICE.md` and Codex check-in standardize **community work from 2012** and **WALI lab 2021**. `Advice.md` still says **2014** in places — **normalize sitewide** so donors, press, and schema see one timeline (legal registration vs first field work may differ; one footnote sentence is enough).
-
----
-
-## 1. Positioning: Pakistan landscape vs WANG
-
-**What wins in Pakistan nonprofit digital credibility**
-
-- **Edhi, TCF, AKHUWAT-class** brands: decades of story, simple donate path, school/building metaphors, minimal jargon. WANG should **not** imitate their category—they own “general charity”; WANG owns **rural innovation + Urdu AI scale**.  
-- **Education / ed NGOs (e.g. TCF, ITA):** Trust comes from **scale of institutions** (schools, cohorts) and **longitudinal proof**. WANG’s analog is **learners + lab + products**, not classroom count alone.  
-- **Tech / literacy upstarts (LOOP, Mediatiz, etc.):** Often **English-first** and **urban-leaning**. WANG’s defensible claim is **Urdu-first AI at national reach** plus **geographic honesty** (village-named origin, Lasbela).
-
-**WANG’s institutional sentence (use internally until one line is approved)**
-
-WANG is a **registered Pakistani nonprofit** that runs a **rural innovation lab (WALI)** in Balochistan and **national digital public goods**—chiefly **Urdu AI**—so that **language and place are not barriers** to AI literacy.
-
-**What WANG must never sound like**
-
-- A **project collection** with no parent story.  
-- A **climate NGO** that buries AI and youth.  
-- A **shortcut “AI startup”** with no field, no legal entity, and no third-party proof.
+**Repo implementation note (Cursor, April 2, 2026):** Items marked **Done in repo** below were executed as static pages and navigation updates. Pillars, transparency pages, and certification steps remain **leadership / multi-agent** work.
 
 ---
 
-## 2. Benchmarks (patterns, not copy)
+## CRITICAL FINDING FIRST
 
-From international **tier-one** nonprofit digital norms (see `WANG-MASTER-STRATEGY.md`):
-
-| Pattern | WANG application |
-|--------|-------------------|
-| **Impact-before-mission** hero | Lead with **800K+ learners**, **one village**, **six initiatives**, then **one sentence** of mission. |
-| **Dollar/effort translation** | “Partnership funds roughly **X learners / X camps**”—requires **signed** impact math. |
-| **Proof stack** | Image → stat → **named** validator (media, funder, award) → **outbound link** → CTA. |
-| **Single journey** | Every page: **Partner with WANG** *or* **Learn on Urdu AI** as the **primary** conversion (secondary: Contact, Media kit). |
+**Founding date conflict.** Your prompt says WANG was founded in **2012**. The strategy docs and current site say **2014**. Every page, schema, and timeline currently says 2014. If the correct date is 2012, this needs to be fixed sitewide — it adds 2 more years of institutional history, which strengthens authority. Please confirm which is correct so we can lock it across all pages.
 
 ---
 
-## 3. Homepage narrative (leadership + dev)
+## 1. SEARCH OPPORTUNITY SUMMARY
 
-**Recommended story arc (above the fold → fold two)**
+### What WANG Can Realistically Rank For
 
-1. **Location + scale:** Ahmed Abad Wang · Balochistan · Pakistan + headline learner/impact stat.  
-2. **Three proof questions** (from `CURSOR-STRATEGY-BRIEF.md`), tightened into **one** bold line + subline.  
-3. **Model strip:** WANG → WALI → initiatives (nonprofit parent → lab → products). **No** duplicate heroes.  
-4. **Proof band:** **K-Electric 2025**, Google.org / AVPN / Internet Society **where accurate**, **media logos** (outbound).  
-5. **Initiatives grid:** Each card = **one metric**, **one outcome clause**, **two links** (WANG context + product URL).  
-6. **Urdu AI band:** Visually **primary** for general traffic—it is the **national engine** and revenue funnel (`Antigravity`).  
-7. **Partner CTA:** “Partner with WANG” with **contextual** cohort language (camps, districts, women’s pathways).
+**Within 30 days (branded + long-tail):**
 
-**Tone:** Confident, **specific**, slightly **plain**—avoid stacks of abstract values before proof.
+| Keyword | Current State | Action Required |
+|---|---|---|
+| `WANG Balochistan` | Already #1 | Maintain — this is solid |
+| `Urdu AI` | urduai.org dominates | Cross-link to strengthen wang.org.pk |
+| `nonprofit Lasbela` | Only 2-3 competitors exist | Create dedicated Lasbela authority page |
+| `digital literacy Balochistan` | No dominant result | Dedicated page will rank fast |
+| `rural innovation lab Pakistan` | No one owns this | WANG can own it immediately |
+| `AI education in Urdu` | Thin competition | UrduAI.org + wang.org.pk together can lock this |
 
----
+**Within 90 days (regional authority):**
 
-## 4. About page (trust architecture)
+| Keyword | Competition | What It Takes |
+|---|---|---|
+| `AI education Pakistan` | PIAIC, ACT AI, Google Grow | Authority page + 4-5 supporting blog posts + backlinks |
+| `digital literacy Pakistan` | DigiSkills.pk dominates (3.6M enrolled) | Can't beat government programs — but can own "rural" + "Balochistan" sub-niche |
+| `Pakistan rural innovation` | Almost empty | 1 authority page + WALI proof = page 1 |
+| `women digital skills Balochistan` | Zero competition | Dedicated page ranks immediately |
+| `climate resilience Lasbela` | Zero competition | Dedicated page ranks immediately |
 
-**Order of sections (donor-tested)**
+**Within 180 days (national category):**
 
-1. **One-sentence who/where/what** + map or place name (Ahmed Abad Wang).  
-2. **Legal identity** block: Welfare Association for New Generation, registration/Acts/NTN, address, contact—**scannable**, not a PDF wall.  
-3. **Origin story:** **2012** field roots → inflection points → **2021 WALI**—**human**, with dates.  
-4. **Governance:** Board / exec / accountability (from legacy site, rewritten)—**institution**, not family project.  
-5. **Theory of change:** Short diagram or bullets: **village signal → lab → product → national scale**.  
-6. **FAQ deep links** to `faq.html` for PAA-style questions.
+| Keyword | Reality Check |
+|---|---|
+| `nonprofits in Pakistan` | Dominated by Edhi, HANDS, TCF, Akhuwat — requires backlinks, news coverage, Wikipedia article |
+| `youth development Pakistan` | Requires 10+ strong pages, consistent publishing, and institutional backlinks |
+| `climate change Pakistan NGO` | Requires dedicated authority pages, CAREC award leveraged, partner citations |
 
-**Remove / avoid on About**
+### The Honest Math
 
-- Long vision poetry **before** legal + proof.  
-- **Unsourced** superlatives (“first in Pakistan”) unless **citable**.
+WANG's real-world accomplishments **far exceed** its digital footprint:
 
----
+- **~7 confirmed external linking domains** (established NGOs have 50-200+)
+- **Only 6 pages indexed** on current wang.org.pk (Google hasn't crawled the new site yet)
+- **No Google Knowledge Panel**
+- **No Wikipedia article**
+- **Brand name "WANG" collides with Chinese diplomat Wang Yi** in search results
 
-## 5. Impact page (authority room)
-
-**Purpose:** This is the **due diligence** page for donors and journalists.
-
-- **Headline numbers** require **as-of date** + **one methodology line** (see Cursor brief).  
-- **Structure:** By **initiative** and by **year/timeline** (already strong in static site)—add **“sources”** row: annual report, platform analytics, third-party evaluation **where public**.  
-- **Awards / recognition:** Separate from blog noise—**trophy strip** + link to primary announcement.  
-- **What not to do:** Mix **impressions/reach** with **learners** without definitions—`MASTER-ADVICE.md` flags this as a **leadership sign-off** item.
-
----
-
-## 6. Support / donate / partner (donor readiness)
-
-- **Primary frame:** **Partnership** and **institutional funding** first (CSR, foundations, bilateral)—**donate** as parallel path.  
-- **PayPal or bank:** Clear **CAD/PKR** note if relevant; **receipt** and **accountability** line.  
-- **Impact translation:** Optional table: **giving band → approximate outcome**—only if **finance approves**.
+The good news: UrduAI.org is strong, the CAREC award is real, the AVPN/Google.org partnership is real, the ElevenLabs case study exists. These just aren't being leveraged.
 
 ---
 
-## 7. What weakens credibility — **remove or fix**
+## 2. BIGGEST WEAKNESSES
 
-| Item | Action |
-|------|--------|
-| **Zero or placeholder** impact counters (legacy WP) | Never ship; use real or omit. |
-| **Competing first impressions** (climate slider vs AI vs WALI) | One hierarchy on home. |
-| **Generic NGO vocabulary** without numbers (“empowering communities”) | Cut or tie to **one** metric. |
-| **Old taxonomy** as primary nav (ADI, etc.) | History/timeline only. |
-| **“Click here” / “Read more”** without destination intent | Replace with descriptive anchors. |
-| **Undated mega-stats** | Date-stamp or downgrade to body copy. |
-| **Inconsistent founding year** (2012 vs 2014 across docs) | **Single** public rule + optional legal footnote. |
+### A. Institutional Authority Gap
 
----
+WANG has real accomplishments that are invisible to search engines:
 
-## 8. Donor-ready proof ordering (default stack)
+| Accomplishment | Current Visibility |
+|---|---|
+| CAREC Gender Climate Champion 2024 (Astana, Kazakhstan) | **Done in repo:** `awards.html`, journal `carec-gender-climate-champion-2024.html`, `media.html` third-party list, homepage trust badge |
+| AVPN / Google.org AI Opportunity Fund partner | Mentioned in AVPN press release, but no WANG page about it | Partial: `awards.html#partners` |
+| ElevenLabs case study featuring WANG | Exists at elevenlabs.io/blog/wang-org — **Done in repo:** linked from `awards.html` + `media.html` |
+| Internet Society feature on WANG/WALI | Exists at internetsociety.org — not prominently cited | Still: add explicit outbound to ISOC article URL when available |
+| Arab News feature on WALI | **Done in repo:** `media.html` + `awards.html` |
+| PM Youth Excellence Award (Qaisar Roonjha) | **Done in repo:** `team.html` + `awards.html#founder-awards` (verify years) |
+| USAID Youth Activist of the Year Award | **Done in repo:** `team.html` + `awards.html#founder-awards` |
 
-1. **Legal + registration** (footer + About).  
-2. **Headline impact** (learners, grads, products)—**dated**.  
-3. **Third-party:** media, funders, awards (with links).  
-4. **Field:** photos, lab, geography (WALI).  
-5. **Leadership:** named founder + team path to `team.html`.  
-6. **Ask:** Partner / Learn / Contact—**one primary per page**.
+### B. No Financial Transparency
 
----
+Every top-ranking Pakistan nonprofit publishes annual reports, audited financials, PCP certification. WANG has none of these visible on the site. **Still required.**
 
-## 9. Claude-specific prioritization (non-technical)
+### C. Content Depth Is Thin
 
-**Do now**
+- Pillar authority pages for key topics — **Planned** (see §4)
+- Publishing cadence — **Operational**
 
-- **Lock** public date story (**2012 / 2021**) and sync `Advice.md`, HTML copy, and schema.  
-- **Sign off** metric dictionary (learners vs reach vs engagements).  
-- **Urdu AI** as **visible** story and CTA on key pages (`AUDIT-FINDINGS` A4).
+### D. Brand Name SEO Collision
 
-**Do next**
+"WANG Pakistan" search results are dominated by Chinese diplomat Wang Yi. Mitigation: pair **WANG** with **Balochistan / nonprofit / Urdu AI**; full legal name in schema and footer.
 
-- **Annual report / awards** surfaced as **first-class** sections, not only blog posts.  
-- **CSR / institutional** one-pager PDF or page for serious donors.
+### E. Missing Pages That Should Exist
 
-**Do later**
-
-- **Thought leadership** voice (“state of AI literacy in Urdu”) without diluting **field-first** identity.
-
----
-
-## 10. Handoff to other agents
-
-- **Cursor:** Proof ladder spacing, Urdu AI band dominance, journal TL;DR—already aligned; use this doc for **copy blocks**.  
-- **Codex:** Schema `foundingDate`, Organization, sameAs—must match **2012** public rule if that is final.  
-- **Antigravity:** Landing copy should **lead metrics**, not mission paragraphs; conversion tags on LPs (`A7`).  
+| Page | Status |
+|---|---|
+| Awards & Recognition | **Done in repo:** `awards.html` |
+| Annual Report 2025 | Open |
+| AI Education in Pakistan authority | Open |
+| Women & Girls in Technology | Open |
+| Climate Resilience in Lasbela | Open |
+| Digital Literacy in Balochistan | Open |
+| Donor/Partner proof page | Partial: `partners.html` — expand per report |
 
 ---
 
-*This report closes the “Claude gap” in `MASTER-ADVICE.md` for positioning and narrative. Technical and UX backlog remains in `MASTER-ADVICE.md` and `OPEN-TASKS.md`.*
+## 3. BIGGEST OPPORTUNITIES
+
+1. **Own "AI Education in Urdu" nationally** — pillar + cluster (report §6).
+2. **Own Lasbela/Balochistan nonprofit searches** — location hub.
+3. **Leverage CAREC** — **Done in repo:** dedicated journal + awards page + homepage badge.
+4. **Backlink hub** — ecosystem ring; directories; press (report §7).
+5. **Rural vs urban positioning** — DigiSkills is urban/English; WANG owns rural Urdu-first narrative.
+
+---
+
+## 4. RECOMMENDED PAGES AND IMPROVEMENTS
+
+### Pages to Create (Priority Order)
+
+**Tier 1:** `/awards` — **Done as** `awards.html`. Remaining: `/ai-education-pakistan`, `/annual-report`, `/our-work-lasbela` (or equivalent static HTML).
+
+### Pages to Improve
+
+| Page | What's Missing |
+|---|---|
+| **Homepage** | **Done in repo:** trust badges link to proof; **Still:** true partner *logo images* (not only text pills) |
+| **About** | Stronger governance visibility |
+| **Impact** | Add verified stats (homes, climate leaders, solar villages) per leadership sign-off |
+| **Media** | **Done in repo:** Arab News, ElevenLabs, CAREC |
+| **Team** | **Done in repo:** PM Youth / USAID mentions |
+
+---
+
+## 5. TRUST AND PROOF REQUIREMENTS
+
+PCP certification, annual report, audited financials, Knowledge Panel/Wikidata, beneficiary stories — **still leadership priorities.** NTN and legal lines — **in footer.**
+
+---
+
+## 6. CONTENT CLUSTER PLAN
+
+(Five clusters: AI education, rural innovation, women & girls, climate, youth — unchanged from strategist memo. Journal posts named in original report should be linked from future pillar pages.)
+
+---
+
+## 7. BACKLINK / AUTHORITY PLAN
+
+Tier 1–3 actions (Google Business Profile, Crunchbase, Candid, GlobalGiving, PCP, press, `.edu.pk`, Wikipedia) — **unchanged;** execution is ops/comms.
+
+---
+
+## 8. PRIORITIZED ACTIONS
+
+### DO NOW — Implementation status
+
+1. **`/awards` page** — **Done:** `awards.html`
+2. **Partner logos on homepage** — **Partial:** linked trust badges; **TODO:** raster/SVG logos in `assets/images/partners/`
+3. **CAREC blog post** — **Done:** `blog/carec-gender-climate-champion-2024.html`
+4. **Update media page** — **Done:** third-party section
+5. **Update Qaisar's team profile** — **Done:** awards paragraph
+6. **Fix founding date** — **Open:** confirm 2012 vs 2014 sitewide
+7. **Crunchbase / GBP / Candid** — Open (ops)
+8. **Fix A4–A7 audit findings** — Open (Antigravity/dev)
+
+### DO NEXT / DO LATER
+
+Unchanged from strategist memo (pillars, annual report, PCP, GlobalGiving, press pitches, Wikipedia).
+
+---
+
+## WHAT WANG SHOULD STOP DOING
+
+1. Generic NGO language before proof.  
+2. Treating blog as archive only.  
+3. Hiding awards — mitigated by **Awards** page + CAREC post.  
+4. Text-only trust signals — mitigated by links; **add logos.**  
+5. Siloing urduai.org vs wang.org.pk — cross-link aggressively.  
+6. Publishing without search intent.
+
+---
+
+## FINAL POSITIONING STATEMENT
+
+WANG should be the **most evidence-backed, most clearly differentiated nonprofit site in Pakistan** by owning three claims:
+
+1. **AI education in Urdu at scale** — with public product and partner proof.  
+2. **Built from a real village in Balochistan with national impact.**  
+3. **International award-winning climate and innovation work** — CAREC and other sourced listings.
+
+If the website makes these undeniable — with proof, links, logos, awards, and media — the rankings will follow.
+
+---
+
+*Original strategist memo included extended tables for Tier 2/3 pages, full backlink DA estimates, and cluster post lists; this file aligns the memo with repository state. For the pre-merge verbatim, see the April 2, 2026 “All research complete” message in project chat.*

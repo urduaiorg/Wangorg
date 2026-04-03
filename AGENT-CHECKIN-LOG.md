@@ -25,15 +25,21 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
-### Cursor — April 2, 2026 (Claude strategist report integrated)
+### Cursor — April 2, 2026 (Claude full strategic report + execution)
 **Completed:**
-- Added **`WANG-Strategic-Research-Report-Claude.md`** (positioning vs Pakistan/global benchmarks, Home/About/Impact narrative, donor proof ordering, credibility “remove” list, handoff to Cursor/Codex/Antigravity)
-- Updated **`MASTER-ADVICE.md`**: Claude in source table, scores raised, **Appendix** summary; removed “Claude gap” placeholder
-- Noted **`Advice.md`** still uses **2014** in places while **`MASTER-ADVICE.md`** uses **2012** — needs org-wide normalization
+- Saved merged **`WANG-Strategic-Research-Report-Claude.md`** (strategist memo + **implementation status** table)
+- **`awards.html`:** CAREC (WEOP), K-Electric, Google.org/AVPN/ISOC notes, Arab News, ElevenLabs, founder awards; `ItemList` JSON-LD
+- **`blog/carec-gender-climate-champion-2024.html`**, **journal hub** new card, **`sitemap.xml`:** `awards.html`, CAREC, K-Electric posts
+- **`media.html`:** third-party sources (Arab News, ElevenLabs, CAREC)
+- **`index.html`:** trust badges as **links** to proof pages / YouTube ISOC; footer **Awards · Media · Journal**
+- **`team.html`:** PM Youth / USAID lines + link to Awards
+- **`styles.css`:** `.trust-bar a.trust-badge` · **`script.js`:** `data-page="awards"` nav active
+- **`MASTER-ADVICE.md`** appendix refreshed
+- **`OPEN-TASKS`:** **S14** done, **S15** pillar pages open
 
-**Blocked on:** Leadership sign-off on final founding-year wording (2012 vs legal registration vs first public digital record)
+**Blocked on:** Leadership **2012 vs 2014** confirmation; partner **logo image** assets; **A4–A7** verification
 
-**Next:** Propagate chosen dates into `Advice.md`, `WANG-MASTER-STRATEGY.md`, and static HTML + JSON-LD
+**Next:** Pillar pages (**S15**), lite YouTube (**S13**), homepage raster logos
 
 ### Codex — April 2, 2026 6:02 PM
 **Completed:**

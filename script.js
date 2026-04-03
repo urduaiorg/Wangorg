@@ -27,7 +27,8 @@ document.querySelectorAll(".site-nav a").forEach((link) => {
     (currentPage === "impact" && href === "impact.html") ||
     (currentPage === "team" && href === "team.html") ||
     (currentPage === "contact" && href === "contact.html") ||
-    (currentPage === "faq" && href === "faq.html")
+    (currentPage === "faq" && href === "faq.html") ||
+    (currentPage === "awards" && href === "awards.html")
   ) {
     link.classList.add("is-active");
   }

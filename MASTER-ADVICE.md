@@ -140,14 +140,19 @@ WANG should win the clearest answers to:
 
 ## Appendix: Claude strategist output (summary)
 
-Full detail: **`WANG-Strategic-Research-Report-Claude.md`**.
+**Canonical merged file:** **`WANG-Strategic-Research-Report-Claude.md`** — includes April 2, 2026 strategist research, **implementation status** (what shipped in repo vs still open), and the **2012 vs 2014** founding-date flag.
 
-- **Positioning:** WANG = nonprofit parent + WALI lab + **Urdu AI** national engine; do not mimic generic charity brands; avoid **project-list** feel.  
-- **Homepage arc:** Location → scale → model strip → proof band → initiatives → **dominant Urdu AI** → partner CTA.  
-- **About:** Legal block early; origin **2012** → WALI **2021**; governance; theory of change; link FAQ.  
-- **Impact:** Due-diligence page; dated headline metrics; awards as first-class; separate reach vs learners.  
-- **Remove:** Placeholder counters, competing heroes, undated mega-stats, inconsistent founding year, vague CTAs.  
-- **Proof order:** Legal → headline impact → third-party → field → leadership → ask.
+**Shipped from Claude “do now” list (April 2, 2026):**
+
+- `awards.html` — CAREC, K-Electric, partners, Arab News, ElevenLabs, founder awards  
+- `blog/carec-gender-climate-champion-2024.html` + journal hub + `sitemap.xml`  
+- `media.html` — third-party sources block  
+- `index.html` — linked trust badges, footer Explore (Awards, Media, Journal)  
+- `team.html` — PM Youth / USAID recognition (with verify note)  
+- `styles.css` — `.trust-bar a.trust-badge`  
+- `script.js` — `data-page="awards"` active nav  
+
+**Still open (from same report):** pillar pages (`ai-education-pakistan`, Lasbela hub, etc.), **logo image strip** on homepage, annual report / PCP / financial transparency, **A4–A7**, founding-year lock, Crunchbase/GBP/Candid.
 
 ---
 

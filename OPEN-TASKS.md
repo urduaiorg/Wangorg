@@ -63,6 +63,13 @@ _Sourced from TECHNICAL REQUIREMENTS, IMAGE STRATEGY, Month 1 “pages indexed 3
 | S7 | Impact timeline: full **12-year arc** (2020 COVID, 2024 100K, 2025 AVPN/Dost, **2026** capstone) | ✅ DONE | Cursor | `impact.html` — aligns with `WANG-MASTER-STRATEGY.md` homepage timeline spec |
 | S8 | Homepage hero: location eyebrow + **contextual partnership** hint (strategy principles 1 &amp; 2) | ✅ DONE | Cursor | `index.html`, `styles.css` |
 | S9 | Homepage hero: **stat row** + scroll count-up; subtle **photo parallax** (`prefers-reduced-motion` safe) | ✅ DONE | Cursor | `index.html`, `styles.css`, `script.js` |
+| S10 | Implement verified impact statistics (2,222 scholarships, 50 homes rebuilt, etc.) across index/impact | ✅ DONE | Antigravity | `index.html`, `impact.html` |
+| S11 | Add K-Electric Karachi Awards 2025 trust signal to homepage and media page | ✅ DONE | Antigravity | `index.html`, `media.html` |
+| S12 | Add NTN (7426613) and registration details to footer for Ad Grant/Trust compliance | ✅ DONE | Antigravity | All HTML footers (51 files) |
+| S13 | Replace YouTube iframes with `lite-youtube-embed` for better PageSpeed performance | ⬜ OPEN | — | `index.html`, `media.html` |
+| S14 | Claude strategist report: **`awards.html`**, CAREC journal post, media third-party links, homepage trust badges | ✅ DONE | Cursor | `WANG-Strategic-Research-Report-Claude.md` updated with implementation status |
+| S15 | Pillar pages: AI education Pakistan, Lasbela hub, women/girls tech, climate, digital literacy Balochistan | ⬜ OPEN | — | New static pages + internal links from `Advice-Execution-Plan.md` |
+
 
 ## LOW PRIORITY (Nice to Have)
 
