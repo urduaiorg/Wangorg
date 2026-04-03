@@ -529,14 +529,16 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem 2.5rem;
+  gap: 1rem 2rem;
 }
 
 .partner-logos-scroll img {
-  height: 48px;
-  width: auto;
+  display: block;
+  height: 40px !important;
+  width: auto !important;
+  max-width: 120px;
   object-fit: contain;
-  opacity: 0.55;
+  opacity: 0.5;
   filter: grayscale(100%);
   transition: opacity 0.3s ease, filter 0.3s ease;
 }
