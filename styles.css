@@ -1813,6 +1813,49 @@ a.media-outlet-link:focus-visible {
   }
 }
 
+/* Annual report — illustrative expense mix (donor-facing summary) */
+.annual-pie-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.annual-pie {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: var(--shadow);
+}
+
+.annual-pie-legend {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.65rem;
+  max-width: 28rem;
+}
+
+.annual-pie-legend li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.annual-pie-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
 /* Print — journal posts and long reads */
 @media print {
   .site-bg,
