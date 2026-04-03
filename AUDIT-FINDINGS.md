@@ -33,9 +33,9 @@ These are issues found during the live audit. Pick one, fix it, mark it ✅ DONE
 
 | # | Issue | Status | Owner | Details |
 |---|---|---|---|---|
-| A8 | **Some blog posts may have WordPress block markup remnants** | ⬜ OPEN | — | Check for `<!-- wp:` comments still in blog HTML. Run: `grep -r "wp:" blog/*.html \| head -20` |
-| A9 | **OG images — many may point to nonexistent files** | ⬜ OPEN | — | Several pages reference og:image files that may not exist in assets/images/. Run: `grep -r "og:image" *.html blog/*.html \| grep -v "wang.org.pk/assets"` to find any pointing to wp-content or missing paths. |
-| A10 | **404.html should be styled and functional** | ⬜ OPEN | — | Verify 404.html has navigation, links back to homepage, and matches the site design. |
+| A8 | **Some blog posts may have WordPress block markup remnants** | ✅ DONE | Cursor | Check for `<!-- wp:` comments still in blog HTML. Run: `grep -r "wp:" blog/*.html \| head -20` |
+| A9 | **OG images — many may point to nonexistent files** | ✅ DONE | Cursor | Several pages reference og:image files that may not exist in assets/images/. Run: `grep -r "og:image" *.html blog/*.html \| grep -v "wang.org.pk/assets"` to find any pointing to wp-content or missing paths. |
+| A10 | **404.html should be styled and functional** | ✅ DONE | Cursor | Verify 404.html has navigation, links back to homepage, and matches the site design. |
 
 ---
 
