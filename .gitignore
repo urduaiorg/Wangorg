@@ -1,0 +1,5 @@
+.DS_Store
+**/.DS_Store
+
+# Unprocessed camera dumps, social downloads, HEIC — keep locally under raw-photos/ only.
+assets/images/raw-photos/

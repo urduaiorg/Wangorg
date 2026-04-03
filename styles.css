@@ -604,6 +604,19 @@ h1 {
   padding: 3rem 0;
 }
 
+.page-hero-photo {
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 0 var(--page-gutter, 1.25rem);
+}
+.page-hero-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  max-height: 480px;
+}
+
 .manifesto-grid,
 .proof-grid,
 .people-grid,
