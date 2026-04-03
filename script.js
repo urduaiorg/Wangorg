@@ -29,7 +29,8 @@ document.querySelectorAll(".site-nav a").forEach((link) => {
     (currentPage === "contact" && href === "contact.html") ||
     (currentPage === "faq" && href === "faq.html") ||
     (currentPage === "awards" && href === "awards.html") ||
-    (currentPage === "women-girls" && href === "women-girls-technology.html")
+    (currentPage === "women-girls" && href === "women-girls-technology.html") ||
+    (currentPage === "climate" && href === "climate-resilience.html")
   ) {
     link.classList.add("is-active");
   }
