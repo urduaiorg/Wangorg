@@ -1,16 +1,17 @@
 :root {
-  --bg: #faf8f4;
-  --bg-strong: #f0ead8;
+  /* WANG Brand Colors — matches wang.org.pk identity */
+  --bg: #f4f8fc;
+  --bg-strong: #dceeff;
   --surface: rgba(255, 255, 255, 0.82);
-  --ink: #1a1408;
-  --muted: #6b5e45;
-  --line: rgba(106, 80, 20, 0.14);
-  --accent: #D4A017;
-  --accent-soft: rgba(212, 160, 23, 0.14);
-  --accent-strong: #7a5c00;
-  --signal: #D4A017;
-  --deep: #3d2e00;
-  --shadow: 0 24px 70px rgba(106, 80, 20, 0.14);
+  --ink: #09192f;
+  --muted: #495f79;
+  --line: rgba(0, 50, 121, 0.14);
+  --accent: #f1cc11;           /* WANG Gold — primary accent */
+  --accent-soft: rgba(241, 204, 17, 0.14);
+  --accent-strong: #003279;    /* WANG Navy Blue — primary brand */
+  --signal: #f1cc11;           /* WANG Gold */
+  --deep: #003279;             /* WANG Navy */
+  --shadow: 0 24px 70px rgba(0, 50, 121, 0.14);
   --radius: 26px;
   --content: min(1180px, calc(100vw - 2.4rem));
 }
