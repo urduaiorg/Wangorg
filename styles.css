@@ -1796,14 +1796,76 @@ h1 {
   color: var(--ink);
 }
 
-/* Partner logo strip (homepage) — swap SVGs for brand-approved assets when available */
+/* Partner marquee — infinite scroll logo strip */
+.partner-marquee {
+  width: 100%;
+  padding: 1.5rem 0 1.75rem;
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.partner-marquee-label {
+  display: block;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+}
+
+.partner-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 40s linear infinite;
+}
+.partner-marquee:hover .partner-marquee-track {
+  animation-play-state: paused;
+}
+
+.partner-marquee-inner {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 1.5rem;
+}
+
+@keyframes marquee-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.partner-logo-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 52px;
+  opacity: 0.55;
+  filter: grayscale(100%);
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+.partner-logo-item:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.partner-logo-item img {
+  display: block;
+  height: 52px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+}
+
+/* Legacy static strip (partners page etc.) */
 .partner-logo-strip {
   width: var(--content);
   margin: 0 auto;
   padding: 0.5rem 0 1.75rem;
   border-bottom: 1px solid var(--line);
 }
-
 .partner-logo-strip-label {
   display: block;
   text-align: center;
@@ -1814,7 +1876,6 @@ h1 {
   color: var(--muted);
   margin-bottom: 1rem;
 }
-
 .partner-logo-strip-inner {
   display: flex;
   flex-wrap: wrap;
@@ -1822,27 +1883,11 @@ h1 {
   justify-content: center;
   gap: 1rem 2rem;
 }
-
 .partner-logo-strip-inner a,
-.partner-logo-item {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.partner-logo-strip-inner .partner-logo-item {
   height: 80px;
-  opacity: 0.7;
-  filter: grayscale(100%);
-  transition: opacity 0.25s ease, filter 0.25s ease, transform 0.2s ease;
 }
-
-.partner-logo-strip-inner a:hover,
-.partner-logo-item:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-  transform: translateY(-1px);
-}
-
-.partner-logo-strip-inner img,
-.partner-logo-item img {
+.partner-logo-strip-inner img {
   display: block;
   height: 80px;
   width: auto;
