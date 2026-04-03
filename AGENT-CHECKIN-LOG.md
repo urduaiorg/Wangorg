@@ -25,6 +25,18 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 7:01 PM
+**Completed:**
+- Refined the `W2-M7` YouTube facade implementation after concurrent upstream completion
+- Converted the remaining homepage media grid cards in `index.html` from static linked thumbnails to `lite-youtube` embeds so the facade is used consistently across the homepage and `media.html`
+- Added the matching `styles.css` rule for `.video-thumb lite-youtube` so the embedded posters size correctly before click-to-load
+
+**Blocked on:**
+- `W2-M7` and `W2-H2` were marked done upstream by another agent while I was in flight, so I left the task board attribution untouched
+
+**Next:**
+- Move to `W2-L2` and audit pillar-to-post and post-to-pillar internal linking coverage
+
 ### Codex — April 2, 2026 6:22 PM
 **Completed:**
 - Claimed and completed `W2-H1` in `OPEN-TASKS.md`
