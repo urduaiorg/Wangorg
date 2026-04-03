@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-label="Girl Rising">
-  <!-- Bird silhouette -->
-  <g transform="translate(170, 12) scale(0.35)" fill="#9B9B9B">
-    <path d="M40 0C35 8 20 18 0 28C10 26 22 28 30 32C20 36 10 44 5 52C18 44 30 42 40 44C35 50 32 58 32 66C38 58 46 52 54 50C50 56 48 64 50 72C54 62 62 54 70 50C74 56 76 64 74 72C78 62 78 52 74 44C84 42 96 44 108 52C102 44 92 36 82 32C90 28 102 26 112 28C92 18 76 8 72 0C68 10 60 16 56 18C52 16 44 10 40 0Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" role="img" aria-label="Girl Rising">
+  <!-- Golden bird above the R in RISING -->
+  <g transform="translate(228, 2) scale(0.22)" fill="#E8A614">
+    <path d="M60 0C50 15 30 30 0 45C15 42 35 44 48 50C32 58 15 72 8 85C28 72 48 68 62 72C55 82 50 94 50 108C58 94 70 82 82 78C78 88 75 100 78 112C84 98 96 86 108 80C114 90 118 102 114 114C120 98 120 84 114 70C128 68 146 72 164 85C156 72 142 58 126 50C138 44 155 42 168 45C142 30 120 14 114 0C108 16 96 26 88 28C82 26 70 16 60 0Z"/>
   </g>
-  <text x="0" y="62" font-family="'Georgia', 'Times New Roman', serif" font-size="36" font-weight="400" fill="#9B9B9B" letter-spacing="3">Girl Rising</text>
+  <text x="180" y="82" text-anchor="middle" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-size="56" font-weight="900" fill="#8B1A1A" letter-spacing="6">GIRL RISING</text>
 </svg>
