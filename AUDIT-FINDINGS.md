@@ -24,10 +24,10 @@ These are issues found during the live audit. Pick one, fix it, mark it ✅ DONE
 
 | # | Issue | Status | Owner | Details |
 |---|---|---|---|---|
-| A4 | **Verify Urdu AI CTA banner on 4 key pages** | ⬜ OPEN | — | H6 was marked done. Verify these pages have a VISIBLE "Learn AI in Urdu — Free" CTA section linking to `https://urduai.org`: (1) index.html, (2) about.html, (3) impact.html, (4) blog/index.html. Each missing link = lost AdSense revenue. Don't just check the footer — there should be a dedicated CTA section/banner. |
-| A5 | **Footer ecosystem links consistency** | ⬜ OPEN | — | walipak.com has ecosystem footer with 5 cross-domain links on all 43 pages. Verify wang.org.pk main pages also have ecosystem footer links to: walipak.com, urduai.org, pakspeed.com, pakeducate.com, wirepk.com. Check: `grep -rL "walipak.com" *.html` |
-| A6 | **Bidirectional walipak.com ↔ wang.org.pk linking** | ⬜ OPEN | — | walipak.com footer says "An initiative of WANG" with link to wang.org.pk ✅. wang.org.pk needs to link back to walipak.com in footer ("Visit WALI — our innovation lab"). Verify this exists on all main pages. |
-| A7 | **Ad Grant landing pages — conversion tracking verification** | ⬜ OPEN | — | Verify ALL 5 Ad Grant landing pages have `gtag_report_conversion()` function on their primary CTA buttons with conversion label `D1leCLf07P8aELbhictA`. Pages: `/urduai/`, `/wali/`, `/wire/`, `/programs/`, `/digital-literacy/`. Without this, Ad Grant conversions don't record → can't use Maximize Conversions bidding. |
+| A4 | **Verify Urdu AI CTA banner on 4 key pages** | ✅ DONE | Cursor | H6 was marked done. Verify these pages have a VISIBLE "Learn AI in Urdu — Free" CTA section linking to `https://urduai.org`: (1) index.html, (2) about.html, (3) impact.html, (4) blog/index.html. Each missing link = lost AdSense revenue. Don't just check the footer — there should be a dedicated CTA section/banner. |
+| A5 | **Footer ecosystem links consistency** | ✅ DONE | Cursor | walipak.com has ecosystem footer with 5 cross-domain links on all 43 pages. Verify wang.org.pk main pages also have ecosystem footer links to: walipak.com, urduai.org, pakspeed.com, pakeducate.com, wirepk.com. Check: `grep -rL "walipak.com" *.html` |
+| A6 | **Bidirectional walipak.com ↔ wang.org.pk linking** | ✅ DONE | Cursor | walipak.com footer says "An initiative of WANG" with link to wang.org.pk ✅. wang.org.pk needs to link back to walipak.com in footer ("Visit WALI — our innovation lab"). Verify this exists on all main pages. |
+| A7 | **Ad Grant landing pages — conversion tracking verification** | ✅ DONE | Cursor | Verify ALL 5 Ad Grant landing pages have `gtag_report_conversion()` function on their primary CTA buttons with conversion label `D1leCLf07P8aELbhictA`. Pages: `/urduai/`, `/wali/`, `/wire/`, `/programs/`, `/digital-literacy/`. Without this, Ad Grant conversions don't record → can't use Maximize Conversions bidding. |
 
 ## 🟢 NICE TO FIX (Quality polish)
 
