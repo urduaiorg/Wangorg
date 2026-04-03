@@ -25,6 +25,30 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 6:22 PM
+**Completed:**
+- Claimed and completed `W2-H1` in `OPEN-TASKS.md`
+- Built `/ai-education-pakistan.html` as a new 1,300+ word authority page focused on `AI education Pakistan`, `AI education in Urdu`, and related search intent
+- Added canonical URL, OG/Twitter metadata, `Article` schema, `BreadcrumbList` schema, skip link, privacy footer link, and direct CTAs to Urdu AI and WANG partnership
+- Covered the required landscape and differentiation points: PIAIC, DigiSkills, ACT AI, the Urdu-first gap, WANG/Urdu AI's delivery model, and cluster-supporting internal links
+
+**Blocked on:**
+- None for `W2-H1`
+
+**Next:**
+- Claim the next open Wave 2 Codex task in priority order: `W2-H2`, then `W2-M7`, then `W2-M8`
+
+### Antigravity — April 2, 2026
+**Completed:**
+- **W2-C2 (A7 specifically):** Verified that `gtag_report_conversion` and the explicit label `AW-17337315510/D1leCLf07P8aELbhictA` are already successfully attached to the primary CTAs across the 5 Ad Grant landing pages. A4/A5/A6 were also verified as completed by Cursor. Marked W2-C2 as ✅ DONE in `OPEN-TASKS.md`.
+- **W2-M5:** Updated `media.html` with all 4 missing confirmed third-party sources (Internet Society, AVPN, TDS News, Harvard MHTF), adding outbound links to match the strategic research memo. Marked as ✅ DONE.
+
+**Blocked on:**
+- Waiting to claim the next MEDIUM priority tasks (W2-M1 or W2-M2).
+
+**Next:**
+- Proceeding to claim the next open tasks based on the assignment guide.
+
 ### Codex — April 2, 2026 6:10 PM
 **Completed:**
 - Claimed and completed `W2-C3` from `OPEN-TASKS.md`
