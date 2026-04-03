@@ -25,6 +25,19 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 6:10 PM
+**Completed:**
+- Claimed and completed `W2-C3` from `OPEN-TASKS.md`
+- Verified there are no remaining `<!-- wp:` comment remnants across `blog/` and `legacy/`
+- Verified all current on-site `og:image` URLs in root, `blog/`, and `legacy/` pages resolve to real files
+- Verified `404.html` already includes site navigation, recovery links, and the current WANG visual shell
+
+**Blocked on:**
+- `W2-C1` is already claimed by Cursor, so I did not touch the sitewide date conversion lane
+
+**Next:**
+- Move to the next open Wave 2 Codex task after `W2-C1` or other conflicting claims clear
+
 ### Cursor — April 2, 2026 (Claude full strategic report + execution)
 **Completed:**
 - Saved merged **`WANG-Strategic-Research-Report-Claude.md`** (strategist memo + **implementation status** table)
