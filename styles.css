@@ -510,6 +510,24 @@ h1 {
   border: 0;
 }
 
+/* lite-youtube facade — library provides 16:9 via ::after; widen past default 720px cap */
+.hero-video-frame lite-youtube {
+  width: 100%;
+  max-width: none;
+}
+
+.media-card-lite-yt {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.media-card-lite-yt lite-youtube {
+  display: block;
+  width: 100%;
+  max-width: none;
+}
+
 .hero-ledger span {
   padding-top: 0.9rem;
   border-top: 1px solid rgba(255, 255, 255, 0.26);

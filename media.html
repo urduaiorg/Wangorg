@@ -84,6 +84,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;600&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.css"
+    />
   </head>
   <body data-page="media">
     <div class="site-bg"></div>
@@ -148,25 +152,54 @@
             <p>WANG recognized nationally for outstanding social services and community impact across Balochistan — selected from 166+ nominations. Covered by Daily Qaumi Awaz.</p>
           </article>
           <article class="media-card">
-            <a href="https://www.youtube.com/watch?v=nXLk4M5mLyI" target="_blank" rel="noreferrer">
-              <img src="https://i.ytimg.com/vi/nXLk4M5mLyI/maxresdefault.jpg" alt="ARY News coverage of WANG" loading="lazy" width="1280" height="720" />
-            </a>
+            <div class="media-card-lite-yt">
+              <lite-youtube
+                videoid="nXLk4M5mLyI"
+                playlabel="Play: ARY News coverage of WANG"
+                params="modestbranding=1&amp;rel=0"
+              ></lite-youtube>
+            </div>
             <h3>ARY News</h3>
-            <p>National coverage documenting WANG’s work from Balochistan and the wider public-interest case for rural innovation.</p>
+            <p>
+              National coverage documenting WANG’s work from Balochistan and the wider public-interest case for
+              rural innovation.
+              <a href="https://www.youtube.com/watch?v=nXLk4M5mLyI" target="_blank" rel="noreferrer"
+                >Open on YouTube</a
+              >.
+            </p>
           </article>
           <article class="media-card">
-            <a href="https://www.youtube.com/watch?v=F0aSyRMBrLE" target="_blank" rel="noreferrer">
-              <img src="https://i.ytimg.com/vi/F0aSyRMBrLE/maxresdefault.jpg" alt="Internet Society feature" loading="lazy" width="1280" height="720" />
-            </a>
+            <div class="media-card-lite-yt">
+              <lite-youtube
+                videoid="F0aSyRMBrLE"
+                playlabel="Play: Internet Society — girls in rural Pakistan and the internet"
+                params="modestbranding=1&amp;rel=0"
+              ></lite-youtube>
+            </div>
             <h3>Internet Society</h3>
-            <p>A third-party feature placing WANG and WALI inside a global conversation about internet access, equity, and opportunity.</p>
+            <p>
+              A third-party feature placing WANG and WALI inside a global conversation about internet access,
+              equity, and opportunity.
+              <a href="https://www.youtube.com/watch?v=F0aSyRMBrLE" target="_blank" rel="noreferrer"
+                >Open on YouTube</a
+              >.
+            </p>
           </article>
           <article class="media-card">
-            <a href="https://www.youtube.com/watch?v=h7v0W5lf_Ao" target="_blank" rel="noreferrer">
-              <img src="https://i.ytimg.com/vi/h7v0W5lf_Ao/maxresdefault.jpg" alt="Urdu AI workshop documentation" loading="lazy" width="1280" height="720" />
-            </a>
+            <div class="media-card-lite-yt">
+              <lite-youtube
+                videoid="h7v0W5lf_Ao"
+                playlabel="Play: Urdu AI workshop by WANG"
+                params="modestbranding=1&amp;rel=0"
+              ></lite-youtube>
+            </div>
             <h3>Urdu AI Workshop Documentation</h3>
-            <p>Direct evidence of how WANG turns local facilitation into accessible AI education in Urdu.</p>
+            <p>
+              Direct evidence of how WANG turns local facilitation into accessible AI education in Urdu.
+              <a href="https://www.youtube.com/watch?v=h7v0W5lf_Ao" target="_blank" rel="noreferrer"
+                >Open on YouTube</a
+              >.
+            </p>
           </article>
         </div>
       </section>
@@ -337,5 +370,6 @@
       <p class="site-footer-legal">Legal name: Welfare Association for New Generation.</p>
     </footer>
     <script src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.js"></script>
   </body>
 </html>
