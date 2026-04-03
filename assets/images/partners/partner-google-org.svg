@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44" role="img" aria-label="Google.org">
-  <text x="4" y="32" font-family="Segoe UI, system-ui, sans-serif" font-size="26" font-weight="600" fill="#1a2744">Google.org</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" role="img" aria-label="Google.org">
+  <text x="0" y="58" font-family="'Product Sans', 'Arial', sans-serif" font-size="52" font-weight="400">
+    <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan><tspan fill="#757575">.org</tspan>
+  </text>
 </svg>

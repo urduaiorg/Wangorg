@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-label="Girl Rising">
+  <!-- Bird silhouette -->
+  <g transform="translate(170, 12) scale(0.35)" fill="#9B9B9B">
+    <path d="M40 0C35 8 20 18 0 28C10 26 22 28 30 32C20 36 10 44 5 52C18 44 30 42 40 44C35 50 32 58 32 66C38 58 46 52 54 50C50 56 48 64 50 72C54 62 62 54 70 50C74 56 76 64 74 72C78 62 78 52 74 44C84 42 96 44 108 52C102 44 92 36 82 32C90 28 102 26 112 28C92 18 76 8 72 0C68 10 60 16 56 18C52 16 44 10 40 0Z"/>
+  </g>
+  <text x="0" y="62" font-family="'Georgia', 'Times New Roman', serif" font-size="36" font-weight="400" fill="#9B9B9B" letter-spacing="3">Girl Rising</text>
+</svg>
