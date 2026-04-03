@@ -25,6 +25,19 @@ After completing any task, add your update to the top of the log below. Format:
 
 ## CHECK-IN LOG
 
+### Codex — April 2, 2026 8:38 PM
+**Completed:**
+- Verified current public Urdu AI metrics against `impact.urduai.org` and WALI metrics against `wali.edu.pk`, using `walipak.com` as an older comparison source
+- Updated `impact.html` to separate `800K+ learners`, `1M+ online community`, `7,968+ participants`, `248 trainings`, and the current WALI 2025 counters
+- Updated `urduai.html` and `urduai/index.html` so Urdu AI metadata, FAQ/schema copy, hero copy, and impact stats no longer rely on the stale `50K+ app downloads` claim
+- Updated `wali.html`, `wali/index.html`, and `digital-literacy-balochistan.html` to replace stale `196+` / `1,322+` WALI counts with the current public 2025 figures from `wali.edu.pk`
+
+**Blocked on:**
+- Other strategy and QA documents still contain legacy metric references, but I left those alone because this pass was focused on public-facing website pages
+
+**Next:**
+- Run one more sitewide metrics sweep for remaining public HTML references to stale Urdu AI / WALI numbers, then commit and push the normalized page updates
+
 ### Codex — April 2, 2026 8:06 PM
 **Completed:**
 - Read `WANG_Organizational_Profile_2026.docx` and used it as the hierarchy source of truth
