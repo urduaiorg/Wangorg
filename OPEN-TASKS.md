@@ -130,6 +130,21 @@ These are the biggest SEO opportunities from the competitive research. Each page
 
 ---
 
+### 🟣 WAVE 3 — Homepage Rebalance & SEO/AEO Alignment (April 2026)
+
+| # | Task | Status | Owner | Details |
+|---|---|---|---|---|
+| W3-1 | **Homepage rebalance: community impact first** | ✅ DONE | Claude | Reordered hero stats (14+ Years → Re-enrolled → Climate Leaders → Scholarships → Monthly Reach), rewrote H1/hero text/CTA/ledger/closing section to lead with education, climate, women's enterprise. Stats ribbon reordered community-first. Initiative descriptions enriched for WIRE, ADI, Scholarships with concrete metrics. |
+| W3-2 | **Sitewide meta descriptions (14 pages)** | ✅ DONE | Claude | Added donor-facing, impact-first meta descriptions to index, about, initiatives, impact, team, contact, media, awards, annual-report, and 5 pillar pages. All lead with community impact, not AI/digital. |
+| W3-3 | **FAQPage schema (4 pages)** | ✅ DONE | Claude | Added FAQPage schema to impact.html (5 Qs), initiatives.html (4 Qs), contact.html (3 Qs), team.html (3 Qs) — covering donor queries like "Is WANG registered?", "How do I fund WANG?", "What programs does WANG run?" |
+| W3-4 | **Organization/NGO schema sitewide** | ✅ DONE | Claude | Added full Organization+NGO schema to 9 pages missing it. Updated sameAs with social media (YouTube, Instagram, Facebook, X) on all pages. Aligned schema description across all files: "14 years of education, climate resilience, women's enterprise, youth development, and digital innovation." |
+| W3-5 | **OG + Twitter meta alignment** | ✅ DONE | Claude | Updated og:description and twitter:description on index.html to match rebalanced narrative. |
+| W3-6 | **Programs page: add images** | 🔒 IN PROGRESS | Claude | Added `<picture>` elements with webp/jpg fallback to all 7 program rows on programs-overview.html. CSS for `.program-row` layout still needed. |
+| W3-7 | **Partner logo polish** | ✅ DONE | Claude | Replaced Canada wordmark (1875×445), Internet Society (474×210 webp), British Council (800×600). Uniform 160px marquee slots, `--lg` modifier for wide logos. |
+| W3-8 | **Nav CTA + stats ribbon + footer polish** | ✅ DONE | Claude | Gold "Partner With WANG" pill in nav, clamp() responsive stats numbers, footer copyright bar, em dash fixes throughout. |
+
+---
+
 ### 🟢 LOWER PRIORITY — Authority building & polish
 
 | # | Task | Status | Best for | Details |
