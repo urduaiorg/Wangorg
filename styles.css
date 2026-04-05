@@ -1465,6 +1465,13 @@ h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.92rem;
 }
+.site-footer-legal {
+  width: var(--content);
+  margin: 1.5rem auto 0;
+  text-align: center;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.45);
+}
 
 .site-footer-grid {
   display: grid;
