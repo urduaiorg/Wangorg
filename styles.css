@@ -1687,7 +1687,7 @@ h1 {
 
 .article-shell {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
   max-width: 52rem;
@@ -1738,7 +1738,8 @@ h1 {
 }
 
 .article-figure {
-  margin: 1rem 0 0.5rem;
+  margin: 1.5rem 0 1rem;
+  width: 100%;
 }
 
 .article-figure img {
@@ -1803,6 +1804,7 @@ h1 {
 
 .article-body {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.25rem;
   max-width: 46rem;
   margin-inline: auto;
