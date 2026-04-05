@@ -1362,9 +1362,15 @@ h1 {
 }
 
 [data-page="blog"] .closing-cta {
-  margin-top: 2rem;
-  padding-top: 3rem;
-  border-top: 1px solid var(--line);
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  background: var(--bg-strong);
+  border-radius: var(--radius);
+  border-top: none;
+}
+
+[data-page="blog"] .closing-cta .closing-copy h2 {
+  max-width: 16ch;
 }
 
 .closing-copy h2 {
@@ -1693,32 +1699,51 @@ h1 {
   max-width: 52rem;
 }
 
-/* Blog post layout */
+/* Blog post layout — editorial style */
+[data-page="blog"] .inner-page {
+  padding-top: 0;
+}
+
 [data-page="blog"] .page-intro {
-  max-width: 52rem;
-  padding-bottom: 1rem;
+  max-width: 100%;
+  padding: 5rem 0 3rem;
+  background: linear-gradient(180deg, var(--bg-strong) 0%, var(--bg) 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+[data-page="blog"] .page-intro .eyebrow {
+  margin-bottom: 0.5rem;
 }
 
 [data-page="blog"] .page-intro h1 {
-  max-width: 22ch;
-  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+  max-width: 18ch;
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  text-align: center;
 }
 
 [data-page="blog"] .page-intro > p:not(.eyebrow) {
-  max-width: 42ch;
-  font-size: 1.15rem;
-  line-height: 1.65;
+  max-width: 38ch;
+  font-size: 1.12rem;
+  line-height: 1.7;
   color: var(--muted);
+  text-align: center;
 }
 
 .article-header {
-  display: grid;
-  gap: 1.25rem;
-  padding-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .article-meta {
@@ -1726,9 +1751,25 @@ h1 {
   flex-wrap: wrap;
   gap: 0.5rem 1.5rem;
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+
+.article-meta span {
+  position: relative;
+}
+
+.article-meta span + span::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  vertical-align: middle;
+  margin-right: 1rem;
 }
 
 .article-actions {
@@ -1738,8 +1779,10 @@ h1 {
 }
 
 .article-figure {
-  margin: 1.5rem 0 1rem;
+  margin: 0 0 2rem;
   width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius);
 }
 
 .article-figure img {
@@ -1747,6 +1790,8 @@ h1 {
   height: auto;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 /* In-article CTA banner — overrides inline styles */
@@ -1754,21 +1799,24 @@ h1 {
   background: var(--navy) !important;
   color: #fff;
   border-radius: var(--radius) !important;
-  padding: 2.5rem 2rem !important;
-  margin-top: 2.5rem !important;
+  padding: 3rem 2.5rem !important;
+  margin-top: 3rem !important;
   text-align: center;
+  border: none !important;
 }
 
 .article-body .urduai-cta-banner h2 {
   color: #fff;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
 }
 
 .article-body .urduai-cta-banner p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+  max-width: 36ch;
+  margin-inline: auto;
 }
 
 .article-main {
@@ -1805,24 +1853,46 @@ h1 {
 .article-body {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 1.25rem;
-  max-width: 46rem;
+  gap: 1.4rem;
+  max-width: 42rem;
   margin-inline: auto;
   width: 100%;
+  font-family: "Roboto", "Georgia", serif;
 }
 
 .article-body p {
-  font-size: 1.08rem;
-  line-height: 1.8;
-  color: var(--ink);
+  font-size: 1.1rem;
+  line-height: 1.85;
+  color: #1a2a3a;
+}
+
+/* Drop cap on first paragraph after the figure */
+.article-body .article-figure + h3 + p::first-letter,
+.article-body > p:first-child::first-letter {
+  float: left;
+  font-size: 3.4rem;
+  line-height: 0.85;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: var(--navy);
+  margin: 0.05em 0.12em 0 0;
 }
 
 .article-body h3 {
-  margin-top: 1.5rem;
-  font-size: 1.4rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  font-size: 1.35rem;
   font-weight: 700;
   line-height: 1.3;
   color: var(--ink);
+  font-family: "Poppins", sans-serif;
+}
+
+.article-body h3:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .article-body h3 strong {
@@ -1832,9 +1902,24 @@ h1 {
 .article-body a {
   color: var(--accent-strong);
   text-decoration: underline;
-  text-decoration-color: rgba(0, 50, 121, 0.3);
-  text-underline-offset: 0.15em;
-  transition: text-decoration-color 0.2s;
+  text-decoration-color: rgba(0, 50, 121, 0.25);
+  text-underline-offset: 0.18em;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+
+.article-body a:hover {
+  color: var(--navy-light);
+  text-decoration-color: var(--navy-light);
+}
+
+.article-body blockquote {
+  margin: 1.5rem 0;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  border-left: 4px solid var(--accent);
+  background: var(--bg-strong);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-style: italic;
+  color: var(--muted);
 }
 
 .article-body a:hover {
