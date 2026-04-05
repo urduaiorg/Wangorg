@@ -161,6 +161,24 @@ main:focus {
   color: var(--accent);
 }
 
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--ink) !important;
+  font-weight: 700 !important;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+  transition: background 180ms ease, transform 180ms ease;
+}
+.nav-cta:hover {
+  background: #d4aa10;
+  transform: translateY(-1px);
+}
+
 .nav-toggle {
   display: none;
   width: 3rem;
@@ -1029,8 +1047,8 @@ h1 {
 }
 
 .stats-ribbon article {
-  min-height: 6rem;
-  padding: 1.2rem 1.25rem 0;
+  min-height: 7.5rem;
+  padding: 1.5rem 1.25rem 0;
   border-top: 2px solid var(--accent);
   text-align: center;
 }
@@ -1039,15 +1057,18 @@ h1 {
   display: block;
   margin-bottom: 0.4rem;
   color: var(--accent);
-  font-size: 1.6rem;
+  font-size: clamp(2rem, 2.6vw, 3rem);
   font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
 }
 
 .stats-ribbon span {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
+  line-height: 1.3;
 }
 
 .initiative-row h3,
@@ -1813,6 +1834,10 @@ h1 {
   text-transform: uppercase;
   color: var(--muted);
   margin-bottom: 1.25rem;
+  max-width: var(--content);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
 }
 
 .partner-marquee-track {
@@ -1841,6 +1866,7 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  width: 160px;        /* fixed slot — enforces visual uniformity across logos */
   height: 60px;
   opacity: 0.75;
   filter: grayscale(80%);
@@ -1853,10 +1879,17 @@ h1 {
 
 .partner-logo-item img {
   display: block;
-  height: 60px;
   width: auto;
-  max-width: 200px;
+  height: auto;
+  max-height: 48px;    /* constrain within slot */
+  max-width: 120px;    /* constrain within slot — prevents wide text logos from clipping */
   object-fit: contain;
+}
+
+/* Larger treatment for specific logos that need more room */
+.partner-logo-item--lg img {
+  max-height: 58px;
+  max-width: 160px;
 }
 
 /* Legacy static strip (partners page etc.) */
@@ -2312,6 +2345,19 @@ a.media-outlet-link:focus-visible {
   .stats-ribbon-inner {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* Partner marquee — tighter on mobile */
+  .partner-logo-item {
+    width: 110px;
+    height: 44px;
+  }
+  .partner-logo-item img {
+    max-height: 34px;
+    max-width: 80px;
+  }
+  .partner-marquee-inner {
+    gap: 1.25rem;
+  }
 }
 
 /* Annual report — illustrative expense mix (donor-facing summary) */
@@ -2355,6 +2401,28 @@ a.media-outlet-link:focus-visible {
   border-radius: 4px;
   flex-shrink: 0;
   margin-top: 0.2rem;
+}
+
+/* Footer copyright bar */
+.footer-copyright {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 0.85rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.footer-copyright p,
+.footer-copyright a {
+  margin: 0;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+}
+.footer-copyright a:hover {
+  color: var(--accent);
 }
 
 /* Print — journal posts and long reads */

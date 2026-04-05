@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "wang-site",
-      "runtimeExecutable": "bash",
-      "runtimeArgs": [".claude/serve.sh"],
+      "runtimeExecutable": "ruby",
+      "runtimeArgs": ["-run", "-e", "httpd", "/tmp/wangorg-preview", "-p", "8080"],
       "port": 8080
     }
   ]
