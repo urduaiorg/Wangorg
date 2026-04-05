@@ -2505,8 +2505,12 @@ a.media-outlet-link:focus-visible {
   }
 
   .brand-mark {
-    width: 2.1rem;
-    height: 2.1rem;
+    width: auto;
+    height: auto;
+  }
+
+  .brand img {
+    width: 80px;
   }
 
   .brand strong {
