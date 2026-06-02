@@ -61,11 +61,10 @@ requestAnimationFrame(() => {
   });
 });
 
-const easeOutQuad = (t) => 1 - (1 - t) * (1 - t);
-
 const setFinalHeroStats = () => {
   document.querySelectorAll(".hero-stats .hero-stat-num[data-val]").forEach((el) => {
-    const target = el.dataset.val ?? "";
+    const rawTarget = el.dataset.val ?? "";
+    const target = Number(rawTarget).toLocaleString("en-US");
     const suffix = el.dataset.suffix ?? "";
     const prefix = el.dataset.prefix ?? "";
     el.textContent = `${prefix}${target}${suffix}`;
@@ -75,36 +74,7 @@ const setFinalHeroStats = () => {
 const animateHeroStats = () => {
   const root = document.querySelector(".hero-stats");
   if (!root) return;
-  if (reduceMotion) {
-    setFinalHeroStats();
-    return;
-  }
-  const io = new IntersectionObserver(
-    (entries, obs) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        obs.unobserve(entry.target);
-        root.querySelectorAll(".hero-stat-num[data-val]").forEach((el) => {
-          const target = Number(el.dataset.val);
-          if (Number.isNaN(target)) return;
-          const suffix = el.dataset.suffix ?? "";
-          const prefix = el.dataset.prefix ?? "";
-          const duration = 1000;
-          const t0 = performance.now();
-          const step = (now) => {
-            const p = Math.min((now - t0) / duration, 1);
-            const n = Math.round(target * easeOutQuad(p));
-            el.textContent = `${prefix}${n}${suffix}`;
-            if (p < 1) requestAnimationFrame(step);
-            else el.textContent = `${prefix}${target}${suffix}`;
-          };
-          requestAnimationFrame(step);
-        });
-      });
-    },
-    { threshold: 0.12 }
-  );
-  io.observe(root);
+  setFinalHeroStats();
 };
 
 animateHeroStats();
