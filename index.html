@@ -158,35 +158,30 @@
       }
     </script>
 
-    <!-- Google Analytics GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJ2TGEPJ49"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-DJ2TGEPJ49');
-      gtag('config', 'AW-17337315510');
-    </script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Roboto:wght@400;500;600&amp;display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="image"
+      href="assets/images/hero-community-impact-900.webp"
+      imagesrcset="assets/images/hero-community-impact-900.webp 900w, assets/images/hero-community-impact-1400.webp 1400w, assets/images/hero-community-impact-2000.webp 2000w"
+      imagesizes="100vw"
+      type="image/webp"
+      fetchpriority="high"
     />
-    <link rel="preload" as="image" href="assets/images/hero-community-impact.webp" type="image/webp" />
     <link rel="stylesheet" href="styles.css?v=20260602" />
     <link
-      rel="stylesheet"
+      rel="preload"
+      as="style"
       href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.css"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.css" /></noscript>
   </head>
   <body data-page="home">
     <div class="site-bg"></div>
     <a class="skip-link" href="#main">Skip to main content</a>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="WANG home">
-        <span class="brand-mark"><img src="assets/images/wang-logo.png" alt="WANG logo" width="110" height="33" /></span>
+        <span class="brand-mark"><img src="assets/images/wang-logo-site.png" alt="WANG logo" width="220" height="112" /></span>
       </a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
@@ -210,9 +205,15 @@
       <section class="hero hero-home reveal">
         <div class="hero-home-bg" aria-hidden="true">
           <picture>
-            <source srcset="assets/images/hero-community-impact.webp" type="image/webp" />
+            <source
+              srcset="assets/images/hero-community-impact-900.webp 900w, assets/images/hero-community-impact-1400.webp 1400w, assets/images/hero-community-impact-2000.webp 2000w"
+              sizes="100vw"
+              type="image/webp"
+            />
             <img
               src="assets/images/hero-community-impact.jpg"
+              srcset="assets/images/hero-community-impact.jpg 2000w"
+              sizes="100vw"
               alt="Community gathering at WANG climate action event in Lasbela, Balochistan"
               width="2000"
               height="1125"
@@ -426,33 +427,33 @@
         <h2 id="partner-logo-heading" class="partner-marquee-label">Selected funders, partners &amp; verification platforms</h2>
         <div class="partner-marquee-track">
           <div class="partner-marquee-inner">
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-undp.png" alt="UNDP" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-google-org.svg" alt="Google.org" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-anthropic.svg" alt="Anthropic" /></span>
-            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-canada-government.png" alt="Government of Canada" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-internet-society.webp" alt="Internet Society" /></span>
-            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-british-council.png" alt="British Council" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-avpn.svg" alt="AVPN" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-girl-rising.png" alt="Girl Rising" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-global-changemakers.png" alt="Global Changemakers" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-benevity.svg" alt="Benevity" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-techsoup.svg" alt="TechSoup" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-goodstack.svg" alt="Goodstack" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-undp.png" alt="UNDP" width="400" height="203" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-google-org.svg" alt="Google.org" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-anthropic.svg" alt="Anthropic" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-canada-government.png" alt="Government of Canada" width="1875" height="445" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-internet-society.webp" alt="Internet Society" width="474" height="210" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-british-council.png" alt="British Council" width="800" height="600" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-avpn.svg" alt="AVPN" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-girl-rising.png" alt="Girl Rising" width="200" height="55" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-global-changemakers.png" alt="Global Changemakers" width="400" height="204" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-benevity.svg" alt="Benevity" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-techsoup.svg" alt="TechSoup" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-goodstack.svg" alt="Goodstack" width="240" height="120" loading="lazy" decoding="async" /></span>
           </div>
           <!-- Duplicate for seamless loop -->
           <div class="partner-marquee-inner" aria-hidden="true">
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-undp.png" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-google-org.svg" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-anthropic.svg" alt="" /></span>
-            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-canada-government.png" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-internet-society.webp" alt="" /></span>
-            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-british-council.png" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-avpn.svg" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-girl-rising.png" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-global-changemakers.png" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-benevity.svg" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-techsoup.svg" alt="" /></span>
-            <span class="partner-logo-item"><img src="assets/images/partners/partner-goodstack.svg" alt="" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-undp.png" alt="" width="400" height="203" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-google-org.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-anthropic.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-canada-government.png" alt="" width="1875" height="445" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-internet-society.webp" alt="" width="474" height="210" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-british-council.png" alt="" width="800" height="600" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-avpn.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-girl-rising.png" alt="" width="200" height="55" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-global-changemakers.png" alt="" width="400" height="204" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-benevity.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-techsoup.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-goodstack.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
           </div>
         </div>
         <p class="partner-verification-bar">Verified non-profit on <strong>Benevity</strong> · <strong>TechSoup</strong> · <strong>Goodstack</strong></p>

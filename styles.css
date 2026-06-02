@@ -2670,7 +2670,7 @@ a.media-outlet-link:focus-visible {
 /* Footer copyright bar */
 .footer-copyright {
   width: 100%;
-  background: rgba(0, 0, 0, 0.25);
+  background: var(--ink);
   padding: 0.85rem 0;
   display: flex;
   align-items: center;
@@ -2682,7 +2682,7 @@ a.media-outlet-link:focus-visible {
 .footer-copyright a {
   margin: 0;
   font-size: 0.78rem;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.88);
   text-decoration: none;
 }
 .footer-copyright a:hover {

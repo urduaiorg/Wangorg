@@ -3,6 +3,32 @@ const nav = document.querySelector(".site-nav");
 const toggle = document.querySelector(".nav-toggle");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+window.dataLayer = window.dataLayer || [];
+window.gtag = window.gtag || function gtag() {
+  window.dataLayer.push(arguments);
+};
+
+const loadAnalytics = () => {
+  if (window.__wangAnalyticsLoaded) return;
+  window.__wangAnalyticsLoaded = true;
+  const script = document.createElement("script");
+  script.src = "https://www.googletagmanager.com/gtag/js?id=G-DJ2TGEPJ49";
+  script.async = true;
+  document.head.appendChild(script);
+  window.gtag("js", new Date());
+  window.gtag("config", "G-DJ2TGEPJ49");
+  window.gtag("config", "AW-17337315510");
+};
+
+const scheduleAnalytics = () => {
+  ["pointerdown", "keydown", "touchstart"].forEach((eventName) => {
+    window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+  });
+  window.setTimeout(loadAnalytics, 15000);
+};
+
+scheduleAnalytics();
+
 if (toggle && nav) {
   toggle.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("is-open");
