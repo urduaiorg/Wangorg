@@ -110,25 +110,12 @@ const updateHeader = () => {
   header.classList.toggle("scrolled", window.scrollY > 16);
 };
 
-const updateHeroParallax = () => {
-  const bgImg = document.querySelector(".hero-home-bg img");
-  if (!bgImg) return;
-  if (reduceMotion) {
-    bgImg.style.transform = "";
-    return;
-  }
-  const offset = Math.min(window.scrollY * 0.06, 40);
-  bgImg.style.transform = `translate3d(0, ${offset}px, 0) scale(1.05)`;
-};
-
 updateHeader();
-updateHeroParallax();
 
 window.addEventListener(
   "scroll",
   () => {
     updateHeader();
-    updateHeroParallax();
   },
   { passive: true }
 );

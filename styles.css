@@ -260,7 +260,6 @@ main:focus {
 .hero-home-bg img {
   object-fit: cover;
   min-height: 100%;
-  will-change: transform;
 }
 
 .hero-home::before {
