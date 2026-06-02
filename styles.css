@@ -1584,6 +1584,57 @@ h1 {
   font-size: clamp(3rem, 6vw, 5.4rem);
 }
 
+body[data-page="programs-overview"] .page-intro h1 {
+  max-width: 13.5ch;
+  font-size: clamp(2.55rem, 5vw, 4.65rem);
+}
+
+.program-snapshot {
+  width: var(--content);
+  margin: 0 auto 1.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.25rem 0 2.25rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.program-snapshot h2 {
+  max-width: 15ch;
+  font-size: clamp(1.65rem, 2.4vw, 2.6rem);
+  line-height: 1.08;
+}
+
+.program-snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.program-snapshot-grid a {
+  display: flex;
+  align-items: center;
+  min-height: 3.25rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--accent-strong);
+  font-size: 0.92rem;
+  font-weight: 700;
+  box-shadow: 0 10px 24px rgba(6, 26, 53, 0.06);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.program-snapshot-grid a:hover,
+.program-snapshot-grid a:focus {
+  transform: translateY(-2px);
+  border-color: rgba(8, 47, 102, 0.32);
+  box-shadow: 0 14px 30px rgba(6, 26, 53, 0.10);
+}
+
 .project-sheet {
   display: grid;
   gap: 0;
@@ -2861,6 +2912,14 @@ a.media-outlet-link:focus-visible {
 }
 
 @media (max-width: 768px) {
+  .program-snapshot {
+    grid-template-columns: 1fr;
+  }
+
+  .program-snapshot-grid {
+    grid-template-columns: 1fr;
+  }
+
   .program-row {
     grid-template-columns: 1fr;
     gap: 1rem;

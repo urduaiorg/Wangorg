@@ -52,6 +52,15 @@ const observer = new IntersectionObserver(
 
 document.querySelectorAll(".reveal").forEach((item) => observer.observe(item));
 
+requestAnimationFrame(() => {
+  document.querySelectorAll(".reveal").forEach((item) => {
+    const rect = item.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 1.35) {
+      item.classList.add("is-visible");
+    }
+  });
+});
+
 const easeOutQuad = (t) => 1 - (1 - t) * (1 - t);
 
 const setFinalHeroStats = () => {
