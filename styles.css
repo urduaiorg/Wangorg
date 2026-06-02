@@ -478,7 +478,6 @@ h1 {
 
 .hero-copy {
   grid-area: copy;
-  animation: driftIn 0.9s ease both;
 }
 
 .hero-ledger {
