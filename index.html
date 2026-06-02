@@ -162,8 +162,7 @@
       rel="preload"
       as="image"
       href="assets/images/hero-community-impact-900.webp"
-      imagesrcset="assets/images/hero-community-impact-900.webp 900w, assets/images/hero-community-impact-1100.webp 1100w, assets/images/hero-community-impact-1400.webp 1400w, assets/images/hero-community-impact-2000.webp 2000w"
-      imagesizes="100vw"
+      media="(max-width: 700px)"
       type="image/webp"
       fetchpriority="high"
     />
@@ -199,7 +198,12 @@
         <div class="hero-home-bg" aria-hidden="true">
           <picture>
             <source
-              srcset="assets/images/hero-community-impact-900.webp 900w, assets/images/hero-community-impact-1100.webp 1100w, assets/images/hero-community-impact-1400.webp 1400w, assets/images/hero-community-impact-2000.webp 2000w"
+              media="(max-width: 700px)"
+              srcset="assets/images/hero-community-impact-900.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="assets/images/hero-community-impact-1400.webp 1400w, assets/images/hero-community-impact-2000.webp 2000w"
               sizes="100vw"
               type="image/webp"
             />
