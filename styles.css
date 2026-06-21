@@ -1374,8 +1374,8 @@ h1 {
 /* Team page — card roster (aligned with wang.org.pk/team/) */
 .team-roster {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.5rem 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  gap: 1.15rem 0.9rem;
 }
 
 .team-card {
@@ -1387,6 +1387,7 @@ h1 {
 
 .team-card picture {
   display: block;
+  aspect-ratio: 1 / 1.18;
   border-radius: 1.2rem;
   overflow: hidden;
   box-shadow: 0 14px 32px rgba(106, 80, 20, 0.1);
@@ -1394,13 +1395,13 @@ h1 {
 
 .team-card img {
   width: 100%;
-  aspect-ratio: 1;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
 
 .team-card h3 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   margin: 0.35rem 0 0;
   line-height: 1.25;
 }
@@ -1408,8 +1409,8 @@ h1 {
 .team-card .team-role {
   margin: 0;
   color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.45;
+  font-size: 0.82rem;
+  line-height: 1.35;
 }
 
 .closing-cta {
