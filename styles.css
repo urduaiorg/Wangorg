@@ -1413,6 +1413,115 @@ h1 {
   line-height: 1.35;
 }
 
+.urdu-ai-network {
+  border-top: 1px solid var(--line);
+}
+
+.urdu-ai-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 1.25rem;
+}
+
+.urdu-ai-panel {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 14px 36px rgba(0, 50, 121, 0.07);
+}
+
+.urdu-ai-panel-accent {
+  background: var(--navy);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.urdu-ai-panel h3 {
+  font-size: 1.45rem;
+  line-height: 1.18;
+}
+
+.urdu-ai-panel p {
+  color: var(--muted);
+}
+
+.urdu-ai-panel-accent p,
+.urdu-ai-panel-accent .manifesto-label {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.urdu-ai-people,
+.urdu-ai-stats {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.urdu-ai-people {
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.urdu-ai-people div,
+.urdu-ai-stats div {
+  display: grid;
+  gap: 0.2rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line);
+}
+
+.urdu-ai-panel-accent .urdu-ai-stats div {
+  border-top-color: rgba(255, 255, 255, 0.2);
+}
+
+.urdu-ai-people strong,
+.urdu-ai-stats strong {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.urdu-ai-stats {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.urdu-ai-stats strong {
+  color: var(--accent);
+  font-size: 2rem;
+}
+
+.urdu-ai-people span,
+.urdu-ai-stats span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.urdu-ai-panel-accent .urdu-ai-stats span {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.urdu-ai-dost-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.urdu-ai-dost-strip span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-strong);
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
 .closing-cta {
   display: grid;
   grid-template-columns: minmax(0, 1.12fr) minmax(19rem, 0.88fr);
@@ -2552,6 +2661,7 @@ a.media-outlet-link:focus-visible {
   .initiative-row,
   .site-footer-grid,
   .contact-grid,
+  .urdu-ai-layout,
   .initiative-cards {
     grid-template-columns: 1fr;
   }
