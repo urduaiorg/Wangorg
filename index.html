@@ -12,8 +12,7 @@
     html { background: #003279; }
     body { margin: 0; color: #fff; font-family: Arial, sans-serif; }
     main { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 24px; text-align: center; border-top: 10px solid #f1cc11; }
-    .brand { margin: 0 0 48px; font-size: 30px; font-weight: 900; letter-spacing: 0.06em; }
-    .brand span { color: #f1cc11; }
+    .brand { display: block; width: min(320px, 80vw); height: auto; margin: 0 0 48px; background: #fff; border-radius: 8px; }
     .line { width: 64px; height: 5px; background: #f1cc11; margin-bottom: 28px; }
     h1 { max-width: 950px; margin: 0; font-size: clamp(42px, 8vw, 100px); line-height: 1.06; letter-spacing: -0.045em; font-weight: 800; }
     h1 span { color: #f1cc11; }
@@ -22,7 +21,7 @@
 </head>
 <body>
   <main>
-    <p class="brand" aria-label="WANG">WAN<span>G</span></p>
+    <img class="brand" src="/assets/images/wang-logo-official.png" alt="WANG — We Are New Generation" width="1250" height="401" />
     <div class="line" aria-hidden="true"></div>
     <h1>Website under<br /><span>construction.</span></h1>
     <p class="message">We’re updating our website.<br />Thank you for your patience. We’ll be back soon.</p>
