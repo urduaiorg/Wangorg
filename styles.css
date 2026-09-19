@@ -3102,3 +3102,20 @@ a.media-outlet-link:focus-visible {
     height: 160px;
   }
 }
+
+/* Temporary construction notice; remove with the matching HTML asides. */
+.construction-notice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.2rem 0.5rem;
+  padding: 0.7rem 1.2rem;
+  background: var(--accent, #f1cc11);
+  color: var(--deep, #003279);
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+@media print {
+  .construction-notice { display: none; }
+}
