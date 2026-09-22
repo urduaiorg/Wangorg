@@ -1,30 +1,701 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Website Under Construction | WANG</title>
-  <meta name="description" content="We’re updating the WANG website. Thank you for your patience." />
-  <link rel="canonical" href="https://wang.org.pk/" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <style>
-    * { box-sizing: border-box; }
-    html { background: #003279; }
-    body { margin: 0; color: #fff; font-family: Arial, sans-serif; }
-    main { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 24px; text-align: center; border-top: 10px solid #f1cc11; }
-    .brand { display: block; width: min(320px, 80vw); height: auto; margin: 0 0 48px; background: #fff; border-radius: 8px; }
-    .line { width: 64px; height: 5px; background: #f1cc11; margin-bottom: 28px; }
-    h1 { max-width: 950px; margin: 0; font-size: clamp(42px, 8vw, 100px); line-height: 1.06; letter-spacing: -0.045em; font-weight: 800; }
-    h1 span { color: #f1cc11; }
-    .message { max-width: 540px; margin: 28px 0 0; font-size: clamp(17px, 2.5vw, 22px); line-height: 1.6; color: #e1e9f5; }
-  </style>
-</head>
-<body>
-  <main>
-    <img class="brand" src="/assets/images/wang-logo-official.png" alt="WANG — We Are New Generation" width="1250" height="401" />
-    <div class="line" aria-hidden="true"></div>
-    <h1>Website under<br /><span>construction.</span></h1>
-    <p class="message">We’re updating our website.<br />Thank you for your patience. We’ll be back soon.</p>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="ntc02ny50y6yCttH_SdDIQyOgCuX8YZxvY3b7OFdnAk" />
+    <title>WANG — We Are New Generation | Pakistan Non-Profit</title>
+    <meta content="WANG is a rural innovation platform from Lasbela, Balochistan, linking WALI, WIRE, Urdu AI, PakEducate, PakSpeed, Darwaza, and community programs." name="description"/>
+    <link rel="canonical" href="https://wang.org.pk/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content="WANG — We Are New Generation | Pakistan Non-Profit" />
+    <meta
+      property="og:description"
+      content="WANG is a registered nonprofit in Pakistan with community roots since 1991 and audited program delivery since 2012 across education, climate resilience, women's enterprise, and digital innovation."
+    />
+    <meta property="og:url" content="https://wang.org.pk/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="WANG" />
+    <meta property="og:image" content="https://wang.org.pk/assets/images/hero-community-impact.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WANG — We Are New Generation | Pakistan Non-Profit" />
+    <meta name="twitter:description" content="Pakistan registered nonprofit with community roots since 1991 and audited program delivery since 2012 across education, climate action, women's enterprise, and digital innovation." />
+    <meta name="twitter:image" content="https://wang.org.pk/assets/images/hero-community-impact.jpg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://wang.org.pk/" }
+        ]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["NGO", "Organization"],
+        "name": "WANG",
+        "alternateName": "We Are New Generation",
+        "description": "WANG (We Are New Generation) is a registered non-profit organization in Pakistan building education, youth leadership, women’s empowerment, digital inclusion, and community resilience from Lasbela, Balochistan.",
+        "url": "https://wang.org.pk/",
+        "foundingDate": "1991",
+        "foundingLocation": {
+          "@type": "Place",
+          "name": "Ahmed Abad Wang, Bela, Lasbela, Balochistan, Pakistan"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Pakistan"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "info@wang.org.pk",
+          "telephone": "+923218737322",
+          "contactType": "partnerships and public inquiries",
+          "areaServed": "PK"
+        },
+        "knowsAbout": [
+          "digital literacy",
+          "rural innovation",
+          "Urdu AI education",
+          "women's empowerment",
+          "girls' education",
+          "community resilience",
+          "scholarships"
+        ],
+        "sameAs": [
+          "https://walipak.com/",
+          "https://urduai.org/",
+          "https://impact.urduai.org/",
+          "https://wirepk.com/",
+          "https://www.pakspeed.com/",
+          "https://www.youtube.com/@wangorg",
+          "https://www.instagram.com/wangorg/",
+          "https://www.facebook.com/wangorg",
+          "https://x.com/wangorg"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Qaisar Roonjha"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Ahmed Abad Wang",
+          "addressLocality": "Bela, Lasbela",
+          "addressRegion": "Balochistan",
+          "postalCode": "90050",
+          "addressCountry": "PK"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "VideoObject",
+            "name": "WALI Innovation Lab — Internet Society feature (WANG)",
+            "description": "Internet Society feature on WANG's WALI Innovation Lab bringing digital literacy and innovation to rural Balochistan, Pakistan.",
+            "thumbnailUrl": "https://i.ytimg.com/vi/F0aSyRMBrLE/maxresdefault.jpg",
+            "uploadDate": "2023-08-31T12:00:00+05:00",
+            "contentUrl": "https://www.youtube.com/watch?v=F0aSyRMBrLE",
+            "embedUrl": "https://www.youtube.com/embed/F0aSyRMBrLE",
+            "publisher": { "@type": "Organization", "name": "WANG", "url": "https://wang.org.pk/" }
+          },
+          {
+            "@type": "VideoObject",
+            "name": "Digital literacy for girls in Balochistan — WALI",
+            "description": "WANG Lab of Innovation (WALI): digital literacy for girls in rural Balochistan.",
+            "thumbnailUrl": "https://i.ytimg.com/vi/-0ZU7uOgnTM/maxresdefault.jpg",
+            "uploadDate": "2026-03-01T12:00:00+05:00",
+            "contentUrl": "https://www.youtube.com/watch?v=-0ZU7uOgnTM",
+            "embedUrl": "https://www.youtube.com/embed/-0ZU7uOgnTM",
+            "publisher": { "@type": "Organization", "name": "WANG", "url": "https://wang.org.pk/" }
+          },
+          {
+            "@type": "VideoObject",
+            "name": "Urdu AI workshop by WANG",
+            "description": "Free AI training in Urdu for youth and women in Balochistan.",
+            "thumbnailUrl": "https://i.ytimg.com/vi/h7v0W5lf_Ao/maxresdefault.jpg",
+            "uploadDate": "2026-03-01T12:00:00+05:00",
+            "contentUrl": "https://www.youtube.com/watch?v=h7v0W5lf_Ao",
+            "embedUrl": "https://www.youtube.com/embed/h7v0W5lf_Ao",
+            "publisher": { "@type": "Organization", "name": "WANG", "url": "https://wang.org.pk/" }
+          },
+          {
+            "@type": "VideoObject",
+            "name": "Pakistan Scottish Scholarship Scheme 2025 — WANG Balochistan",
+            "description": "Update on the Pakistan–Scottish scholarship scheme for Lasbela school children.",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ME61-aD-WaU/hqdefault.jpg",
+            "uploadDate": "2026-03-01T12:00:00+05:00",
+            "contentUrl": "https://www.youtube.com/watch?v=ME61-aD-WaU",
+            "embedUrl": "https://www.youtube.com/embed/ME61-aD-WaU",
+            "publisher": { "@type": "Organization", "name": "WANG", "url": "https://wang.org.pk/" }
+          },
+          {
+            "@type": "VideoObject",
+            "name": "Empowering climate resilience in Lasbela",
+            "description": "CFLI and WANG climate resilience programming in Lasbela, Balochistan.",
+            "thumbnailUrl": "https://i.ytimg.com/vi/vbs6IazMh1A/maxresdefault.jpg",
+            "uploadDate": "2023-09-28T12:00:00+05:00",
+            "contentUrl": "https://www.youtube.com/watch?v=vbs6IazMh1A",
+            "embedUrl": "https://www.youtube.com/embed/vbs6IazMh1A",
+            "publisher": { "@type": "Organization", "name": "WANG", "url": "https://wang.org.pk/" }
+          },
+          {
+            "@type": "VideoObject",
+            "name": "16 Days of Activism against gender-based violence — Balochistan",
+            "description": "WANG documentation of 16 Days of Activism with rural communities in Balochistan.",
+            "thumbnailUrl": "https://i.ytimg.com/vi/0cTEOYDk64I/maxresdefault.jpg",
+            "uploadDate": "2026-03-01T12:00:00+05:00",
+            "contentUrl": "https://www.youtube.com/watch?v=0cTEOYDk64I",
+            "embedUrl": "https://www.youtube.com/embed/0cTEOYDk64I",
+            "publisher": { "@type": "Organization", "name": "WANG", "url": "https://wang.org.pk/" }
+          }
+        ]
+      }
+    </script>
+
+    <link
+      rel="preload"
+      as="image"
+      href="assets/images/hero-community-impact-900.webp"
+      media="(max-width: 700px)"
+      type="image/webp"
+      fetchpriority="high"
+    />
+    <link rel="stylesheet" href="styles.min.css?v=20260602-thumbs" />
+  </head>
+  <body data-page="home">
+    <div class="site-bg"></div>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="WANG home">
+        <span class="brand-mark"><img src="assets/images/wang-logo-site.png" alt="WANG logo" width="140" height="71" fetchpriority="high" decoding="async" /></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="initiatives.html">Initiatives</a>
+        <a href="impact.html">Impact</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+        <a href="urduai.html" style="color: var(--accent); font-weight: 600;">Urdu AI</a>
+        <a href="https://impact.urduai.org/" target="_blank" rel="noopener noreferrer">Urdu Ai Impact</a>
+        <a href="contact.html" class="nav-cta">Partner With WANG</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero hero-home">
+        <div class="hero-home-bg" aria-hidden="true">
+          <picture>
+            <source
+              media="(max-width: 700px)"
+              srcset="assets/images/hero-community-impact-900.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="assets/images/hero-community-impact-1400.webp 1400w, assets/images/hero-community-impact-2000.webp 2000w"
+              sizes="100vw"
+              type="image/webp"
+            />
+            <img
+              src="assets/images/hero-community-impact.jpg"
+              srcset="assets/images/hero-community-impact.jpg 2000w"
+              sizes="100vw"
+              alt="Community gathering at WANG climate action event in Lasbela, Balochistan"
+              width="2000"
+              height="1125"
+              decoding="async"
+              fetchpriority="high"
+            />
+          </picture>
+        </div>
+        <div class="hero-shell">
+          <div class="hero-copy">
+            <p class="eyebrow">Ahmed Abad Wang · Balochistan · Pakistan</p>
+            <ul class="hero-stats" aria-label="Key impact figures">
+              <li>
+                <span class="hero-stat-num" data-val="35" data-suffix="+">35+</span>
+                <span class="hero-stat-label">Years of Presence</span>
+              </li>
+              <li>
+                <span class="hero-stat-num" data-val="5335" data-suffix="+">5,335+</span>
+                <span class="hero-stat-label">Children Enrolled</span>
+              </li>
+              <li>
+                <span class="hero-stat-num" data-val="875" data-suffix="+">875+</span>
+                <span class="hero-stat-label">Climate Leaders</span>
+              </li>
+              <li>
+                <span class="hero-stat-num" data-val="2222" data-suffix="+">2,222+</span>
+                <span class="hero-stat-label">Scholarships</span>
+              </li>
+              <li>
+                <span class="hero-stat-num" data-val="40" data-suffix="M+">40M+</span>
+                <span class="hero-stat-label">Monthly Reach</span>
+              </li>
+            </ul>
+            <p class="hero-brand">We Are New Generation</p>
+            <h1>One village. 35 years of community trust. A new generation of digital innovation.</h1>
+            <p class="hero-text">
+              Established in Lasbela in 1991 and operating as a modern youth-led program platform
+              since 2012, WANG re-enrolls children, trains climate leaders, builds women's
+              enterprise, and creates national digital public goods like Urdu AI.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="contact.html">Partner With WANG</a>
+              <a class="button button-secondary" href="https://impact.urduai.org/" target="_blank" rel="noopener noreferrer">See Urdu Ai Impact</a>
+            </div>
+            <p class="hero-impact-hint">
+              Your partnership reaches classrooms, climate communities, women's enterprises, and millions of digital learners across Pakistan.
+            </p>
+          </div>
+
+          <div class="hero-ledger" aria-label="WANG quick facts">
+            <span>Community roots since 1991 · youth-led program platform since 2012 · WALI innovation lab since 2021</span>
+            <span>Programs: WALI lab, Urdu AI, WIRE women's enterprise, ADI girls' leadership, scholarships, climate resilience</span>
+            <span>Funders and partners include Google.org, AVPN, ADB, Government of Canada, Internet Society, British Council, and Scottish Government</span>
+          </div>
+
+          <div class="hero-media-proof">
+            <p class="hero-media-caption"><strong>Internet Society</strong> — WALI Innovation Lab, Balochistan</p>
+            <div class="hero-video-frame">
+              <a class="video-thumb-link" href="https://www.youtube.com/watch?v=F0aSyRMBrLE" target="_blank" rel="noopener noreferrer" aria-label="Play: Internet Society feature on WALI Innovation Lab by WANG">
+                <img src="assets/images/video-thumb-wali-isoc.webp" alt="" width="640" height="360" loading="lazy" decoding="async" />
+                <span class="video-play-mark">Play</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-ribbon section-dark reveal">
+        <div class="stats-ribbon-inner">
+          <article>
+            <strong>5,335</strong>
+            <span>Re-enrolled Children</span>
+          </article>
+          <article>
+            <strong>2,222+</strong>
+            <span>Scholarships</span>
+          </article>
+          <article>
+            <strong>875</strong>
+            <span>Climate Leaders</span>
+          </article>
+          <article>
+            <strong>50+</strong>
+            <span>Homes Rebuilt</span>
+          </article>
+          <article>
+            <strong>9</strong>
+            <span>Solar Villages</span>
+          </article>
+          <article>
+            <strong>40M+</strong>
+            <span>Monthly Digital Reach</span>
+          </article>
+          <article>
+            <strong>1M+</strong>
+            <span>Online Community</span>
+          </article>
+          <article>
+            <strong>207</strong>
+            <span>WALI Students (2025)</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="initiative-band reveal">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Our initiatives</p>
+            <h2>Six public-interest initiatives built from rural Pakistan for all of Pakistan.</h2>
+          </div>
+          <p class="section-aside">
+            Each initiative starts from a real community need identified through WALI, WANG's
+            rural innovation lab in Balochistan, and grows into a public system that can serve
+            communities across the country.
+          </p>
+        </div>
+
+        <div class="initiative-list">
+          <article class="initiative-row">
+            <div class="initiative-meta">
+              <span class="initiative-index">01</span>
+              <h3>WALI</h3>
+            </div>
+            <p>
+              WANG Lab of Innovation — Pakistan's first rural innovation lab in Balochistan.
+              Digital literacy camps, youth pathways, AI workshops, and community programs
+              serving children, girls, women, and first-time learners in Lasbela.
+            </p>
+            <a href="https://walipak.com/" target="_blank" rel="noreferrer">Visit WALI</a>
+          </article>
+
+          <article class="initiative-row">
+            <div class="initiative-meta">
+              <span class="initiative-index">02</span>
+              <h3>Urdu AI</h3>
+            </div>
+            <p>
+              Pakistan's largest Urdu-language AI education platform. 1M+ learners,
+              1M+ online community, 7,968+ participants, 248 trainings, and a national Dost
+              facilitator network spanning 29 districts — making AI accessible in simple Urdu.
+            </p>
+            <a href="https://urduai.org/" target="_blank" rel="noreferrer">Visit Urdu AI</a>
+            <a href="https://impact.urduai.org/" target="_blank" rel="noopener noreferrer">View impact evidence</a>
+          </article>
+
+          <article class="initiative-row">
+            <div class="initiative-meta">
+              <span class="initiative-index">03</span>
+              <h3>WIRE</h3>
+            </div>
+            <p>
+              Women's Innovation and Rural Enterprise — 500+ women empowered through a
+              mother-daughter model linking sewing, embroidery, poultry, kitchen gardening,
+              and digital enterprise into sustainable livelihoods and girls' education in Lasbela.
+            </p>
+            <a href="https://wirepk.com/" target="_blank" rel="noreferrer">Visit WIRE</a>
+          </article>
+
+          <article class="initiative-row">
+            <div class="initiative-meta">
+              <span class="initiative-index">04</span>
+              <h3>ADI</h3>
+            </div>
+            <p>
+              Adolescent girls' leadership program — safe spaces, life-skills training,
+              school-linked learning, and community participation building rural girls'
+              voice, confidence, and pathways to opportunity in Balochistan.
+            </p>
+            <a href="initiatives.html" rel="noreferrer">See programs</a>
+          </article>
+
+          <article class="initiative-row">
+            <div class="initiative-meta">
+              <span class="initiative-index">05</span>
+              <h3>Scholarships and Resilience</h3>
+            </div>
+            <p>
+              2,222+ scholarships, 50 homes rebuilt after floods, 875 climate leaders trained,
+              700+ families rescued — WANG's longest-running commitments in Lasbela, sustained
+              through community presence and audited program delivery.
+            </p>
+            <a href="impact.html" rel="noreferrer">See Impact</a>
+          </article>
+
+          <article class="initiative-row">
+            <div class="initiative-meta">
+              <span class="initiative-index">06</span>
+              <h3>Supporting ecosystem tools</h3>
+            </div>
+            <p>
+              Tools like PakSpeed and other digital services extend WANG's reach — connecting
+              rural communities to speed testing, digital skills, and broader economic opportunity
+              across Pakistan.
+            </p>
+            <a href="initiatives.html" rel="noreferrer">See full hierarchy</a>
+          </article>
+        </div>
+      </section>
+
+      <div class="trust-bar reveal" aria-label="Trust and partnership signals">
+        <a class="trust-badge" href="blog/sp-global-stepforward-urdu-ai.html">S&amp;P Global StepForward Winner 2026</a>
+        <a class="trust-badge" href="blog/wang-wins-k-electric-karachi-awards-2025.html">K-Electric Karachi Awards 2025 Winner</a>
+        <a class="trust-badge" href="blog/carec-gender-climate-champion-2024.html">CAREC Gender Climate 2024</a>
+        <a class="trust-badge" href="awards.html#partners">Supported by Google.org</a>
+        <a class="trust-badge" href="awards.html#partners">AVPN Partner</a>
+        <a class="trust-badge" href="https://impact.urduai.org/" target="_blank" rel="noopener noreferrer">Urdu Ai Impact Hub</a>
+        <a class="trust-badge" href="https://www.youtube.com/watch?v=F0aSyRMBrLE" target="_blank" rel="noopener noreferrer">Internet Society feature</a>
+        <a class="trust-badge" href="awards.html">All awards →</a>
+      </div>
+
+      <section class="partner-marquee reveal" aria-labelledby="partner-logo-heading">
+        <h2 id="partner-logo-heading" class="partner-marquee-label">Selected funders, partners &amp; verification platforms</h2>
+        <div class="partner-marquee-track">
+          <div class="partner-marquee-inner">
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-undp.png" alt="UNDP" width="400" height="203" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-google-org.svg" alt="Google.org" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-anthropic.svg" alt="Anthropic" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-canada-government.png" alt="Government of Canada" width="1875" height="445" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-internet-society.webp" alt="Internet Society" width="474" height="210" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-british-council.png" alt="British Council" width="800" height="600" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-avpn.svg" alt="AVPN" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-girl-rising.png" alt="Girl Rising" width="200" height="55" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-global-changemakers.png" alt="Global Changemakers" width="400" height="204" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-benevity.svg" alt="Benevity" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-techsoup.svg" alt="TechSoup" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-goodstack.svg" alt="Goodstack" width="240" height="120" loading="lazy" decoding="async" /></span>
+          </div>
+          <!-- Duplicate for seamless loop -->
+          <div class="partner-marquee-inner" aria-hidden="true">
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-undp.png" alt="" width="400" height="203" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-google-org.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-anthropic.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-canada-government.png" alt="" width="1875" height="445" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-internet-society.webp" alt="" width="474" height="210" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item partner-logo-item--lg"><img src="assets/images/partners/partner-british-council.png" alt="" width="800" height="600" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-avpn.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-girl-rising.png" alt="" width="200" height="55" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-global-changemakers.png" alt="" width="400" height="204" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-benevity.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-techsoup.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+            <span class="partner-logo-item"><img src="assets/images/partners/partner-goodstack.svg" alt="" width="240" height="120" loading="lazy" decoding="async" /></span>
+          </div>
+        </div>
+        <p class="partner-verification-bar">Verified non-profit on <strong>Benevity</strong> · <strong>TechSoup</strong> · <strong>Goodstack</strong></p>
+      </section>
+
+      <div class="media-outlet-strip reveal" aria-label="Television coverage and WANG on YouTube">
+        <span class="media-outlet-strip-label">Media &amp; video</span>
+        <div class="media-outlet-strip-links">
+          <a class="media-outlet-link" href="https://www.youtube.com/watch?v=VTl6Go9wH38" target="_blank" rel="noopener noreferrer">Aaj News</a>
+          <a class="media-outlet-link" href="https://www.youtube.com/watch?v=y5V3wEYw0w0" target="_blank" rel="noopener noreferrer">GEO News</a>
+          <a class="media-outlet-link" href="https://www.youtube.com/@wangorg" target="_blank" rel="noopener noreferrer">@wangorg</a>
+        </div>
+      </div>
+
+      <section class="proof-section media-section reveal">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Media coverage</p>
+            <h2>WANG's work documented by national and international media.</h2>
+          </div>
+          <p class="section-aside">
+            Clips below are published on WANG's official YouTube channel, including national TV segments
+            and field documentation from WALI, scholarships, climate, and Urdu AI.
+          </p>
+        </div>
+
+        <p class="section-aside reveal" style="margin: -0.5rem 0 1rem">
+          Partner feature (Internet Society, third-party channel):
+          <a href="https://www.youtube.com/watch?v=F0aSyRMBrLE" target="_blank" rel="noopener noreferrer">Girls in rural Pakistan — internet &amp; inequality</a>.
+        </p>
+
+        <div class="video-grid">
+          <article class="video-card">
+            <div class="video-thumb">
+              <a class="video-thumb-link" href="https://www.youtube.com/watch?v=VTl6Go9wH38" target="_blank" rel="noopener noreferrer" aria-label="Play: Aaj News — Pakistan Scottish Scholarship with WANG">
+                <img src="https://i.ytimg.com/vi/VTl6Go9wH38/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                <span class="video-play-mark">Play</span>
+              </a>
+            </div>
+            <div class="video-copy">
+              <span class="video-source">Aaj News (on @wangorg)</span>
+              <h3>Pakistan–Scottish scholarship — Lasbela</h3>
+              <p>National television coverage archived on WANG's channel.</p>
+              <p><a href="https://www.youtube.com/watch?v=VTl6Go9wH38" target="_blank" rel="noreferrer">Open on YouTube</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-thumb">
+              <a class="video-thumb-link" href="https://www.youtube.com/watch?v=-0ZU7uOgnTM" target="_blank" rel="noopener noreferrer" aria-label="Play: Digital literacy for girls — WALI">
+                <img src="https://i.ytimg.com/vi/-0ZU7uOgnTM/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                <span class="video-play-mark">Play</span>
+              </a>
+            </div>
+            <div class="video-copy">
+              <span class="video-source">@wangorg</span>
+              <h3>Digital literacy for girls — WALI</h3>
+              <p>WANG Lab of Innovation fieldwork in Balochistan.</p>
+              <p><a href="https://www.youtube.com/watch?v=-0ZU7uOgnTM" target="_blank" rel="noreferrer">Open on YouTube</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-thumb">
+              <a class="video-thumb-link" href="https://www.youtube.com/watch?v=h7v0W5lf_Ao" target="_blank" rel="noopener noreferrer" aria-label="Play: Urdu AI workshop by WANG">
+                <img src="https://i.ytimg.com/vi/h7v0W5lf_Ao/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                <span class="video-play-mark">Play</span>
+              </a>
+            </div>
+            <div class="video-copy">
+              <span class="video-source">@wangorg</span>
+              <h3>Urdu AI workshop</h3>
+              <p>Free AI training in Urdu for youth and women.</p>
+              <p><a href="https://www.youtube.com/watch?v=h7v0W5lf_Ao" target="_blank" rel="noreferrer">Open on YouTube</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-thumb">
+              <a class="video-thumb-link" href="https://www.youtube.com/watch?v=ME61-aD-WaU" target="_blank" rel="noopener noreferrer" aria-label="Play: Pakistan Scottish Scholarship Scheme 2025">
+                <img src="https://i.ytimg.com/vi/ME61-aD-WaU/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                <span class="video-play-mark">Play</span>
+              </a>
+            </div>
+            <div class="video-copy">
+              <span class="video-source">@wangorg</span>
+              <h3>Scholarship scheme 2025</h3>
+              <p>Update on Pakistan–Scottish scholarships for Lasbela students.</p>
+              <p><a href="https://www.youtube.com/watch?v=ME61-aD-WaU" target="_blank" rel="noreferrer">Open on YouTube</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-thumb">
+              <a class="video-thumb-link" href="https://www.youtube.com/watch?v=vbs6IazMh1A" target="_blank" rel="noopener noreferrer" aria-label="Play: Empowering climate resilience in Lasbela">
+                <img src="https://i.ytimg.com/vi/vbs6IazMh1A/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                <span class="video-play-mark">Play</span>
+              </a>
+            </div>
+            <div class="video-copy">
+              <span class="video-source">@wangorg</span>
+              <h3>Climate resilience — CFLI</h3>
+              <p>Empowering climate resilience with community partners in Lasbela.</p>
+              <p><a href="https://www.youtube.com/watch?v=vbs6IazMh1A" target="_blank" rel="noreferrer">Open on YouTube</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-thumb">
+              <a class="video-thumb-link" href="https://www.youtube.com/watch?v=0cTEOYDk64I" target="_blank" rel="noopener noreferrer" aria-label="Play: 16 Days of Activism — Balochistan">
+                <img src="https://i.ytimg.com/vi/0cTEOYDk64I/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                <span class="video-play-mark">Play</span>
+              </a>
+            </div>
+            <div class="video-copy">
+              <span class="video-source">@wangorg</span>
+              <h3>16 Days of Activism</h3>
+              <p>Gender-based violence awareness with rural communities.</p>
+              <p><a href="https://www.youtube.com/watch?v=0cTEOYDk64I" target="_blank" rel="noreferrer">Open on YouTube</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="urduai-cta-banner reveal" aria-labelledby="urduai-cta-heading">
+        <div class="urduai-cta-inner">
+          <div class="urduai-cta-copy">
+            <p class="eyebrow">WANG's AI impact evidence</p>
+            <h2 id="urduai-cta-heading">See how Urdu Ai turns community trust into national AI literacy.</h2>
+            <p>
+              Urdu Ai is WANG's flagship AI literacy movement, connecting teachers, women,
+              youth, and underserved communities with practical AI learning in Urdu. The public
+              impact hub brings together learner records, Dost district reach, institutional
+              MoUs, Impact Notes, media, and AVPN-linked recognition.
+            </p>
+          </div>
+          <div class="urduai-cta-actions">
+            <a class="button button-primary" href="https://impact.urduai.org/" target="_blank" rel="noopener noreferrer">View impact hub</a>
+            <a class="button button-secondary" href="https://urduai.org/" target="_blank" rel="noopener noreferrer">Open urduai.org</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-cta reveal">
+        <div class="closing-copy">
+          <p class="eyebrow">Work with WANG</p>
+          <h2>A registered non-profit ready for funders, government, and implementation partners.</h2>
+          <p>
+            WANG brings together education, climate resilience, women's enterprise, youth
+            leadership, and digital innovation under one community-rooted mission — 35 years
+            of local presence and audited program delivery since 2012 from Lasbela, Balochistan.
+          </p>
+        </div>
+        <div class="closing-side">
+          <p class="closing-kicker">Transparent, documented, and ready to collaborate</p>
+          <ul class="signal-list closing-list">
+            <li>Education: 5,335 children re-enrolled, 2,222+ scholarships, WALI innovation lab since 2021</li>
+            <li>Climate: 875 leaders trained, 50 homes rebuilt, 9 solar villages — CAREC Gender Climate Champion 2024</li>
+            <li>Women and girls: WIRE enterprise program, ADI leadership, mother-daughter model</li>
+            <li>Digital and AI: 40M+ monthly reach through Urdu AI — Pakistan's largest Urdu-language platform</li>
+            <li>Institutional credibility: community roots since 1991, audited program delivery since 2012, WALI innovation lab since 2021</li>
+          </ul>
+          <div class="closing-actions">
+            <a class="button button-primary" href="contact.html">Contact WANG</a>
+            <a class="button button-secondary" href="about.html">Learn about WANG</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-grid">
+        <div class="footer-copy">
+          <p class="footer-title">WANG</p>
+          <p>We Are New Generation — a registered non-profit in Pakistan with community roots since 1991, building education, climate resilience, women's enterprise, and digital innovation from Balochistan.</p>
+          <p class="footer-legal-bits">
+            Registered: Balochistan Charities Act (BCRA) &amp; VSWA<br>
+            <strong>NTN: 7426613</strong>
+          </p>
+        </div>
+        <div>
+          <p class="footer-title">Explore</p>
+          <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="annual-report.html">Annual report</a>
+            <a href="initiatives.html">Initiatives</a>
+            <a href="impact.html">Impact</a>
+            <a href="awards.html">Awards</a>
+            <a href="media.html">Media</a>
+            <a href="blog/">Journal</a>
+            <a href="team.html">Team</a>
+            <a href="faq.html">FAQ</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer-title">Reach us</p>
+          <div class="footer-links">
+            <span>Ahmed Abad Wang, Bela, District Lasbela, Balochistan, Pakistan 90050</span>
+            <a href="mailto:info@wang.org.pk">info@wang.org.pk</a>
+            <a href="tel:+923218737322">+923218737322</a>
+          </div>
+        </div>
+        <div class="footer-ecosystem-bar">
+          <p class="footer-title">Flagship Ecosystem</p>
+          <div class="footer-ecosystem-links">
+            <a href="https://walipak.com/" target="_blank" rel="noreferrer">Visit WALI — innovation lab</a>
+            <a href="https://urduai.org/" target="_blank" rel="noreferrer">Urdu AI</a>
+            <a href="https://impact.urduai.org/" target="_blank" rel="noopener noreferrer">Urdu Ai Impact Hub</a>
+            <a href="https://wirepk.com/" target="_blank" rel="noreferrer">WIRE</a>
+            <a href="https://www.pakspeed.com/" target="_blank" rel="noreferrer">PakSpeed</a>
+          </div>
+        </div>
+        <div class="footer-social-bar" aria-label="Connect on social media">
+          <div class="footer-social-group">
+            <p class="footer-title">WANG — @wangorg</p>
+            <div class="footer-social-links">
+              <a href="https://www.facebook.com/wangorg" target="_blank" rel="noreferrer">Facebook</a>
+              <a href="https://www.instagram.com/wangorg/" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://www.tiktok.com/@wangorg" target="_blank" rel="noreferrer">TikTok</a>
+              <a href="https://www.youtube.com/@wangorg" target="_blank" rel="noreferrer">YouTube</a>
+              <a href="https://x.com/wangorg" target="_blank" rel="noreferrer">X</a>
+            </div>
+          </div>
+          <div class="footer-social-group">
+            <p class="footer-title">Urdu AI — @urduaiorg</p>
+            <div class="footer-social-links">
+              <a href="https://www.facebook.com/urduaiorg" target="_blank" rel="noreferrer">Facebook</a>
+              <a href="https://www.instagram.com/urduaiorg" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://www.tiktok.com/@urduaiorg" target="_blank" rel="noreferrer">TikTok</a>
+              <a href="https://www.youtube.com/@urduaiorg" target="_blank" rel="noreferrer">YouTube</a>
+              <a href="https://x.com/urduaiorg" target="_blank" rel="noreferrer">X</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-copyright">
+      <p>© 2026 WANG — We Are New Generation. All rights reserved. Registered non-profit, Pakistan.</p>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+
+    <script src="script.min.js?v=20260602"></script>
+  </body>
 </html>
