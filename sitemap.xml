@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wang.org.pk/</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://wang.org.pk/about.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://wang.org.pk/annual-report.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://wang.org.pk/initiatives.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://wang.org.pk/impact.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://wang.org.pk/ai-education-pakistan.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -116,7 +116,7 @@
   </url>
   <url>
     <loc>https://wang.org.pk/blog/</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://wang.org.pk/blog/how-pakistan-is-learning-ai-in-urdu.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -170,13 +170,13 @@
   </url>
   <url>
     <loc>https://wang.org.pk/urduai/</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://wang.org.pk/wali/</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -194,13 +194,13 @@
   </url>
   <url>
     <loc>https://wang.org.pk/digital-literacy/</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://wang.org.pk/blog/ai-education-pakistan.html</loc>
-    <lastmod>2026-02-18</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
